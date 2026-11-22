@@ -30,14 +30,14 @@ export function idxAt(arr, x) {
  * Follow a paper trade on 1H candles closed by `now`.
  * trade: { entryT (close time of the entry candle), entry, stop, target|null, expires }.
  * Same candle touching stop and target -> stop. Returns
- *   { closed: true, outcome: 'SL'|'TP'|'TIME', exit, exitT, R, ret }  or
+ *   { closed: true, outcome: 'SL'|'TP'|'TIME', exitPx, exitT, R, ret }  or
  *   { closed: false, mark, R } (mark-to-market at the last closed candle).
  */
 export function resolveTrade(tr, b1, now) {
   const risk = tr.entry - tr.stop;
   const res = (px, outcome, exitT) => {
     const ret = (px * (1 - FEE)) / (tr.entry * (1 + FEE)) - 1;
-    return { closed: true, outcome, exit: px, exitT, ret, R: ret / (risk / tr.entry) };
+    return { closed: true, outcome, exitPx: px, exitT, ret, R: ret / (risk / tr.entry) };
   };
   let lastClose = null;
   let lastT = null;
