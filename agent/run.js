@@ -41,7 +41,10 @@ async function main() {
   log(`slots to process: ${slots.length}${slots.length ? ` (${new Date(slots[0]).toISOString()} → ${new Date(slots[slots.length - 1]).toISOString()})` : ''} · open trades ${state.open.length}`);
 
   // 1H candles for the candidate universe + every symbol with an open trade or a pending outcome.
-  const cands = U.selectUniverse(await bybit.fetchTickers(), { limit: 500 }).map((t) => t.symbol);
+  // From a GitHub runner Bybit answers 403: the client switches to the Frankfurt
+  // proxy after 3 failed direct calls, so the first call is retried once.
+  const tickers = await bybit.fetchTickers().catch(() => bybit.fetchTickers());
+  const cands = U.selectUniverse(tickers, { limit: 500 }).map((t) => t.symbol);
   const need = new Set([...cands, ...state.open.map((t) => t.symbol), ...state.pendingOutcomes.flatMap((o) => o.symbols)]);
   const oldest = Math.min(slots.length ? slots[0] : now, ...state.open.map((t) => t.entryT), ...state.pendingOutcomes.map((o) => o.t));
   const from1h = oldest - 42 * DAY;
