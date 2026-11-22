@@ -29,7 +29,7 @@ jobs:
         with:
           node-version: 22
       - name: Tests
-        run: node --test test/
+        run: node --test test/*.test.js
         env:
           BENCH_DIR: ${{ github.workspace }}/nebula-benchmark
       - name: Agent run
