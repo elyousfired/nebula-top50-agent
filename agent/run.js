@@ -12,6 +12,8 @@ import { bars as B, metrics as M, scoring as S, universe as U, squeeze as Q, byb
 import { pendingSlots, resolveTrade, idxAt, HOUR, DAY, monthKey } from './lib.js';
 import { readJson, writeJson, appendJsonl } from './io.js';
 import { writeReport } from './report.js';
+import { computeStability } from './stability.js';
+import { readJsonlDir } from './io.js';
 
 bybit.setProxy(process.env.BYBIT_PROXY || 'https://nebula-benchmark.vercel.app/api/bybit');
 const BACKFILL = Number(process.env.BACKFILL_DAYS || 30) * DAY;
@@ -158,6 +160,9 @@ async function main() {
   }
   state.pendingOutcomes = pending;
   for (const [m, rows] of Object.entries(outs)) appendJsonl(`outcomes/${m}.jsonl`, rows);
+
+  // Stable Top 50 (presence over 30 days), read by the site's /stable page.
+  writeJson('stability.json', computeStability(readJsonlDir('snapshots'), now));
 
   // Daily report (once per UTC day).
   const today = Math.floor(now / DAY) * DAY;
