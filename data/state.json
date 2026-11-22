@@ -63,8 +63,8 @@
    "stop": 0.00012571428571428572,
    "target": null,
    "expires": 1795420800000,
-   "mark": 0.0001456,
-   "markR": 0.8964577656675738
+   "mark": 0.0001453,
+   "markR": 0.8678474114441425
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -76,8 +76,8 @@
    "stop": 0.016061857142857145,
    "target": null,
    "expires": 1795435200000,
-   "mark": 0.019586,
-   "markR": 1.608268132797631
+   "mark": 0.019539,
+   "markR": 1.5734827659124555
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · sans TP · 7J",
@@ -89,8 +89,8 @@
    "stop": 0.02544428571428571,
    "target": null,
    "expires": 1795449600000,
-   "mark": 0.02962,
-   "markR": 1.6500453309156833
+   "mark": 0.02955,
+   "markR": 1.605621033544876
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 3R · 7J",
@@ -102,8 +102,8 @@
    "stop": 0.007932892857142859,
    "target": 0.009577321428571426,
    "expires": 1795464000000,
-   "mark": 0.009105,
-   "markR": 1.8510989488315557
+   "mark": 0.009109,
+   "markR": 1.8608287724785033
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -115,8 +115,8 @@
    "stop": 0.007795857142857144,
    "target": null,
    "expires": 1795464000000,
-   "mark": 0.009105,
-   "markR": 1.3883242116236654
+   "mark": 0.009109,
+   "markR": 1.395621579358876
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -128,8 +128,8 @@
    "stop": 0.00013187142857142857,
    "target": null,
    "expires": 1795478400000,
-   "mark": 0.0001456,
-   "markR": 0.29166666666666635
+   "mark": 0.0001453,
+   "markR": 0.2634408602150553
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -141,8 +141,8 @@
    "stop": 0.00003691571428571429,
    "target": null,
    "expires": 1795536000000,
-   "mark": 0.00003944,
-   "markR": -0.13084112149532717
+   "mark": 0.00003956,
+   "markR": -0.08952287260206633
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · sans TP · 7J",
@@ -154,8 +154,8 @@
    "stop": 18.99957142857143,
    "target": null,
    "expires": 1795550400000,
-   "mark": 26.098,
-   "markR": 3.4105272501331383
+   "mark": 25.978,
+   "markR": 3.3359666252440934
   },
   {
    "strategy": "Cassure plus haut 30J (prix>=haut 30J) || SL 2ATR · sans TP · 7J",
@@ -167,8 +167,8 @@
    "stop": 0.13302857142857144,
    "target": null,
    "expires": 1795579200000,
-   "mark": 0.22,
-   "markR": 2.674109837054919
+   "mark": 0.2171,
+   "markR": 2.5515992757996377
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 3R · 7J",
@@ -180,8 +180,8 @@
    "stop": 0.014697857142857144,
    "target": 0.020586428571428568,
    "expires": 1795593600000,
-   "mark": 0.01595,
-   "markR": -0.14944201843765273
+   "mark": 0.01597,
+   "markR": -0.1358563803978644
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -193,8 +193,8 @@
    "stop": 0.014207142857142857,
    "target": null,
    "expires": 1795593600000,
-   "mark": 0.01595,
-   "markR": -0.11208151382823946
+   "mark": 0.01597,
+   "markR": -0.10189228529839822
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 3R · 7J",
@@ -206,8 +206,8 @@
    "stop": 0.09607535714285714,
    "target": 0.11237392857142858,
    "expires": 1795636800000,
-   "mark": 0.10345,
-   "markR": 0.8098869313699698
+   "mark": 0.10374,
+   "markR": 0.8810588132176336
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · sans TP · 7J",
@@ -219,8 +219,8 @@
    "stop": 0.09471714285714286,
    "target": null,
    "expires": 1795636800000,
-   "mark": 0.10345,
-   "markR": 0.6074151985274779
+   "mark": 0.10374,
+   "markR": 0.6607941099132257
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -232,8 +232,8 @@
    "stop": 0.01324857142857143,
    "target": null,
    "expires": 1795651200000,
-   "mark": 0.0137,
-   "markR": -0.4223034734917746
+   "mark": 0.01377,
+   "markR": -0.33272394881170275
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -245,8 +245,8 @@
    "stop": 0.3815857142857143,
    "target": null,
    "expires": 1795723200000,
-   "mark": 0.4647,
-   "markR": 1.5175248810038935
+   "mark": 0.4685,
+   "markR": 1.632626568585028
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -258,8 +258,8 @@
    "stop": 0.3815857142857143,
    "target": null,
    "expires": 1795723200000,
-   "mark": 0.4647,
-   "markR": 1.5175248810038935
+   "mark": 0.4685,
+   "markR": 1.632626568585028
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · TP 2R · 3J",
@@ -271,8 +271,8 @@
    "stop": 0.04537142857142857,
    "target": 0.07185714285714286,
    "expires": 1795406400000,
-   "mark": 0.05271,
-   "markR": -0.16877022653721663
+   "mark": 0.05258,
+   "markR": -0.18349514563106756
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -284,8 +284,8 @@
    "stop": 0.04537142857142857,
    "target": null,
    "expires": 1795752000000,
-   "mark": 0.05271,
-   "markR": -0.16877022653721663
+   "mark": 0.05258,
+   "markR": -0.18349514563106756
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -297,8 +297,8 @@
    "stop": 0.0064600000000000005,
    "target": null,
    "expires": 1795766400000,
-   "mark": 0.00728,
-   "markR": 1.1025641025641029
+   "mark": 0.00736,
+   "markR": 1.3076923076923088
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 2R · 3J",
@@ -310,8 +310,8 @@
    "stop": 0.00003838714285714285,
    "target": 0.00005192571428571429,
    "expires": 1795449600000,
-   "mark": 0.00003944,
-   "markR": -0.7666983222538767
+   "mark": 0.00003956,
+   "markR": -0.740107628996517
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 3R · 7J",
@@ -323,8 +323,8 @@
    "stop": 0.00003838714285714285,
    "target": 0.00005643857142857144,
    "expires": 1795795200000,
-   "mark": 0.00003944,
-   "markR": -0.7666983222538767
+   "mark": 0.00003956,
+   "markR": -0.740107628996517
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · TP 2R · 3J",
@@ -336,8 +336,8 @@
    "stop": 0.00003688285714285714,
    "target": 0.00005493428571428571,
    "expires": 1795449600000,
-   "mark": 0.00003944,
-   "markR": -0.5750237416904079
+   "mark": 0.00003956,
+   "markR": -0.5550807217473882
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · sans TP · 7J",
@@ -349,8 +349,8 @@
    "stop": 0.00003688285714285714,
    "target": null,
    "expires": 1795795200000,
-   "mark": 0.00003944,
-   "markR": -0.5750237416904079
+   "mark": 0.00003956,
+   "markR": -0.5550807217473882
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 2R · 3J",
@@ -362,8 +362,8 @@
    "stop": 0.000635325,
    "target": 0.0008902500000000001,
    "expires": 1795464000000,
-   "mark": 0.0007002,
-   "markR": -0.23654015887025584
+   "mark": 0.0006999,
+   "markR": -0.24007060900264715
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 3R · 7J",
@@ -375,8 +375,8 @@
    "stop": 0.000635325,
    "target": 0.0009752250000000001,
    "expires": 1795809600000,
-   "mark": 0.0007002,
-   "markR": -0.23654015887025584
+   "mark": 0.0006999,
+   "markR": -0.24007060900264715
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · TP 2R · 3J",
@@ -388,8 +388,8 @@
    "stop": 0.000607,
    "target": 0.0009469,
    "expires": 1795464000000,
-   "mark": 0.0007002,
-   "markR": -0.177405119152692
+   "mark": 0.0006999,
+   "markR": -0.1800529567519855
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -401,8 +401,8 @@
    "stop": 0.000607,
    "target": null,
    "expires": 1795809600000,
-   "mark": 0.0007002,
-   "markR": -0.177405119152692
+   "mark": 0.0006999,
+   "markR": -0.1800529567519855
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 2R · 3J",
@@ -414,8 +414,8 @@
    "stop": 0.014998214285714285,
    "target": 0.019893571428571427,
    "expires": 1795464000000,
-   "mark": 0.01595,
-   "markR": -0.4167213832348436
+   "mark": 0.01597,
+   "markR": -0.40446487196322894
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 3R · 7J",
@@ -427,8 +427,8 @@
    "stop": 0.014998214285714285,
    "target": 0.02152535714285714,
    "expires": 1795809600000,
-   "mark": 0.01595,
-   "markR": -0.4167213832348436
+   "mark": 0.01597,
+   "markR": -0.40446487196322894
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · TP 2R · 3J",
@@ -440,8 +440,8 @@
    "stop": 0.014454285714285715,
    "target": 0.020981428571428568,
    "expires": 1795464000000,
-   "mark": 0.01595,
-   "markR": -0.3125410374261329
+   "mark": 0.01597,
+   "markR": -0.30334865397242183
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1ATR · TP 3R · 3J",
@@ -453,8 +453,8 @@
    "stop": 0.015542142857142857,
    "target": 0.019893571428571427,
    "expires": 1795464000000,
-   "mark": 0.01595,
-   "markR": -0.6250820748522657
+   "mark": 0.01597,
+   "markR": -0.6066973079448437
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · sans TP · 7J",
@@ -466,8 +466,8 @@
    "stop": 0.014454285714285715,
    "target": null,
    "expires": 1795809600000,
-   "mark": 0.01595,
-   "markR": -0.3125410374261329
+   "mark": 0.01597,
+   "markR": -0.30334865397242183
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 2R · 3J",
@@ -479,8 +479,8 @@
    "stop": 0.017707428571428572,
    "target": 0.02467214285714286,
    "expires": 1795464000000,
-   "mark": 0.019586,
-   "markR": -0.19081902652144578
+   "mark": 0.019539,
+   "markR": -0.21106393452710628
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 3R · 7J",
@@ -492,8 +492,8 @@
    "stop": 0.017707428571428572,
    "target": 0.02699371428571429,
    "expires": 1795809600000,
-   "mark": 0.019586,
-   "markR": -0.19081902652144578
+   "mark": 0.019539,
+   "markR": -0.21106393452710628
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · TP 2R · 3J",
@@ -505,8 +505,8 @@
    "stop": 0.01693357142857143,
    "target": 0.026219857142857145,
    "expires": 1795464000000,
-   "mark": 0.019586,
-   "markR": -0.1431142698910844
+   "mark": 0.019539,
+   "markR": -0.15829795089532978
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1ATR · TP 3R · 3J",
@@ -518,8 +518,8 @@
    "stop": 0.018481285714285714,
    "target": 0.024672142857142865,
    "expires": 1795464000000,
-   "mark": 0.019586,
-   "markR": -0.28622853978216845
+   "mark": 0.019539,
+   "markR": -0.31659590179065916
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · sans TP · 7J",
@@ -531,8 +531,8 @@
    "stop": 0.01693357142857143,
    "target": null,
    "expires": 1795809600000,
-   "mark": 0.019586,
-   "markR": -0.1431142698910844
+   "mark": 0.019539,
+   "markR": -0.15829795089532978
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -544,8 +544,8 @@
    "stop": 0.38330000000000003,
    "target": null,
    "expires": 1795824000000,
-   "mark": 0.4647,
-   "markR": 0.7929515418502198
+   "mark": 0.4685,
+   "markR": 0.8766519823788548
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 2R · 3J",
@@ -557,8 +557,8 @@
    "stop": 0.006600357142857143,
    "target": 0.007889285714285713,
    "expires": 1795492800000,
-   "mark": 0.00728,
-   "markR": 0.5818786367414807
+   "mark": 0.00736,
+   "markR": 0.7680798004987548
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 3R · 7J",
@@ -570,8 +570,8 @@
    "stop": 0.006600357142857143,
    "target": 0.00831892857142857,
    "expires": 1795838400000,
-   "mark": 0.00728,
-   "markR": 0.5818786367414807
+   "mark": 0.00736,
+   "markR": 0.7680798004987548
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · TP 2R · 3J",
@@ -583,8 +583,8 @@
    "stop": 0.0064571428571428575,
    "target": 0.008175714285714284,
    "expires": 1795492800000,
-   "mark": 0.00728,
-   "markR": 0.4364089775561105
+   "mark": 0.00736,
+   "markR": 0.5760598503740662
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1ATR · TP 3R · 3J",
@@ -596,8 +596,8 @@
    "stop": 0.006743571428571429,
    "target": 0.007889285714285713,
    "expires": 1795492800000,
-   "mark": 0.00728,
-   "markR": 0.872817955112221
+   "mark": 0.00736,
+   "markR": 1.1521197007481323
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · sans TP · 7J",
@@ -609,8 +609,8 @@
    "stop": 0.0064571428571428575,
    "target": null,
    "expires": 1795838400000,
-   "mark": 0.00728,
-   "markR": 0.4364089775561105
+   "mark": 0.00736,
+   "markR": 0.5760598503740662
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · TP 2R · 3J",
@@ -622,8 +622,8 @@
    "stop": 0.013151428571428573,
    "target": 0.015547142857142857,
    "expires": 1795507200000,
-   "mark": 0.0137,
-   "markR": -0.31305903398926704
+   "mark": 0.01377,
+   "markR": -0.22540250447227375
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · sans TP · 7J",
@@ -635,8 +635,8 @@
    "stop": 0.013151428571428573,
    "target": null,
    "expires": 1795852800000,
-   "mark": 0.0137,
-   "markR": -0.31305903398926704
+   "mark": 0.01377,
+   "markR": -0.22540250447227375
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 2R · 3J",
@@ -713,8 +713,8 @@
    "stop": 0.015454642857142858,
    "target": 0.020150714285714286,
    "expires": 1795507200000,
-   "mark": 0.01595,
-   "markR": -0.6835500798539823
+   "mark": 0.01597,
+   "markR": -0.6707734428473642
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 3R · 7J",
@@ -726,8 +726,8 @@
    "stop": 0.015454642857142858,
    "target": 0.02171607142857143,
    "expires": 1795852800000,
-   "mark": 0.01595,
-   "markR": -0.6835500798539823
+   "mark": 0.01597,
+   "markR": -0.6707734428473642
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · TP 2R · 3J",
@@ -739,8 +739,8 @@
    "stop": 0.014932857142857144,
    "target": 0.021194285714285714,
    "expires": 1795507200000,
-   "mark": 0.01595,
-   "markR": -0.5126625598904868
+   "mark": 0.01597,
+   "markR": -0.5030800821355231
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · sans TP · 7J",
@@ -752,8 +752,8 @@
    "stop": 0.014932857142857144,
    "target": null,
    "expires": 1795852800000,
-   "mark": 0.01595,
-   "markR": -0.5126625598904868
+   "mark": 0.01597,
+   "markR": -0.5030800821355231
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 2R · 3J",
@@ -765,8 +765,8 @@
    "stop": 0.009456392857142858,
    "target": 0.011441214285714285,
    "expires": 1795521600000,
-   "mark": 0.009673,
-   "markR": -0.6726045883940638
+   "mark": 0.009652,
+   "markR": -0.7043454790823206
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 3R · 7J",
@@ -778,8 +778,8 @@
    "stop": 0.009456392857142858,
    "target": 0.012102821428571428,
    "expires": 1795867200000,
-   "mark": 0.009673,
-   "markR": -0.6726045883940638
+   "mark": 0.009652,
+   "markR": -0.7043454790823206
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · TP 2R · 3J",
@@ -791,8 +791,8 @@
    "stop": 0.009235857142857143,
    "target": 0.011882285714285715,
    "expires": 1795521600000,
-   "mark": 0.009673,
-   "markR": -0.5044534412955475
+   "mark": 0.009652,
+   "markR": -0.52825910931174
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · sans TP · 7J",
@@ -804,8 +804,8 @@
    "stop": 0.009235857142857143,
    "target": null,
    "expires": 1795867200000,
-   "mark": 0.009673,
-   "markR": -0.5044534412955475
+   "mark": 0.009652,
+   "markR": -0.52825910931174
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 2R · 3J",
@@ -817,8 +817,8 @@
    "stop": 0.12589642857142855,
    "target": 0.14540714285714287,
    "expires": 1795521600000,
-   "mark": 0.1327,
-   "markR": 0.04612850082372659
+   "mark": 0.1324,
+   "markR": 0
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 3R · 7J",
@@ -830,8 +830,8 @@
    "stop": 0.12589642857142855,
    "target": 0.15191071428571432,
    "expires": 1795867200000,
-   "mark": 0.1327,
-   "markR": 0.04612850082372659
+   "mark": 0.1324,
+   "markR": 0
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · TP 2R · 3J",
@@ -843,8 +843,8 @@
    "stop": 0.12372857142857141,
    "target": 0.14974285714285715,
    "expires": 1795521600000,
-   "mark": 0.1327,
-   "markR": 0.03459637561779498
+   "mark": 0.1324,
+   "markR": 0
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1ATR · TP 3R · 3J",
@@ -856,8 +856,8 @@
    "stop": 0.1280642857142857,
    "target": 0.14540714285714282,
    "expires": 1795521600000,
-   "mark": 0.1327,
-   "markR": 0.06919275123559018
+   "mark": 0.1324,
+   "markR": 0
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · sans TP · 7J",
@@ -869,8 +869,8 @@
    "stop": 0.12372857142857141,
    "target": null,
    "expires": 1795867200000,
-   "mark": 0.1327,
-   "markR": 0.03459637561779498
+   "mark": 0.1324,
+   "markR": 0
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 2R · 3J",
@@ -882,8 +882,8 @@
    "stop": 0.005949035714285714,
    "target": 0.007535928571428573,
    "expires": 1795521600000,
-   "mark": 0.00636,
-   "markR": -0.22307744244142852
+   "mark": 0.006381,
+   "markR": -0.18337721963405532
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 3R · 7J",
@@ -895,8 +895,8 @@
    "stop": 0.005949035714285714,
    "target": 0.008064892857142859,
    "expires": 1795867200000,
-   "mark": 0.00636,
-   "markR": -0.22307744244142852
+   "mark": 0.006381,
+   "markR": -0.18337721963405532
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · TP 2R · 3J",
@@ -908,8 +908,8 @@
    "stop": 0.0057727142857142855,
    "target": 0.007888571428571429,
    "expires": 1795521600000,
-   "mark": 0.00636,
-   "markR": -0.16730808183107146
+   "mark": 0.006381,
+   "markR": -0.13753291472554155
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1ATR · TP 3R · 3J",
@@ -921,8 +921,8 @@
    "stop": 0.006125357142857143,
    "target": 0.007535928571428571,
    "expires": 1795521600000,
-   "mark": 0.00636,
-   "markR": -0.33461616366214336
+   "mark": 0.006381,
+   "markR": -0.27506582945108343
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · sans TP · 7J",
@@ -934,8 +934,8 @@
    "stop": 0.0057727142857142855,
    "target": null,
    "expires": 1795867200000,
-   "mark": 0.00636,
-   "markR": -0.16730808183107146
+   "mark": 0.006381,
+   "markR": -0.13753291472554155
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 2R · 3J",
@@ -947,8 +947,8 @@
    "stop": 0.028087857142857144,
    "target": 0.03286428571428572,
    "expires": 1795536000000,
-   "mark": 0.02962,
-   "markR": -0.03768506056527653
+   "mark": 0.02955,
+   "markR": -0.0816509645580988
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 3R · 7J",
@@ -960,8 +960,8 @@
    "stop": 0.028087857142857144,
    "target": 0.034456428571428575,
    "expires": 1795881600000,
-   "mark": 0.02962,
-   "markR": -0.03768506056527653
+   "mark": 0.02955,
+   "markR": -0.0816509645580988
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · TP 2R · 3J",
@@ -973,8 +973,8 @@
    "stop": 0.02755714285714286,
    "target": 0.03392571428571428,
    "expires": 1795536000000,
-   "mark": 0.02962,
-   "markR": -0.02826379542395743
+   "mark": 0.02955,
+   "markR": -0.06123822341857416
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1ATR · TP 3R · 3J",
@@ -986,8 +986,8 @@
    "stop": 0.02861857142857143,
    "target": 0.032864285714285714,
    "expires": 1795536000000,
-   "mark": 0.02962,
-   "markR": -0.05652759084791486
+   "mark": 0.02955,
+   "markR": -0.12247644683714833
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · sans TP · 7J",
@@ -999,8 +999,8 @@
    "stop": 0.02755714285714286,
    "target": null,
    "expires": 1795881600000,
-   "mark": 0.02962,
-   "markR": -0.02826379542395743
+   "mark": 0.02955,
+   "markR": -0.06123822341857416
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 2R · 3J",
@@ -1012,8 +1012,8 @@
    "stop": 0.008498321428571428,
    "target": 0.009550357142857142,
    "expires": 1795536000000,
-   "mark": 0.008663,
-   "markR": -0.5304002444240723
+   "mark": 0.008688,
+   "markR": -0.45910988899073163
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 3R · 7J",
@@ -1025,8 +1025,8 @@
    "stop": 0.008498321428571428,
    "target": 0.009901035714285713,
    "expires": 1795881600000,
-   "mark": 0.008663,
-   "markR": -0.5304002444240723
+   "mark": 0.008688,
+   "markR": -0.45910988899073163
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · TP 2R · 3J",
@@ -1038,8 +1038,8 @@
    "stop": 0.008381428571428571,
    "target": 0.009784142857142856,
    "expires": 1795536000000,
-   "mark": 0.008663,
-   "markR": -0.3978001833180542
+   "mark": 0.008688,
+   "markR": -0.3443324167430487
   },
   {
    "strategy": "Expansion rang<=10 || SL 1ATR · TP 3R · 3J",
@@ -1051,8 +1051,8 @@
    "stop": 0.008615214285714285,
    "target": 0.009550357142857142,
    "expires": 1795536000000,
-   "mark": 0.008663,
-   "markR": -0.7956003666361084
+   "mark": 0.008688,
+   "markR": -0.6886648334860974
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -1064,8 +1064,8 @@
    "stop": 0.008381428571428571,
    "target": null,
    "expires": 1795881600000,
-   "mark": 0.008663,
-   "markR": -0.3978001833180542
+   "mark": 0.008688,
+   "markR": -0.3443324167430487
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 2R · 3J",
@@ -1077,8 +1077,8 @@
    "stop": 0.008439285714285713,
    "target": 0.009497428571428572,
    "expires": 1795550400000,
-   "mark": 0.008663,
-   "markR": -0.36573511543134524
+   "mark": 0.008688,
+   "markR": -0.29485621709193954
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 3R · 7J",
@@ -1090,8 +1090,8 @@
    "stop": 0.008439285714285713,
    "target": 0.009850142857142858,
    "expires": 1795896000000,
-   "mark": 0.008663,
-   "markR": -0.36573511543134524
+   "mark": 0.008688,
+   "markR": -0.29485621709193954
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · TP 2R · 3J",
@@ -1103,8 +1103,8 @@
    "stop": 0.008321714285714285,
    "target": 0.009732571428571429,
    "expires": 1795550400000,
-   "mark": 0.008663,
-   "markR": -0.27430133657350897
+   "mark": 0.008688,
+   "markR": -0.22114216281895466
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1ATR · TP 3R · 3J",
@@ -1116,8 +1116,8 @@
    "stop": 0.008556857142857142,
    "target": 0.009497428571428572,
    "expires": 1795550400000,
-   "mark": 0.008663,
-   "markR": -0.5486026731470179
+   "mark": 0.008688,
+   "markR": -0.4422843256379093
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · sans TP · 7J",
@@ -1129,8 +1129,8 @@
    "stop": 0.008321714285714285,
    "target": null,
    "expires": 1795896000000,
-   "mark": 0.008663,
-   "markR": -0.27430133657350897
+   "mark": 0.008688,
+   "markR": -0.22114216281895466
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -1142,8 +1142,8 @@
    "stop": 2.337642857142857e-10,
    "target": 2.641714285714286e-10,
    "expires": 1795550400000,
-   "mark": 2.465e-10,
-   "markR": 0.2565186751233228
+   "mark": 2.462e-10,
+   "markR": 0.22692036645524788
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -1155,8 +1155,8 @@
    "stop": 2.337642857142857e-10,
    "target": 2.7430714285714293e-10,
    "expires": 1795896000000,
-   "mark": 2.465e-10,
-   "markR": 0.2565186751233228
+   "mark": 2.462e-10,
+   "markR": 0.22692036645524788
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -1168,8 +1168,8 @@
    "stop": 2.303857142857143e-10,
    "target": 2.709285714285714e-10,
    "expires": 1795550400000,
-   "mark": 2.465e-10,
-   "markR": 0.1923890063424926
+   "mark": 2.462e-10,
+   "markR": 0.17019027484143634
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -1181,8 +1181,8 @@
    "stop": 2.3714285714285715e-10,
    "target": 2.6417142857142857e-10,
    "expires": 1795550400000,
-   "mark": 2.465e-10,
-   "markR": 0.3847780126849852
+   "mark": 2.462e-10,
+   "markR": 0.3403805496828727
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -1194,8 +1194,8 @@
    "stop": 2.303857142857143e-10,
    "target": null,
    "expires": 1795896000000,
-   "mark": 2.465e-10,
-   "markR": 0.1923890063424926
+   "mark": 2.462e-10,
+   "markR": 0.17019027484143634
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -1207,8 +1207,8 @@
    "stop": 2.337642857142857e-10,
    "target": 2.641714285714286e-10,
    "expires": 1795550400000,
-   "mark": 2.465e-10,
-   "markR": 0.2565186751233228
+   "mark": 2.462e-10,
+   "markR": 0.22692036645524788
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -1220,8 +1220,8 @@
    "stop": 2.337642857142857e-10,
    "target": 2.7430714285714293e-10,
    "expires": 1795896000000,
-   "mark": 2.465e-10,
-   "markR": 0.2565186751233228
+   "mark": 2.462e-10,
+   "markR": 0.22692036645524788
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -1233,8 +1233,8 @@
    "stop": 2.303857142857143e-10,
    "target": 2.709285714285714e-10,
    "expires": 1795550400000,
-   "mark": 2.465e-10,
-   "markR": 0.1923890063424926
+   "mark": 2.462e-10,
+   "markR": 0.17019027484143634
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -1246,8 +1246,8 @@
    "stop": 2.3714285714285715e-10,
    "target": 2.6417142857142857e-10,
    "expires": 1795550400000,
-   "mark": 2.465e-10,
-   "markR": 0.3847780126849852
+   "mark": 2.462e-10,
+   "markR": 0.3403805496828727
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -1259,8 +1259,8 @@
    "stop": 2.303857142857143e-10,
    "target": null,
    "expires": 1795896000000,
-   "mark": 2.465e-10,
-   "markR": 0.1923890063424926
+   "mark": 2.462e-10,
+   "markR": 0.17019027484143634
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 2R · 3J",
@@ -1272,8 +1272,8 @@
    "stop": 2.337642857142857e-10,
    "target": 2.641714285714286e-10,
    "expires": 1795550400000,
-   "mark": 2.465e-10,
-   "markR": 0.2565186751233228
+   "mark": 2.462e-10,
+   "markR": 0.22692036645524788
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 3R · 7J",
@@ -1285,8 +1285,8 @@
    "stop": 2.337642857142857e-10,
    "target": 2.7430714285714293e-10,
    "expires": 1795896000000,
-   "mark": 2.465e-10,
-   "markR": 0.2565186751233228
+   "mark": 2.462e-10,
+   "markR": 0.22692036645524788
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · TP 2R · 3J",
@@ -1298,8 +1298,8 @@
    "stop": 2.303857142857143e-10,
    "target": 2.709285714285714e-10,
    "expires": 1795550400000,
-   "mark": 2.465e-10,
-   "markR": 0.1923890063424926
+   "mark": 2.462e-10,
+   "markR": 0.17019027484143634
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1ATR · TP 3R · 3J",
@@ -1311,8 +1311,8 @@
    "stop": 2.3714285714285715e-10,
    "target": 2.6417142857142857e-10,
    "expires": 1795550400000,
-   "mark": 2.465e-10,
-   "markR": 0.3847780126849852
+   "mark": 2.462e-10,
+   "markR": 0.3403805496828727
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · sans TP · 7J",
@@ -1324,8 +1324,8 @@
    "stop": 2.303857142857143e-10,
    "target": null,
    "expires": 1795896000000,
-   "mark": 2.465e-10,
-   "markR": 0.1923890063424926
+   "mark": 2.462e-10,
+   "markR": 0.17019027484143634
   },
   {
    "strategy": "Cassure plus haut 30J (prix>=haut 30J) || SL 1.5ATR · TP 2R · 3J",
@@ -1337,8 +1337,8 @@
    "stop": 0.008713107142857142,
    "target": 0.009855785714285714,
    "expires": 1795564800000,
-   "mark": 0.009105,
-   "markR": 0.028879512423817755
+   "mark": 0.009109,
+   "markR": 0.03938115330520686
   },
   {
    "strategy": "Cassure plus haut 30J (prix>=haut 30J) || SL 1.5ATR · TP 3R · 7J",
@@ -1350,8 +1350,8 @@
    "stop": 0.008713107142857142,
    "target": 0.010236678571428572,
    "expires": 1795910400000,
-   "mark": 0.009105,
-   "markR": 0.028879512423817755
+   "mark": 0.009109,
+   "markR": 0.03938115330520686
   },
   {
    "strategy": "Cassure plus haut 30J (prix>=haut 30J) || SL 2ATR · TP 2R · 3J",
@@ -1363,8 +1363,8 @@
    "stop": 0.008586142857142856,
    "target": 0.010109714285714286,
    "expires": 1795564800000,
-   "mark": 0.009105,
-   "markR": 0.021659634317863316
+   "mark": 0.009109,
+   "markR": 0.029535864978905143
   },
   {
    "strategy": "Cassure plus haut 30J (prix>=haut 30J) || SL 1ATR · TP 3R · 3J",
@@ -1376,8 +1376,8 @@
    "stop": 0.008840071428571428,
    "target": 0.009855785714285714,
    "expires": 1795564800000,
-   "mark": 0.009105,
-   "markR": 0.04331926863572663
+   "mark": 0.009109,
+   "markR": 0.059071729957810286
   },
   {
    "strategy": "Cassure plus haut 30J (prix>=haut 30J) || SL 2ATR · sans TP · 7J",
@@ -1389,8 +1389,8 @@
    "stop": 0.008586142857142856,
    "target": null,
    "expires": 1795910400000,
-   "mark": 0.009105,
-   "markR": 0.021659634317863316
+   "mark": 0.009109,
+   "markR": 0.029535864978905143
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 2R · 3J",
@@ -1402,8 +1402,8 @@
    "stop": 7.680000000000001e-8,
    "target": 8.759999999999999e-8,
    "expires": 1795564800000,
-   "mark": 8.01e-8,
-   "markR": -0.08333333333333609
+   "mark": 8.02e-8,
+   "markR": -0.05555555555555617
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 3R · 7J",
@@ -1415,8 +1415,8 @@
    "stop": 7.680000000000001e-8,
    "target": 9.119999999999998e-8,
    "expires": 1795910400000,
-   "mark": 8.01e-8,
-   "markR": -0.08333333333333609
+   "mark": 8.02e-8,
+   "markR": -0.05555555555555617
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · TP 2R · 3J",
@@ -1428,8 +1428,8 @@
    "stop": 7.56e-8,
    "target": 9.000000000000001e-8,
    "expires": 1795564800000,
-   "mark": 8.01e-8,
-   "markR": -0.0625000000000019
+   "mark": 8.02e-8,
+   "markR": -0.04166666666666701
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1ATR · TP 3R · 3J",
@@ -1441,8 +1441,8 @@
    "stop": 7.800000000000001e-8,
    "target": 8.759999999999999e-8,
    "expires": 1795564800000,
-   "mark": 8.01e-8,
-   "markR": -0.12500000000000414
+   "mark": 8.02e-8,
+   "markR": -0.08333333333333426
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · sans TP · 7J",
@@ -1454,8 +1454,8 @@
    "stop": 7.56e-8,
    "target": null,
    "expires": 1795910400000,
-   "mark": 8.01e-8,
-   "markR": -0.0625000000000019
+   "mark": 8.02e-8,
+   "markR": -0.04166666666666701
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 2R · 3J",
@@ -1467,8 +1467,8 @@
    "stop": 0.02761035714285714,
    "target": 0.03249928571428572,
    "expires": 1795564800000,
-   "mark": 0.02962,
-   "markR": 0.23317992548761893
+   "mark": 0.02955,
+   "markR": 0.1902257286872679
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 3R · 7J",
@@ -1480,8 +1480,8 @@
    "stop": 0.02761035714285714,
    "target": 0.034128928571428574,
    "expires": 1795910400000,
-   "mark": 0.02962,
-   "markR": 0.23317992548761893
+   "mark": 0.02955,
+   "markR": 0.1902257286872679
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · TP 2R · 3J",
@@ -1493,8 +1493,8 @@
    "stop": 0.027067142857142856,
    "target": 0.03358571428571429,
    "expires": 1795564800000,
-   "mark": 0.02962,
-   "markR": 0.1748849441157142
+   "mark": 0.02955,
+   "markR": 0.14266929651545093
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1ATR · TP 3R · 3J",
@@ -1506,8 +1506,8 @@
    "stop": 0.028153571428571427,
    "target": 0.03249928571428572,
    "expires": 1795564800000,
-   "mark": 0.02962,
-   "markR": 0.3497698882314284
+   "mark": 0.02955,
+   "markR": 0.28533859303090187
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · sans TP · 7J",
@@ -1519,8 +1519,8 @@
    "stop": 0.027067142857142856,
    "target": null,
    "expires": 1795910400000,
-   "mark": 0.02962,
-   "markR": 0.1748849441157142
+   "mark": 0.02955,
+   "markR": 0.14266929651545093
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 2R · 3J",
@@ -1532,8 +1532,8 @@
    "stop": 0.012993928571428571,
    "target": 0.015022142857142857,
    "expires": 1795564800000,
-   "mark": 0.0137,
-   "markR": 0.044374009508717074
+   "mark": 0.01377,
+   "markR": 0.1479133650290535
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 3R · 7J",
@@ -1545,8 +1545,8 @@
    "stop": 0.012993928571428571,
    "target": 0.015698214285714288,
    "expires": 1795910400000,
-   "mark": 0.0137,
-   "markR": 0.044374009508717074
+   "mark": 0.01377,
+   "markR": 0.1479133650290535
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · TP 2R · 3J",
@@ -1558,8 +1558,8 @@
    "stop": 0.01276857142857143,
    "target": 0.01547285714285714,
    "expires": 1795564800000,
-   "mark": 0.0137,
-   "markR": 0.03328050713153785
+   "mark": 0.01377,
+   "markR": 0.11093502377179026
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1ATR · TP 3R · 3J",
@@ -1571,8 +1571,8 @@
    "stop": 0.013219285714285715,
    "target": 0.015022142857142855,
    "expires": 1795564800000,
-   "mark": 0.0137,
-   "markR": 0.0665610142630757
+   "mark": 0.01377,
+   "markR": 0.22187004754358053
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · sans TP · 7J",
@@ -1584,8 +1584,8 @@
    "stop": 0.01276857142857143,
    "target": null,
    "expires": 1795910400000,
-   "mark": 0.0137,
-   "markR": 0.03328050713153785
+   "mark": 0.01377,
+   "markR": 0.11093502377179026
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 2R · 3J",
@@ -1597,8 +1597,8 @@
    "stop": 0.19469642857142855,
    "target": 0.28530714285714287,
    "expires": 1795593600000,
-   "mark": 0.22,
-   "markR": -0.16223247014307626
+   "mark": 0.2171,
+   "markR": -0.2582476055338772
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 3R · 7J",
@@ -1610,8 +1610,8 @@
    "stop": 0.19469642857142855,
    "target": 0.3155107142857143,
    "expires": 1795939200000,
-   "mark": 0.22,
-   "markR": -0.16223247014307626
+   "mark": 0.2171,
+   "markR": -0.2582476055338772
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · TP 2R · 3J",
@@ -1623,8 +1623,8 @@
    "stop": 0.18462857142857142,
    "target": 0.3054428571428571,
    "expires": 1795593600000,
-   "mark": 0.22,
-   "markR": -0.12167435260730726
+   "mark": 0.2171,
+   "markR": -0.19368570415040798
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · sans TP · 7J",
@@ -1636,8 +1636,8 @@
    "stop": 0.18462857142857142,
    "target": null,
    "expires": 1795939200000,
-   "mark": 0.22,
-   "markR": -0.12167435260730726
+   "mark": 0.2171,
+   "markR": -0.19368570415040798
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 2R · 3J",
@@ -1714,8 +1714,8 @@
    "stop": 0.0016252142857142856,
    "target": 0.002047571428571429,
    "expires": 1795608000000,
-   "mark": 0.001683,
-   "markR": -0.5895484525621505
+   "mark": 0.001696,
+   "markR": -0.49720953830542813
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 3R · 7J",
@@ -1727,8 +1727,8 @@
    "stop": 0.0016252142857142856,
    "target": 0.002188357142857143,
    "expires": 1795953600000,
-   "mark": 0.001683,
-   "markR": -0.5895484525621505
+   "mark": 0.001696,
+   "markR": -0.49720953830542813
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · TP 2R · 3J",
@@ -1740,21 +1740,8 @@
    "stop": 0.0015782857142857141,
    "target": 0.002141428571428572,
    "expires": 1795608000000,
-   "mark": 0.001683,
-   "markR": -0.44216133942161284
-  },
-  {
-   "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1ATR · TP 3R · 3J",
-   "family": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25)",
-   "exit": "SL 1ATR · TP 3R · 3J",
-   "symbol": "CSPRUSDT",
-   "entryT": 1795348800000,
-   "entry": 0.001766,
-   "stop": 0.001672142857142857,
-   "target": 0.002047571428571429,
-   "expires": 1795608000000,
-   "mark": 0.001683,
-   "markR": -0.8843226788432257
+   "mark": 0.001696,
+   "markR": -0.3729071537290711
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · sans TP · 7J",
@@ -1766,8 +1753,8 @@
    "stop": 0.0015782857142857141,
    "target": null,
    "expires": 1795953600000,
-   "mark": 0.001683,
-   "markR": -0.44216133942161284
+   "mark": 0.001696,
+   "markR": -0.3729071537290711
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 2R · 3J",
@@ -1779,8 +1766,8 @@
    "stop": 0.0034931071428571424,
    "target": 0.005319785714285714,
    "expires": 1795622400000,
-   "mark": 0.00384,
-   "markR": -0.4302891665200298
+   "mark": 0.003657,
+   "markR": -0.7308346530588297
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 3R · 7J",
@@ -1792,8 +1779,8 @@
    "stop": 0.0034931071428571424,
    "target": 0.005928678571428572,
    "expires": 1795968000000,
-   "mark": 0.00384,
-   "markR": -0.4302891665200298
+   "mark": 0.003657,
+   "markR": -0.7308346530588297
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · TP 2R · 3J",
@@ -1805,8 +1792,8 @@
    "stop": 0.003290142857142857,
    "target": 0.005725714285714285,
    "expires": 1795622400000,
-   "mark": 0.00384,
-   "markR": -0.32271687489002243
+   "mark": 0.003657,
+   "markR": -0.5481259897941224
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -1818,8 +1805,8 @@
    "stop": 0.003290142857142857,
    "target": null,
    "expires": 1795968000000,
-   "mark": 0.00384,
-   "markR": -0.32271687489002243
+   "mark": 0.003657,
+   "markR": -0.5481259897941224
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -1831,8 +1818,8 @@
    "stop": 0.00145675,
    "target": 0.0017335000000000002,
    "expires": 1795636800000,
-   "mark": 0.001546,
-   "markR": -0.03252032520325161
+   "mark": 0.001544,
+   "markR": -0.054200542005420134
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -1844,8 +1831,8 @@
    "stop": 0.00145675,
    "target": 0.0018257500000000003,
    "expires": 1795982400000,
-   "mark": 0.001546,
-   "markR": -0.03252032520325161
+   "mark": 0.001544,
+   "markR": -0.054200542005420134
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -1857,8 +1844,8 @@
    "stop": 0.001426,
    "target": 0.0017950000000000002,
    "expires": 1795636800000,
-   "mark": 0.001546,
-   "markR": -0.024390243902438723
+   "mark": 0.001544,
+   "markR": -0.04065040650406513
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -1870,8 +1857,8 @@
    "stop": 0.0014875,
    "target": 0.0017334999999999998,
    "expires": 1795636800000,
-   "mark": 0.001546,
-   "markR": -0.04878048780487753
+   "mark": 0.001544,
+   "markR": -0.0813008130081304
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -1883,8 +1870,8 @@
    "stop": 0.001426,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.001546,
-   "markR": -0.024390243902438723
+   "mark": 0.001544,
+   "markR": -0.04065040650406513
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 2R · 3J",
@@ -1896,8 +1883,8 @@
    "stop": 0.00145675,
    "target": 0.0017335000000000002,
    "expires": 1795636800000,
-   "mark": 0.001546,
-   "markR": -0.03252032520325161
+   "mark": 0.001544,
+   "markR": -0.054200542005420134
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 3R · 7J",
@@ -1909,8 +1896,8 @@
    "stop": 0.00145675,
    "target": 0.0018257500000000003,
    "expires": 1795982400000,
-   "mark": 0.001546,
-   "markR": -0.03252032520325161
+   "mark": 0.001544,
+   "markR": -0.054200542005420134
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · TP 2R · 3J",
@@ -1922,8 +1909,8 @@
    "stop": 0.001426,
    "target": 0.0017950000000000002,
    "expires": 1795636800000,
-   "mark": 0.001546,
-   "markR": -0.024390243902438723
+   "mark": 0.001544,
+   "markR": -0.04065040650406513
   },
   {
    "strategy": "Expansion rang<=10 || SL 1ATR · TP 3R · 3J",
@@ -1935,8 +1922,8 @@
    "stop": 0.0014875,
    "target": 0.0017334999999999998,
    "expires": 1795636800000,
-   "mark": 0.001546,
-   "markR": -0.04878048780487753
+   "mark": 0.001544,
+   "markR": -0.0813008130081304
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -1948,8 +1935,8 @@
    "stop": 0.001426,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.001546,
-   "markR": -0.024390243902438723
+   "mark": 0.001544,
+   "markR": -0.04065040650406513
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -1961,8 +1948,8 @@
    "stop": 24.210285714285714,
    "target": 29.885428571428573,
    "expires": 1795636800000,
-   "mark": 26.098,
-   "markR": -0.0021144842168863724
+   "mark": 25.978,
+   "markR": -0.06554901072345501
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -1974,8 +1961,8 @@
    "stop": 24.210285714285714,
    "target": 31.77714285714286,
    "expires": 1795982400000,
-   "mark": 26.098,
-   "markR": -0.0021144842168863724
+   "mark": 25.978,
+   "markR": -0.06554901072345501
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -1987,8 +1974,8 @@
    "stop": 23.579714285714285,
    "target": 31.14657142857143,
    "expires": 1795636800000,
-   "mark": 26.098,
-   "markR": -0.0015858631626647793
+   "mark": 25.978,
+   "markR": -0.04916175804259125
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -2000,8 +1987,8 @@
    "stop": 24.840857142857143,
    "target": 29.885428571428573,
    "expires": 1795636800000,
-   "mark": 26.098,
-   "markR": -0.0031717263253295586
+   "mark": 25.978,
+   "markR": -0.0983235160851825
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -2013,8 +2000,8 @@
    "stop": 23.579714285714285,
    "target": null,
    "expires": 1795982400000,
-   "mark": 26.098,
-   "markR": -0.0015858631626647793
+   "mark": 25.978,
+   "markR": -0.04916175804259125
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 2R · 3J",
@@ -2026,8 +2013,8 @@
    "stop": 24.210285714285714,
    "target": 29.885428571428573,
    "expires": 1795636800000,
-   "mark": 26.098,
-   "markR": -0.0021144842168863724
+   "mark": 25.978,
+   "markR": -0.06554901072345501
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 3R · 7J",
@@ -2039,8 +2026,8 @@
    "stop": 24.210285714285714,
    "target": 31.77714285714286,
    "expires": 1795982400000,
-   "mark": 26.098,
-   "markR": -0.0021144842168863724
+   "mark": 25.978,
+   "markR": -0.06554901072345501
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · TP 2R · 3J",
@@ -2052,8 +2039,8 @@
    "stop": 23.579714285714285,
    "target": 31.14657142857143,
    "expires": 1795636800000,
-   "mark": 26.098,
-   "markR": -0.0015858631626647793
+   "mark": 25.978,
+   "markR": -0.04916175804259125
   },
   {
    "strategy": "Expansion rang<=10 || SL 1ATR · TP 3R · 3J",
@@ -2065,8 +2052,8 @@
    "stop": 24.840857142857143,
    "target": 29.885428571428573,
    "expires": 1795636800000,
-   "mark": 26.098,
-   "markR": -0.0031717263253295586
+   "mark": 25.978,
+   "markR": -0.0983235160851825
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -2078,8 +2065,8 @@
    "stop": 0.3237035714285714,
    "target": 0.43379285714285715,
    "expires": 1795636800000,
-   "mark": 0.3564,
-   "markR": -0.10900243309002441
+   "mark": 0.3517,
+   "markR": -0.23708029197080252
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -2091,8 +2078,8 @@
    "stop": 0.3237035714285714,
    "target": 0.4704892857142857,
    "expires": 1795982400000,
-   "mark": 0.3564,
-   "markR": -0.10900243309002441
+   "mark": 0.3517,
+   "markR": -0.23708029197080252
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -2104,8 +2091,8 @@
    "stop": 0.31147142857142857,
    "target": 0.45825714285714286,
    "expires": 1795636800000,
-   "mark": 0.3564,
-   "markR": -0.08175182481751832
+   "mark": 0.3517,
+   "markR": -0.17781021897810187
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -2117,8 +2104,8 @@
    "stop": 0.3359357142857143,
    "target": 0.43379285714285715,
    "expires": 1795636800000,
-   "mark": 0.3564,
-   "markR": -0.16350364963503664
+   "mark": 0.3517,
+   "markR": -0.35562043795620374
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -2130,8 +2117,8 @@
    "stop": 0.31147142857142857,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.3564,
-   "markR": -0.08175182481751832
+   "mark": 0.3517,
+   "markR": -0.17781021897810187
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 2R · 3J",
@@ -2143,8 +2130,8 @@
    "stop": 0.3237035714285714,
    "target": 0.43379285714285715,
    "expires": 1795636800000,
-   "mark": 0.3564,
-   "markR": -0.10900243309002441
+   "mark": 0.3517,
+   "markR": -0.23708029197080252
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1.5ATR · TP 3R · 7J",
@@ -2156,8 +2143,8 @@
    "stop": 0.3237035714285714,
    "target": 0.4704892857142857,
    "expires": 1795982400000,
-   "mark": 0.3564,
-   "markR": -0.10900243309002441
+   "mark": 0.3517,
+   "markR": -0.23708029197080252
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · TP 2R · 3J",
@@ -2169,8 +2156,8 @@
    "stop": 0.31147142857142857,
    "target": 0.45825714285714286,
    "expires": 1795636800000,
-   "mark": 0.3564,
-   "markR": -0.08175182481751832
+   "mark": 0.3517,
+   "markR": -0.17781021897810187
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 1ATR · TP 3R · 3J",
@@ -2182,8 +2169,8 @@
    "stop": 0.3359357142857143,
    "target": 0.43379285714285715,
    "expires": 1795636800000,
-   "mark": 0.3564,
-   "markR": -0.16350364963503664
+   "mark": 0.3517,
+   "markR": -0.35562043795620374
   },
   {
    "strategy": "Retour sur EMA20 (|écart|<=1.5%, 7J>=10%) || SL 2ATR · sans TP · 7J",
@@ -2195,8 +2182,8 @@
    "stop": 0.31147142857142857,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.3564,
-   "markR": -0.08175182481751832
+   "mark": 0.3517,
+   "markR": -0.17781021897810187
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -2208,8 +2195,8 @@
    "stop": 0.07629785714285714,
    "target": 0.10834428571428573,
    "expires": 1795636800000,
-   "mark": 0.08569,
-   "markR": -0.12076228686058164
+   "mark": 0.0839,
+   "markR": -0.28833166165162133
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -2221,8 +2208,8 @@
    "stop": 0.07629785714285714,
    "target": 0.11902642857142859,
    "expires": 1795982400000,
-   "mark": 0.08569,
-   "markR": -0.12076228686058164
+   "mark": 0.0839,
+   "markR": -0.28833166165162133
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -2234,8 +2221,8 @@
    "stop": 0.07273714285714286,
    "target": 0.11546571428571428,
    "expires": 1795636800000,
-   "mark": 0.08569,
-   "markR": -0.09057171514543629
+   "mark": 0.0839,
+   "markR": -0.21624874623871615
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -2247,8 +2234,8 @@
    "stop": 0.07985857142857143,
    "target": 0.10834428571428571,
    "expires": 1795636800000,
-   "mark": 0.08569,
-   "markR": -0.18114343029087257
+   "mark": 0.0839,
+   "markR": -0.4324974924774323
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -2260,8 +2247,8 @@
    "stop": 0.07273714285714286,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.08569,
-   "markR": -0.09057171514543629
+   "mark": 0.0839,
+   "markR": -0.21624874623871615
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -2273,8 +2260,8 @@
    "stop": 0.09988821428571429,
    "target": 0.10991357142857143,
    "expires": 1795636800000,
-   "mark": 0.10345,
-   "markR": 0.06583306615368113
+   "mark": 0.10374,
+   "markR": 0.15261301699262483
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -2286,8 +2273,8 @@
    "stop": 0.09988821428571429,
    "target": 0.11325535714285714,
    "expires": 1795982400000,
-   "mark": 0.10345,
-   "markR": 0.06583306615368113
+   "mark": 0.10374,
+   "markR": 0.15261301699262483
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -2299,8 +2286,8 @@
    "stop": 0.09877428571428572,
    "target": 0.11214142857142857,
    "expires": 1795636800000,
-   "mark": 0.10345,
-   "markR": 0.04937479961526085
+   "mark": 0.10374,
+   "markR": 0.11445976274446863
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -2312,8 +2299,8 @@
    "stop": 0.10100214285714286,
    "target": 0.10991357142857143,
    "expires": 1795636800000,
-   "mark": 0.10345,
-   "markR": 0.0987495992305217
+   "mark": 0.10374,
+   "markR": 0.22891952548893726
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -2325,8 +2312,8 @@
    "stop": 0.09877428571428572,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.10345,
-   "markR": 0.04937479961526085
+   "mark": 0.10374,
+   "markR": 0.11445976274446863
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 2R · 3J",
@@ -2338,8 +2325,8 @@
    "stop": 0.09988821428571429,
    "target": 0.10991357142857143,
    "expires": 1795636800000,
-   "mark": 0.10345,
-   "markR": 0.06583306615368113
+   "mark": 0.10374,
+   "markR": 0.15261301699262483
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 3R · 7J",
@@ -2351,8 +2338,8 @@
    "stop": 0.09988821428571429,
    "target": 0.11325535714285714,
    "expires": 1795982400000,
-   "mark": 0.10345,
-   "markR": 0.06583306615368113
+   "mark": 0.10374,
+   "markR": 0.15261301699262483
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · TP 2R · 3J",
@@ -2364,8 +2351,8 @@
    "stop": 0.09877428571428572,
    "target": 0.11214142857142857,
    "expires": 1795636800000,
-   "mark": 0.10345,
-   "markR": 0.04937479961526085
+   "mark": 0.10374,
+   "markR": 0.11445976274446863
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1ATR · TP 3R · 3J",
@@ -2377,8 +2364,8 @@
    "stop": 0.10100214285714286,
    "target": 0.10991357142857143,
    "expires": 1795636800000,
-   "mark": 0.10345,
-   "markR": 0.0987495992305217
+   "mark": 0.10374,
+   "markR": 0.22891952548893726
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · sans TP · 7J",
@@ -2390,8 +2377,8 @@
    "stop": 0.09877428571428572,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.10345,
-   "markR": 0.04937479961526085
+   "mark": 0.10374,
+   "markR": 0.11445976274446863
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -2403,8 +2390,8 @@
    "stop": 0.0072934285714285705,
    "target": 0.009353142857142857,
    "expires": 1795636800000,
-   "mark": 0.00785,
-   "markR": -0.18934665002080714
+   "mark": 0.007937,
+   "markR": -0.06263004577611264
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -2416,8 +2403,8 @@
    "stop": 0.0072934285714285705,
    "target": 0.010039714285714285,
    "expires": 1795982400000,
-   "mark": 0.00785,
-   "markR": -0.18934665002080714
+   "mark": 0.007937,
+   "markR": -0.06263004577611264
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -2429,8 +2416,8 @@
    "stop": 0.007064571428571428,
    "target": 0.009810857142857142,
    "expires": 1795636800000,
-   "mark": 0.00785,
-   "markR": -0.1420099875156054
+   "mark": 0.007937,
+   "markR": -0.0469725343320845
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -2442,8 +2429,8 @@
    "stop": 0.007522285714285713,
    "target": 0.009353142857142858,
    "expires": 1795636800000,
-   "mark": 0.00785,
-   "markR": -0.2840199750312105
+   "mark": 0.007937,
+   "markR": -0.09394506866416891
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -2455,8 +2442,8 @@
    "stop": 0.007064571428571428,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.00785,
-   "markR": -0.1420099875156054
+   "mark": 0.007937,
+   "markR": -0.0469725343320845
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -2468,8 +2455,8 @@
    "stop": 0.0072934285714285705,
    "target": 0.009353142857142857,
    "expires": 1795636800000,
-   "mark": 0.00785,
-   "markR": -0.18934665002080714
+   "mark": 0.007937,
+   "markR": -0.06263004577611264
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -2481,8 +2468,8 @@
    "stop": 0.0072934285714285705,
    "target": 0.010039714285714285,
    "expires": 1795982400000,
-   "mark": 0.00785,
-   "markR": -0.18934665002080714
+   "mark": 0.007937,
+   "markR": -0.06263004577611264
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -2494,8 +2481,8 @@
    "stop": 0.007064571428571428,
    "target": 0.009810857142857142,
    "expires": 1795636800000,
-   "mark": 0.00785,
-   "markR": -0.1420099875156054
+   "mark": 0.007937,
+   "markR": -0.0469725343320845
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -2507,8 +2494,8 @@
    "stop": 0.007522285714285713,
    "target": 0.009353142857142858,
    "expires": 1795636800000,
-   "mark": 0.00785,
-   "markR": -0.2840199750312105
+   "mark": 0.007937,
+   "markR": -0.09394506866416891
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -2520,8 +2507,8 @@
    "stop": 0.007064571428571428,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.00785,
-   "markR": -0.1420099875156054
+   "mark": 0.007937,
+   "markR": -0.0469725343320845
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -2533,8 +2520,8 @@
    "stop": 0.0013876785714285714,
    "target": 0.0016226428571428574,
    "expires": 1795636800000,
-   "mark": 0.00148,
-   "markR": 0.1787505699954386
+   "mark": 0.001462,
+   "markR": -0.051071591427269754
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -2546,8 +2533,8 @@
    "stop": 0.0013876785714285714,
    "target": 0.0017009642857142861,
    "expires": 1795982400000,
-   "mark": 0.00148,
-   "markR": 0.1787505699954386
+   "mark": 0.001462,
+   "markR": -0.051071591427269754
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -2559,8 +2546,8 @@
    "stop": 0.0013615714285714286,
    "target": 0.001674857142857143,
    "expires": 1795636800000,
-   "mark": 0.00148,
-   "markR": 0.13406292749657903
+   "mark": 0.001462,
+   "markR": -0.03830369357045234
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -2572,8 +2559,8 @@
    "stop": 0.0014137857142857142,
    "target": 0.0016226428571428577,
    "expires": 1795636800000,
-   "mark": 0.00148,
-   "markR": 0.2681258549931575
+   "mark": 0.001462,
+   "markR": -0.07660738714090452
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -2585,8 +2572,8 @@
    "stop": 0.0013615714285714286,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.00148,
-   "markR": 0.13406292749657903
+   "mark": 0.001462,
+   "markR": -0.03830369357045234
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -2598,8 +2585,8 @@
    "stop": 0.4713785714285714,
    "target": 0.5668428571428571,
    "expires": 1795636800000,
-   "mark": 0.5005,
-   "markR": -0.084848484848486
+   "mark": 0.5016,
+   "markR": -0.05028058361391492
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -2611,8 +2598,8 @@
    "stop": 0.4713785714285714,
    "target": 0.5986642857142856,
    "expires": 1795982400000,
-   "mark": 0.5005,
-   "markR": -0.084848484848486
+   "mark": 0.5016,
+   "markR": -0.05028058361391492
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -2624,8 +2611,8 @@
    "stop": 0.46077142857142855,
    "target": 0.5880571428571428,
    "expires": 1795636800000,
-   "mark": 0.5005,
-   "markR": -0.06363636363636448
+   "mark": 0.5016,
+   "markR": -0.037710437710436175
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -2637,8 +2624,8 @@
    "stop": 0.4819857142857143,
    "target": 0.566842857142857,
    "expires": 1795636800000,
-   "mark": 0.5005,
-   "markR": -0.12727272727272912
+   "mark": 0.5016,
+   "markR": -0.07542087542087245
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -2650,8 +2637,8 @@
    "stop": 0.46077142857142855,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.5005,
-   "markR": -0.06363636363636448
+   "mark": 0.5016,
+   "markR": -0.037710437710436175
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 2R · 3J",
@@ -2663,8 +2650,8 @@
    "stop": 0.4713785714285714,
    "target": 0.5668428571428571,
    "expires": 1795636800000,
-   "mark": 0.5005,
-   "markR": -0.084848484848486
+   "mark": 0.5016,
+   "markR": -0.05028058361391492
   },
   {
    "strategy": "Expansion rang<=10 || SL 1.5ATR · TP 3R · 7J",
@@ -2676,8 +2663,8 @@
    "stop": 0.4713785714285714,
    "target": 0.5986642857142856,
    "expires": 1795982400000,
-   "mark": 0.5005,
-   "markR": -0.084848484848486
+   "mark": 0.5016,
+   "markR": -0.05028058361391492
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · TP 2R · 3J",
@@ -2689,8 +2676,8 @@
    "stop": 0.46077142857142855,
    "target": 0.5880571428571428,
    "expires": 1795636800000,
-   "mark": 0.5005,
-   "markR": -0.06363636363636448
+   "mark": 0.5016,
+   "markR": -0.037710437710436175
   },
   {
    "strategy": "Expansion rang<=10 || SL 1ATR · TP 3R · 3J",
@@ -2702,8 +2689,8 @@
    "stop": 0.4819857142857143,
    "target": 0.566842857142857,
    "expires": 1795636800000,
-   "mark": 0.5005,
-   "markR": -0.12727272727272912
+   "mark": 0.5016,
+   "markR": -0.07542087542087245
   },
   {
    "strategy": "Expansion rang<=10 || SL 2ATR · sans TP · 7J",
@@ -2715,8 +2702,8 @@
    "stop": 0.46077142857142855,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.5005,
-   "markR": -0.06363636363636448
+   "mark": 0.5016,
+   "markR": -0.037710437710436175
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -2728,8 +2715,8 @@
    "stop": 0.4713785714285714,
    "target": 0.5668428571428571,
    "expires": 1795636800000,
-   "mark": 0.5005,
-   "markR": -0.084848484848486
+   "mark": 0.5016,
+   "markR": -0.05028058361391492
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -2741,8 +2728,8 @@
    "stop": 0.4713785714285714,
    "target": 0.5986642857142856,
    "expires": 1795982400000,
-   "mark": 0.5005,
-   "markR": -0.084848484848486
+   "mark": 0.5016,
+   "markR": -0.05028058361391492
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -2754,8 +2741,8 @@
    "stop": 0.46077142857142855,
    "target": 0.5880571428571428,
    "expires": 1795636800000,
-   "mark": 0.5005,
-   "markR": -0.06363636363636448
+   "mark": 0.5016,
+   "markR": -0.037710437710436175
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -2767,8 +2754,8 @@
    "stop": 0.4819857142857143,
    "target": 0.566842857142857,
    "expires": 1795636800000,
-   "mark": 0.5005,
-   "markR": -0.12727272727272912
+   "mark": 0.5016,
+   "markR": -0.07542087542087245
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -2780,8 +2767,8 @@
    "stop": 0.46077142857142855,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.5005,
-   "markR": -0.06363636363636448
+   "mark": 0.5016,
+   "markR": -0.037710437710436175
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -2793,8 +2780,8 @@
    "stop": 0.18406785714285714,
    "target": 0.2849642857142857,
    "expires": 1795636800000,
-   "mark": 0.22,
-   "markR": 0.06838695975363693
+   "mark": 0.2171,
+   "markR": -0.01784007645747104
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -2806,8 +2793,8 @@
    "stop": 0.18406785714285714,
    "target": 0.31859642857142856,
    "expires": 1795982400000,
-   "mark": 0.22,
-   "markR": 0.06838695975363693
+   "mark": 0.2171,
+   "markR": -0.01784007645747104
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -2819,8 +2806,8 @@
    "stop": 0.17285714285714288,
    "target": 0.30738571428571426,
    "expires": 1795636800000,
-   "mark": 0.22,
-   "markR": 0.05129021981522772
+   "mark": 0.2171,
+   "markR": -0.013380057343103286
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -2832,8 +2819,8 @@
    "stop": 0.19527857142857144,
    "target": 0.28496428571428567,
    "expires": 1795636800000,
-   "mark": 0.22,
-   "markR": 0.10258043963045543
+   "mark": 0.2171,
+   "markR": -0.026760114686206572
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -2845,8 +2832,8 @@
    "stop": 0.17285714285714288,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.22,
-   "markR": 0.05129021981522772
+   "mark": 0.2171,
+   "markR": -0.013380057343103286
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -2858,8 +2845,8 @@
    "stop": 0.008668892857142856,
    "target": 0.009875214285714286,
    "expires": 1795636800000,
-   "mark": 0.009105,
-   "markR": 0.08455457855937723
+   "mark": 0.009109,
+   "markR": 0.09450217603695203
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -2871,8 +2858,8 @@
    "stop": 0.008668892857142856,
    "target": 0.010277321428571429,
    "expires": 1795982400000,
-   "mark": 0.009105,
-   "markR": 0.08455457855937723
+   "mark": 0.009109,
+   "markR": 0.09450217603695203
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -2884,8 +2871,8 @@
    "stop": 0.008534857142857143,
    "target": 0.010143285714285712,
    "expires": 1795636800000,
-   "mark": 0.009105,
-   "markR": 0.06341593391953305
+   "mark": 0.009109,
+   "markR": 0.07087663202771417
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -2897,8 +2884,8 @@
    "stop": 0.008802928571428571,
    "target": 0.009875214285714284,
    "expires": 1795636800000,
-   "mark": 0.009105,
-   "markR": 0.1268318678390661
+   "mark": 0.009109,
+   "markR": 0.14175326405542835
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -2910,8 +2897,8 @@
    "stop": 0.008534857142857143,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.009105,
-   "markR": 0.06341593391953305
+   "mark": 0.009109,
+   "markR": 0.07087663202771417
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 2R · 3J",
@@ -2923,8 +2910,8 @@
    "stop": 0.008668892857142856,
    "target": 0.009875214285714286,
    "expires": 1795636800000,
-   "mark": 0.009105,
-   "markR": 0.08455457855937723
+   "mark": 0.009109,
+   "markR": 0.09450217603695203
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 3R · 7J",
@@ -2936,8 +2923,8 @@
    "stop": 0.008668892857142856,
    "target": 0.010277321428571429,
    "expires": 1795982400000,
-   "mark": 0.009105,
-   "markR": 0.08455457855937723
+   "mark": 0.009109,
+   "markR": 0.09450217603695203
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · TP 2R · 3J",
@@ -2949,8 +2936,8 @@
    "stop": 0.008534857142857143,
    "target": 0.010143285714285712,
    "expires": 1795636800000,
-   "mark": 0.009105,
-   "markR": 0.06341593391953305
+   "mark": 0.009109,
+   "markR": 0.07087663202771417
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1ATR · TP 3R · 3J",
@@ -2962,8 +2949,8 @@
    "stop": 0.008802928571428571,
    "target": 0.009875214285714284,
    "expires": 1795636800000,
-   "mark": 0.009105,
-   "markR": 0.1268318678390661
+   "mark": 0.009109,
+   "markR": 0.14175326405542835
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · sans TP · 7J",
@@ -2975,8 +2962,8 @@
    "stop": 0.008534857142857143,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.009105,
-   "markR": 0.06341593391953305
+   "mark": 0.009109,
+   "markR": 0.07087663202771417
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -2988,8 +2975,8 @@
    "stop": 0.004975785714285714,
    "target": 0.005516428571428572,
    "expires": 1795636800000,
-   "mark": 0.005134,
-   "markR": -0.12207689258819013
+   "mark": 0.0051,
+   "markR": -0.3107411811335683
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -3001,8 +2988,8 @@
    "stop": 0.004975785714285714,
    "target": 0.0056966428571428585,
    "expires": 1795982400000,
-   "mark": 0.005134,
-   "markR": -0.12207689258819013
+   "mark": 0.0051,
+   "markR": -0.3107411811335683
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -3014,8 +3001,8 @@
    "stop": 0.004915714285714285,
    "target": 0.005636571428571429,
    "expires": 1795636800000,
-   "mark": 0.005134,
-   "markR": -0.09155766944114271
+   "mark": 0.0051,
+   "markR": -0.23305588585017653
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -3027,8 +3014,8 @@
    "stop": 0.005035857142857143,
    "target": 0.0055164285714285706,
    "expires": 1795636800000,
-   "mark": 0.005134,
-   "markR": -0.18311533888228607
+   "mark": 0.0051,
+   "markR": -0.4661117717003547
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -3040,8 +3027,8 @@
    "stop": 0.004915714285714285,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.005134,
-   "markR": -0.09155766944114271
+   "mark": 0.0051,
+   "markR": -0.23305588585017653
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -3053,8 +3040,8 @@
    "stop": 0.03521964285714285,
    "target": 0.04464071428571429,
    "expires": 1795636800000,
-   "mark": 0.03845,
-   "markR": 0.028659160696008094
+   "mark": 0.03843,
+   "markR": 0.02229045831911765
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -3066,8 +3053,8 @@
    "stop": 0.03521964285714285,
    "target": 0.04778107142857144,
    "expires": 1795982400000,
-   "mark": 0.03845,
-   "markR": 0.028659160696008094
+   "mark": 0.03843,
+   "markR": 0.02229045831911765
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -3079,8 +3066,8 @@
    "stop": 0.034172857142857144,
    "target": 0.04673428571428571,
    "expires": 1795636800000,
-   "mark": 0.03845,
-   "markR": 0.021494370522006107
+   "mark": 0.03843,
+   "markR": 0.016717843739338267
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -3092,8 +3079,8 @@
    "stop": 0.03626642857142857,
    "target": 0.04464071428571429,
    "expires": 1795636800000,
-   "mark": 0.03845,
-   "markR": 0.042988741044012145
+   "mark": 0.03843,
+   "markR": 0.03343568747867648
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -3105,8 +3092,8 @@
    "stop": 0.034172857142857144,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.03845,
-   "markR": 0.021494370522006107
+   "mark": 0.03843,
+   "markR": 0.016717843739338267
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 2R · 3J",
@@ -3118,8 +3105,8 @@
    "stop": 0.03521964285714285,
    "target": 0.04464071428571429,
    "expires": 1795636800000,
-   "mark": 0.03845,
-   "markR": 0.028659160696008094
+   "mark": 0.03843,
+   "markR": 0.02229045831911765
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 3R · 7J",
@@ -3131,8 +3118,8 @@
    "stop": 0.03521964285714285,
    "target": 0.04778107142857144,
    "expires": 1795982400000,
-   "mark": 0.03845,
-   "markR": 0.028659160696008094
+   "mark": 0.03843,
+   "markR": 0.02229045831911765
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · TP 2R · 3J",
@@ -3144,8 +3131,8 @@
    "stop": 0.034172857142857144,
    "target": 0.04673428571428571,
    "expires": 1795636800000,
-   "mark": 0.03845,
-   "markR": 0.021494370522006107
+   "mark": 0.03843,
+   "markR": 0.016717843739338267
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1ATR · TP 3R · 3J",
@@ -3157,8 +3144,8 @@
    "stop": 0.03626642857142857,
    "target": 0.04464071428571429,
    "expires": 1795636800000,
-   "mark": 0.03845,
-   "markR": 0.042988741044012145
+   "mark": 0.03843,
+   "markR": 0.03343568747867648
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · sans TP · 7J",
@@ -3170,8 +3157,8 @@
    "stop": 0.034172857142857144,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.03845,
-   "markR": 0.021494370522006107
+   "mark": 0.03843,
+   "markR": 0.016717843739338267
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -3183,8 +3170,8 @@
    "stop": 0.07161357142857143,
    "target": 0.08405285714285712,
    "expires": 1795636800000,
-   "mark": 0.07553,
-   "markR": -0.05546942291128204
+   "mark": 0.07488,
+   "markR": -0.2122308354866478
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -3196,8 +3183,8 @@
    "stop": 0.07161357142857143,
    "target": 0.08819928571428569,
    "expires": 1795982400000,
-   "mark": 0.07553,
-   "markR": -0.05546942291128204
+   "mark": 0.07488,
+   "markR": -0.2122308354866478
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -3209,8 +3196,8 @@
    "stop": 0.07023142857142857,
    "target": 0.08681714285714284,
    "expires": 1795636800000,
-   "mark": 0.07553,
-   "markR": -0.041602067183461496
+   "mark": 0.07488,
+   "markR": -0.15917312661498573
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -3222,8 +3209,8 @@
    "stop": 0.07299571428571427,
    "target": 0.08405285714285715,
    "expires": 1795636800000,
-   "mark": 0.07553,
-   "markR": -0.08320413436692278
+   "mark": 0.07488,
+   "markR": -0.3183462532299707
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -3235,8 +3222,8 @@
    "stop": 0.07023142857142857,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.07553,
-   "markR": -0.041602067183461496
+   "mark": 0.07488,
+   "markR": -0.15917312661498573
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 2R · 3J",
@@ -3248,8 +3235,8 @@
    "stop": 0.07161357142857143,
    "target": 0.08405285714285712,
    "expires": 1795636800000,
-   "mark": 0.07553,
-   "markR": -0.05546942291128204
+   "mark": 0.07488,
+   "markR": -0.2122308354866478
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 3R · 7J",
@@ -3261,8 +3248,8 @@
    "stop": 0.07161357142857143,
    "target": 0.08819928571428569,
    "expires": 1795982400000,
-   "mark": 0.07553,
-   "markR": -0.05546942291128204
+   "mark": 0.07488,
+   "markR": -0.2122308354866478
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · TP 2R · 3J",
@@ -3274,8 +3261,8 @@
    "stop": 0.07023142857142857,
    "target": 0.08681714285714284,
    "expires": 1795636800000,
-   "mark": 0.07553,
-   "markR": -0.041602067183461496
+   "mark": 0.07488,
+   "markR": -0.15917312661498573
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1ATR · TP 3R · 3J",
@@ -3287,8 +3274,8 @@
    "stop": 0.07299571428571427,
    "target": 0.08405285714285715,
    "expires": 1795636800000,
-   "mark": 0.07553,
-   "markR": -0.08320413436692278
+   "mark": 0.07488,
+   "markR": -0.3183462532299707
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · sans TP · 7J",
@@ -3300,60 +3287,8 @@
    "stop": 0.07023142857142857,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.07553,
-   "markR": -0.041602067183461496
-  },
-  {
-   "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
-   "family": "Tout le Top 50 (témoin)",
-   "exit": "SL 1.5ATR · TP 2R · 3J",
-   "symbol": "A8USDT",
-   "entryT": 1795377600000,
-   "entry": 0.003231,
-   "stop": 0.003041035714285714,
-   "target": 0.003610928571428572,
-   "expires": 1795636800000,
-   "mark": 0.003233,
-   "markR": 0.010528294792255569
-  },
-  {
-   "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
-   "family": "Tout le Top 50 (témoin)",
-   "exit": "SL 1.5ATR · TP 3R · 7J",
-   "symbol": "A8USDT",
-   "entryT": 1795377600000,
-   "entry": 0.003231,
-   "stop": 0.003041035714285714,
-   "target": 0.0038008928571428577,
-   "expires": 1795982400000,
-   "mark": 0.003233,
-   "markR": 0.010528294792255569
-  },
-  {
-   "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
-   "family": "Tout le Top 50 (témoin)",
-   "exit": "SL 2ATR · TP 2R · 3J",
-   "symbol": "A8USDT",
-   "entryT": 1795377600000,
-   "entry": 0.003231,
-   "stop": 0.002977714285714286,
-   "target": 0.003737571428571428,
-   "expires": 1795636800000,
-   "mark": 0.003233,
-   "markR": 0.00789622109419169
-  },
-  {
-   "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
-   "family": "Tout le Top 50 (témoin)",
-   "exit": "SL 1ATR · TP 3R · 3J",
-   "symbol": "A8USDT",
-   "entryT": 1795377600000,
-   "entry": 0.003231,
-   "stop": 0.0031043571428571426,
-   "target": 0.003610928571428572,
-   "expires": 1795636800000,
-   "mark": 0.003233,
-   "markR": 0.015792442188383354
+   "mark": 0.07488,
+   "markR": -0.15917312661498573
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -3365,8 +3300,8 @@
    "stop": 0.002977714285714286,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.003233,
-   "markR": 0.00789622109419169
+   "mark": 0.003493,
+   "markR": 1.0344049633389745
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -3378,8 +3313,8 @@
    "stop": 0.039183214285714286,
    "target": 0.049163571428571425,
    "expires": 1795636800000,
-   "mark": 0.04149,
-   "markR": -0.30660225442834155
+   "mark": 0.04203,
+   "markR": -0.1442834138486317
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -3391,8 +3326,8 @@
    "stop": 0.039183214285714286,
    "target": 0.05249035714285714,
    "expires": 1795982400000,
-   "mark": 0.04149,
-   "markR": -0.30660225442834155
+   "mark": 0.04203,
+   "markR": -0.1442834138486317
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -3404,8 +3339,8 @@
    "stop": 0.03807428571428571,
    "target": 0.05138142857142857,
    "expires": 1795636800000,
-   "mark": 0.04149,
-   "markR": -0.22995169082125605
+   "mark": 0.04203,
+   "markR": -0.10821256038647371
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -3417,8 +3352,8 @@
    "stop": 0.04029214285714286,
    "target": 0.04916357142857142,
    "expires": 1795636800000,
-   "mark": 0.04149,
-   "markR": -0.4599033816425128
+   "mark": 0.04203,
+   "markR": -0.21642512077294776
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -3430,8 +3365,8 @@
    "stop": 0.03807428571428571,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.04149,
-   "markR": -0.22995169082125605
+   "mark": 0.04203,
+   "markR": -0.10821256038647371
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 2R · 3J",
@@ -3443,8 +3378,8 @@
    "stop": 0.039183214285714286,
    "target": 0.049163571428571425,
    "expires": 1795636800000,
-   "mark": 0.04149,
-   "markR": -0.30660225442834155
+   "mark": 0.04203,
+   "markR": -0.1442834138486317
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1.5ATR · TP 3R · 7J",
@@ -3456,8 +3391,8 @@
    "stop": 0.039183214285714286,
    "target": 0.05249035714285714,
    "expires": 1795982400000,
-   "mark": 0.04149,
-   "markR": -0.30660225442834155
+   "mark": 0.04203,
+   "markR": -0.1442834138486317
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · TP 2R · 3J",
@@ -3469,8 +3404,8 @@
    "stop": 0.03807428571428571,
    "target": 0.05138142857142857,
    "expires": 1795636800000,
-   "mark": 0.04149,
-   "markR": -0.22995169082125605
+   "mark": 0.04203,
+   "markR": -0.10821256038647371
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 1ATR · TP 3R · 3J",
@@ -3482,8 +3417,8 @@
    "stop": 0.04029214285714286,
    "target": 0.04916357142857142,
    "expires": 1795636800000,
-   "mark": 0.04149,
-   "markR": -0.4599033816425128
+   "mark": 0.04203,
+   "markR": -0.21642512077294776
   },
   {
    "strategy": "Pullback en tendance (PULLBACK, pente EMA>0, rang<=25) || SL 2ATR · sans TP · 7J",
@@ -3495,8 +3430,8 @@
    "stop": 0.03807428571428571,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.04149,
-   "markR": -0.22995169082125605
+   "mark": 0.04203,
+   "markR": -0.10821256038647371
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -3508,8 +3443,8 @@
    "stop": 2.9098,
    "target": 5.0392,
    "expires": 1795636800000,
-   "mark": 3.6969,
-   "markR": 0.10890391659622387
+   "mark": 3.6643,
+   "markR": 0.06297548605240877
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -3521,8 +3456,8 @@
    "stop": 2.9098,
    "target": 5.7490000000000006,
    "expires": 1795982400000,
-   "mark": 3.6969,
-   "markR": 0.10890391659622387
+   "mark": 3.6643,
+   "markR": 0.06297548605240877
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -3534,8 +3469,8 @@
    "stop": 2.6732,
    "target": 5.5124,
    "expires": 1795636800000,
-   "mark": 3.6969,
-   "markR": 0.08167793744716789
+   "mark": 3.6643,
+   "markR": 0.04723161453930656
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -3547,8 +3482,8 @@
    "stop": 3.1464000000000003,
    "target": 5.039199999999999,
    "expires": 1795636800000,
-   "mark": 3.6969,
-   "markR": 0.16335587489433587
+   "mark": 3.6643,
+   "markR": 0.09446322907861318
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -3560,8 +3495,8 @@
    "stop": 2.6732,
    "target": null,
    "expires": 1795982400000,
-   "mark": 3.6969,
-   "markR": 0.08167793744716789
+   "mark": 3.6643,
+   "markR": 0.04723161453930656
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -3768,8 +3703,8 @@
    "stop": 0.005074285714285714,
    "target": 0.006069428571428572,
    "expires": 1795636800000,
-   "mark": 0.005408,
-   "markR": 0.006029285099050723
+   "mark": 0.005504,
+   "markR": 0.29543496985357437
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -3781,8 +3716,8 @@
    "stop": 0.005074285714285714,
    "target": 0.006401142857142858,
    "expires": 1795982400000,
-   "mark": 0.005408,
-   "markR": 0.006029285099050723
+   "mark": 0.005504,
+   "markR": 0.29543496985357437
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -3794,8 +3729,8 @@
    "stop": 0.004963714285714286,
    "target": 0.006290571428571429,
    "expires": 1795636800000,
-   "mark": 0.005408,
-   "markR": 0.004521963824288043
+   "mark": 0.005504,
+   "markR": 0.22157622739018076
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -3807,8 +3742,8 @@
    "stop": 0.005184857142857143,
    "target": 0.006069428571428572,
    "expires": 1795636800000,
-   "mark": 0.005408,
-   "markR": 0.009043927648576085
+   "mark": 0.005504,
+   "markR": 0.4431524547803615
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -3820,8 +3755,8 @@
    "stop": 0.004963714285714286,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.005408,
-   "markR": 0.004521963824288043
+   "mark": 0.005504,
+   "markR": 0.22157622739018076
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -3833,8 +3768,8 @@
    "stop": 0.08512857142857144,
    "target": 0.10418285714285713,
    "expires": 1795636800000,
-   "mark": 0.09234,
-   "markR": 0.13540260908681973
+   "mark": 0.0924,
+   "markR": 0.14484930274403823
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -3846,8 +3781,8 @@
    "stop": 0.08512857142857144,
    "target": 0.1105342857142857,
    "expires": 1795982400000,
-   "mark": 0.09234,
-   "markR": 0.13540260908681973
+   "mark": 0.0924,
+   "markR": 0.14484930274403823
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -3859,8 +3794,8 @@
    "stop": 0.08301142857142858,
    "target": 0.10841714285714285,
    "expires": 1795636800000,
-   "mark": 0.09234,
-   "markR": 0.10155195681511474
+   "mark": 0.0924,
+   "markR": 0.10863697705802862
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -3872,8 +3807,8 @@
    "stop": 0.08724571428571429,
    "target": 0.10418285714285716,
    "expires": 1795636800000,
-   "mark": 0.09234,
-   "markR": 0.20310391363022914
+   "mark": 0.0924,
+   "markR": 0.21727395411605688
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -3885,8 +3820,8 @@
    "stop": 0.08301142857142858,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.09234,
-   "markR": 0.10155195681511474
+   "mark": 0.0924,
+   "markR": 0.10863697705802862
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -3898,8 +3833,8 @@
    "stop": 0.08512857142857144,
    "target": 0.10418285714285713,
    "expires": 1795636800000,
-   "mark": 0.09234,
-   "markR": 0.13540260908681973
+   "mark": 0.0924,
+   "markR": 0.14484930274403823
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -3911,8 +3846,8 @@
    "stop": 0.08512857142857144,
    "target": 0.1105342857142857,
    "expires": 1795982400000,
-   "mark": 0.09234,
-   "markR": 0.13540260908681973
+   "mark": 0.0924,
+   "markR": 0.14484930274403823
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -3924,8 +3859,8 @@
    "stop": 0.08301142857142858,
    "target": 0.10841714285714285,
    "expires": 1795636800000,
-   "mark": 0.09234,
-   "markR": 0.10155195681511474
+   "mark": 0.0924,
+   "markR": 0.10863697705802862
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -3937,8 +3872,8 @@
    "stop": 0.08724571428571429,
    "target": 0.10418285714285716,
    "expires": 1795636800000,
-   "mark": 0.09234,
-   "markR": 0.20310391363022914
+   "mark": 0.0924,
+   "markR": 0.21727395411605688
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -3950,8 +3885,8 @@
    "stop": 0.08301142857142858,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.09234,
-   "markR": 0.10155195681511474
+   "mark": 0.0924,
+   "markR": 0.10863697705802862
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -3963,8 +3898,8 @@
    "stop": 0.13131428571428572,
    "target": 0.15227142857142859,
    "expires": 1795636800000,
-   "mark": 0.1391,
-   "markR": 0.11451942740286224
+   "mark": 0.139,
+   "markR": 0.10020449897750594
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -3976,8 +3911,8 @@
    "stop": 0.13131428571428572,
    "target": 0.15925714285714287,
    "expires": 1795982400000,
-   "mark": 0.1391,
-   "markR": 0.11451942740286224
+   "mark": 0.139,
+   "markR": 0.10020449897750594
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -3989,8 +3924,8 @@
    "stop": 0.1289857142857143,
    "target": 0.15692857142857145,
    "expires": 1795636800000,
-   "mark": 0.1391,
-   "markR": 0.08588957055214667
+   "mark": 0.139,
+   "markR": 0.07515337423312946
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -4002,8 +3937,8 @@
    "stop": 0.13364285714285715,
    "target": 0.15227142857142859,
    "expires": 1795636800000,
-   "mark": 0.1391,
-   "markR": 0.17177914110429335
+   "mark": 0.139,
+   "markR": 0.1503067484662589
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -4015,8 +3950,8 @@
    "stop": 0.1289857142857143,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.1391,
-   "markR": 0.08588957055214667
+   "mark": 0.139,
+   "markR": 0.07515337423312946
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -4028,8 +3963,8 @@
    "stop": 0.13131428571428572,
    "target": 0.15227142857142859,
    "expires": 1795636800000,
-   "mark": 0.1391,
-   "markR": 0.11451942740286224
+   "mark": 0.139,
+   "markR": 0.10020449897750594
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -4041,8 +3976,8 @@
    "stop": 0.13131428571428572,
    "target": 0.15925714285714287,
    "expires": 1795982400000,
-   "mark": 0.1391,
-   "markR": 0.11451942740286224
+   "mark": 0.139,
+   "markR": 0.10020449897750594
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -4054,8 +3989,8 @@
    "stop": 0.1289857142857143,
    "target": 0.15692857142857145,
    "expires": 1795636800000,
-   "mark": 0.1391,
-   "markR": 0.08588957055214667
+   "mark": 0.139,
+   "markR": 0.07515337423312946
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -4067,8 +4002,8 @@
    "stop": 0.13364285714285715,
    "target": 0.15227142857142859,
    "expires": 1795636800000,
-   "mark": 0.1391,
-   "markR": 0.17177914110429335
+   "mark": 0.139,
+   "markR": 0.1503067484662589
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -4080,8 +4015,8 @@
    "stop": 0.1289857142857143,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.1391,
-   "markR": 0.08588957055214667
+   "mark": 0.139,
+   "markR": 0.07515337423312946
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -4093,8 +4028,8 @@
    "stop": 0.09420642857142857,
    "target": 0.11047714285714286,
    "expires": 1795636800000,
-   "mark": 0.09944,
-   "markR": -0.03503226656130567
+   "mark": 0.09996,
+   "markR": 0.06084551560647907
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -4106,8 +4041,8 @@
    "stop": 0.09420642857142857,
    "target": 0.11590071428571429,
    "expires": 1795982400000,
-   "mark": 0.09944,
-   "markR": -0.03503226656130567
+   "mark": 0.09996,
+   "markR": 0.06084551560647907
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -4119,8 +4054,8 @@
    "stop": 0.09239857142857143,
    "target": 0.11409285714285713,
    "expires": 1795636800000,
-   "mark": 0.09944,
-   "markR": -0.026274199920979267
+   "mark": 0.09996,
+   "markR": 0.045634136704859336
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -4132,8 +4067,8 @@
    "stop": 0.09601428571428572,
    "target": 0.11047714285714283,
    "expires": 1795636800000,
-   "mark": 0.09944,
-   "markR": -0.05254839984195864
+   "mark": 0.09996,
+   "markR": 0.09126827340971884
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -4145,8 +4080,8 @@
    "stop": 0.09239857142857143,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.09944,
-   "markR": -0.026274199920979267
+   "mark": 0.09996,
+   "markR": 0.045634136704859336
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -4353,8 +4288,8 @@
    "stop": 0.03571392857142857,
    "target": 0.04278214285714286,
    "expires": 1795636800000,
-   "mark": 0.03811,
-   "markR": 0.01697741397604902
+   "mark": 0.03793,
+   "markR": -0.05942094891617452
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -4366,8 +4301,8 @@
    "stop": 0.03571392857142857,
    "target": 0.04513821428571429,
    "expires": 1795982400000,
-   "mark": 0.03811,
-   "markR": 0.01697741397604902
+   "mark": 0.03793,
+   "markR": -0.05942094891617452
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -4379,8 +4314,8 @@
    "stop": 0.03492857142857143,
    "target": 0.044352857142857145,
    "expires": 1795636800000,
-   "mark": 0.03811,
-   "markR": 0.012733060482036766
+   "mark": 0.03793,
+   "markR": -0.04456571168713089
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -4392,8 +4327,8 @@
    "stop": 0.03649928571428571,
    "target": 0.04278214285714286,
    "expires": 1795636800000,
-   "mark": 0.03811,
-   "markR": 0.02546612096407353
+   "mark": 0.03793,
+   "markR": -0.08913142337426178
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -4405,8 +4340,8 @@
    "stop": 0.03492857142857143,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.03811,
-   "markR": 0.012733060482036766
+   "mark": 0.03793,
+   "markR": -0.04456571168713089
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -4418,8 +4353,8 @@
    "stop": 0.03571392857142857,
    "target": 0.04278214285714286,
    "expires": 1795636800000,
-   "mark": 0.03811,
-   "markR": 0.01697741397604902
+   "mark": 0.03793,
+   "markR": -0.05942094891617452
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -4431,8 +4366,8 @@
    "stop": 0.03571392857142857,
    "target": 0.04513821428571429,
    "expires": 1795982400000,
-   "mark": 0.03811,
-   "markR": 0.01697741397604902
+   "mark": 0.03793,
+   "markR": -0.05942094891617452
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -4444,8 +4379,8 @@
    "stop": 0.03492857142857143,
    "target": 0.044352857142857145,
    "expires": 1795636800000,
-   "mark": 0.03811,
-   "markR": 0.012733060482036766
+   "mark": 0.03793,
+   "markR": -0.04456571168713089
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -4457,8 +4392,8 @@
    "stop": 0.03649928571428571,
    "target": 0.04278214285714286,
    "expires": 1795636800000,
-   "mark": 0.03811,
-   "markR": 0.02546612096407353
+   "mark": 0.03793,
+   "markR": -0.08913142337426178
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -4470,8 +4405,8 @@
    "stop": 0.03492857142857143,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.03811,
-   "markR": 0.012733060482036766
+   "mark": 0.03793,
+   "markR": -0.04456571168713089
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -4483,8 +4418,8 @@
    "stop": 0.4071825,
    "target": 0.5671350000000001,
    "expires": 1795636800000,
-   "mark": 0.46759,
-   "markR": 0.13297697754020693
+   "mark": 0.46947,
+   "markR": 0.16823744549162986
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -4496,8 +4431,8 @@
    "stop": 0.4071825,
    "target": 0.6204525000000001,
    "expires": 1795982400000,
-   "mark": 0.46759,
-   "markR": 0.13297697754020693
+   "mark": 0.46947,
+   "markR": 0.16823744549162986
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -4509,8 +4444,8 @@
    "stop": 0.38941000000000003,
    "target": 0.60268,
    "expires": 1795636800000,
-   "mark": 0.46759,
-   "markR": 0.09973273315515525
+   "mark": 0.46947,
+   "markR": 0.12617808411872247
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -4522,8 +4457,8 @@
    "stop": 0.424955,
    "target": 0.567135,
    "expires": 1795636800000,
-   "mark": 0.46759,
-   "markR": 0.1994654663103105
+   "mark": 0.46947,
+   "markR": 0.25235616823744494
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -4535,8 +4470,8 @@
    "stop": 0.38941000000000003,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.46759,
-   "markR": 0.09973273315515525
+   "mark": 0.46947,
+   "markR": 0.12617808411872247
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -4548,8 +4483,8 @@
    "stop": 0.00286275,
    "target": 0.0034544999999999997,
    "expires": 1795636800000,
-   "mark": 0.003077,
-   "markR": 0.08618504435994978
+   "mark": 0.003047,
+   "markR": -0.06590621039290238
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -4561,8 +4496,8 @@
    "stop": 0.00286275,
    "target": 0.0036517499999999996,
    "expires": 1795982400000,
-   "mark": 0.003077,
-   "markR": 0.08618504435994978
+   "mark": 0.003047,
+   "markR": -0.06590621039290238
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -4574,8 +4509,8 @@
    "stop": 0.002797,
    "target": 0.0035859999999999993,
    "expires": 1795636800000,
-   "mark": 0.003077,
-   "markR": 0.06463878326996236
+   "mark": 0.003047,
+   "markR": -0.04942965779467681
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -4587,8 +4522,8 @@
    "stop": 0.0029284999999999997,
    "target": 0.0034545,
    "expires": 1795636800000,
-   "mark": 0.003077,
-   "markR": 0.12927756653992453
+   "mark": 0.003047,
+   "markR": -0.09885931558935346
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -4600,8 +4535,8 @@
    "stop": 0.002797,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.003077,
-   "markR": 0.06463878326996236
+   "mark": 0.003047,
+   "markR": -0.04942965779467681
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -4613,8 +4548,8 @@
    "stop": 0.00286275,
    "target": 0.0034544999999999997,
    "expires": 1795636800000,
-   "mark": 0.003077,
-   "markR": 0.08618504435994978
+   "mark": 0.003047,
+   "markR": -0.06590621039290238
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -4626,8 +4561,8 @@
    "stop": 0.00286275,
    "target": 0.0036517499999999996,
    "expires": 1795982400000,
-   "mark": 0.003077,
-   "markR": 0.08618504435994978
+   "mark": 0.003047,
+   "markR": -0.06590621039290238
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -4639,8 +4574,8 @@
    "stop": 0.002797,
    "target": 0.0035859999999999993,
    "expires": 1795636800000,
-   "mark": 0.003077,
-   "markR": 0.06463878326996236
+   "mark": 0.003047,
+   "markR": -0.04942965779467681
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -4652,8 +4587,8 @@
    "stop": 0.0029284999999999997,
    "target": 0.0034545,
    "expires": 1795636800000,
-   "mark": 0.003077,
-   "markR": 0.12927756653992453
+   "mark": 0.003047,
+   "markR": -0.09885931558935346
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -4665,60 +4600,8 @@
    "stop": 0.002797,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.003077,
-   "markR": 0.06463878326996236
-  },
-  {
-   "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
-   "family": "Tout le Top 50 (témoin)",
-   "exit": "SL 1.5ATR · TP 2R · 3J",
-   "symbol": "BOBAUSDT",
-   "entryT": 1795377600000,
-   "entry": 0.01414,
-   "stop": 0.013722142857142856,
-   "target": 0.014975714285714287,
-   "expires": 1795636800000,
-   "mark": 0.0141,
-   "markR": -0.09572649572649584
-  },
-  {
-   "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
-   "family": "Tout le Top 50 (témoin)",
-   "exit": "SL 1.5ATR · TP 3R · 7J",
-   "symbol": "BOBAUSDT",
-   "entryT": 1795377600000,
-   "entry": 0.01414,
-   "stop": 0.013722142857142856,
-   "target": 0.01539357142857143,
-   "expires": 1795982400000,
-   "mark": 0.0141,
-   "markR": -0.09572649572649584
-  },
-  {
-   "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
-   "family": "Tout le Top 50 (témoin)",
-   "exit": "SL 2ATR · TP 2R · 3J",
-   "symbol": "BOBAUSDT",
-   "entryT": 1795377600000,
-   "entry": 0.01414,
-   "stop": 0.013582857142857143,
-   "target": 0.015254285714285713,
-   "expires": 1795636800000,
-   "mark": 0.0141,
-   "markR": -0.07179487179487204
-  },
-  {
-   "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
-   "family": "Tout le Top 50 (témoin)",
-   "exit": "SL 1ATR · TP 3R · 3J",
-   "symbol": "BOBAUSDT",
-   "entryT": 1795377600000,
-   "entry": 0.01414,
-   "stop": 0.013861428571428571,
-   "target": 0.014975714285714285,
-   "expires": 1795636800000,
-   "mark": 0.0141,
-   "markR": -0.14358974358974408
+   "mark": 0.003047,
+   "markR": -0.04942965779467681
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -4730,60 +4613,8 @@
    "stop": 0.013582857142857143,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.0141,
-   "markR": -0.07179487179487204
-  },
-  {
-   "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
-   "family": "Nouvel entrant Top 50",
-   "exit": "SL 1.5ATR · TP 2R · 3J",
-   "symbol": "BOBAUSDT",
-   "entryT": 1795377600000,
-   "entry": 0.01414,
-   "stop": 0.013722142857142856,
-   "target": 0.014975714285714287,
-   "expires": 1795636800000,
-   "mark": 0.0141,
-   "markR": -0.09572649572649584
-  },
-  {
-   "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
-   "family": "Nouvel entrant Top 50",
-   "exit": "SL 1.5ATR · TP 3R · 7J",
-   "symbol": "BOBAUSDT",
-   "entryT": 1795377600000,
-   "entry": 0.01414,
-   "stop": 0.013722142857142856,
-   "target": 0.01539357142857143,
-   "expires": 1795982400000,
-   "mark": 0.0141,
-   "markR": -0.09572649572649584
-  },
-  {
-   "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
-   "family": "Nouvel entrant Top 50",
-   "exit": "SL 2ATR · TP 2R · 3J",
-   "symbol": "BOBAUSDT",
-   "entryT": 1795377600000,
-   "entry": 0.01414,
-   "stop": 0.013582857142857143,
-   "target": 0.015254285714285713,
-   "expires": 1795636800000,
-   "mark": 0.0141,
-   "markR": -0.07179487179487204
-  },
-  {
-   "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
-   "family": "Nouvel entrant Top 50",
-   "exit": "SL 1ATR · TP 3R · 3J",
-   "symbol": "BOBAUSDT",
-   "entryT": 1795377600000,
-   "entry": 0.01414,
-   "stop": 0.013861428571428571,
-   "target": 0.014975714285714285,
-   "expires": 1795636800000,
-   "mark": 0.0141,
-   "markR": -0.14358974358974408
+   "mark": 0.01411,
+   "markR": -0.05384615384615481
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -4795,8 +4626,8 @@
    "stop": 0.013582857142857143,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.0141,
-   "markR": -0.07179487179487204
+   "mark": 0.01411,
+   "markR": -0.05384615384615481
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -4808,8 +4639,8 @@
    "stop": 0.044762857142857146,
    "target": 0.0555242857142857,
    "expires": 1795636800000,
-   "mark": 0.04873,
-   "markR": 0.1059338908801291
+   "mark": 0.04928,
+   "markR": 0.25925925925925974
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -4821,8 +4652,8 @@
    "stop": 0.044762857142857146,
    "target": 0.05911142857142855,
    "expires": 1795982400000,
-   "mark": 0.04873,
-   "markR": 0.1059338908801291
+   "mark": 0.04928,
+   "markR": 0.25925925925925974
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -4834,8 +4665,8 @@
    "stop": 0.04356714285714286,
    "target": 0.05791571428571427,
    "expires": 1795636800000,
-   "mark": 0.04873,
-   "markR": 0.07945041816009679
+   "mark": 0.04928,
+   "markR": 0.19444444444444473
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -4847,8 +4678,8 @@
    "stop": 0.045958571428571425,
    "target": 0.055524285714285714,
    "expires": 1795636800000,
-   "mark": 0.04873,
-   "markR": 0.15890083632019333
+   "mark": 0.04928,
+   "markR": 0.3888888888888889
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -4860,8 +4691,8 @@
    "stop": 0.04356714285714286,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.04873,
-   "markR": 0.07945041816009679
+   "mark": 0.04928,
+   "markR": 0.19444444444444473
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -4873,8 +4704,8 @@
    "stop": 0.0038788571428571427,
    "target": 0.004479285714285715,
    "expires": 1795636800000,
-   "mark": 0.004077,
-   "markR": -0.009992862241257554
+   "mark": 0.00406,
+   "markR": -0.09493219129193377
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -4886,8 +4717,8 @@
    "stop": 0.0038788571428571427,
    "target": 0.004679428571428572,
    "expires": 1795982400000,
-   "mark": 0.004077,
-   "markR": -0.009992862241257554
+   "mark": 0.00406,
+   "markR": -0.09493219129193377
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -4899,8 +4730,8 @@
    "stop": 0.003812142857142857,
    "target": 0.004612714285714287,
    "expires": 1795636800000,
-   "mark": 0.004077,
-   "markR": -0.007494646680943165
+   "mark": 0.00406,
+   "markR": -0.07119914346895032
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -4912,8 +4743,8 @@
    "stop": 0.0039455714285714285,
    "target": 0.004479285714285715,
    "expires": 1795636800000,
-   "mark": 0.004077,
-   "markR": -0.01498929336188633
+   "mark": 0.00406,
+   "markR": -0.14239828693790063
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -4925,8 +4756,8 @@
    "stop": 0.003812142857142857,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.004077,
-   "markR": -0.007494646680943165
+   "mark": 0.00406,
+   "markR": -0.07119914346895032
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -4938,8 +4769,8 @@
    "stop": 0.0038788571428571427,
    "target": 0.004479285714285715,
    "expires": 1795636800000,
-   "mark": 0.004077,
-   "markR": -0.009992862241257554
+   "mark": 0.00406,
+   "markR": -0.09493219129193377
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -4951,8 +4782,8 @@
    "stop": 0.0038788571428571427,
    "target": 0.004679428571428572,
    "expires": 1795982400000,
-   "mark": 0.004077,
-   "markR": -0.009992862241257554
+   "mark": 0.00406,
+   "markR": -0.09493219129193377
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -4964,8 +4795,8 @@
    "stop": 0.003812142857142857,
    "target": 0.004612714285714287,
    "expires": 1795636800000,
-   "mark": 0.004077,
-   "markR": -0.007494646680943165
+   "mark": 0.00406,
+   "markR": -0.07119914346895032
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -4977,8 +4808,8 @@
    "stop": 0.0039455714285714285,
    "target": 0.004479285714285715,
    "expires": 1795636800000,
-   "mark": 0.004077,
-   "markR": -0.01498929336188633
+   "mark": 0.00406,
+   "markR": -0.14239828693790063
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -4990,8 +4821,8 @@
    "stop": 0.003812142857142857,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.004077,
-   "markR": -0.007494646680943165
+   "mark": 0.00406,
+   "markR": -0.07119914346895032
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 2R · 3J",
@@ -5003,8 +4834,8 @@
    "stop": 0.0038788571428571427,
    "target": 0.004479285714285715,
    "expires": 1795636800000,
-   "mark": 0.004077,
-   "markR": -0.009992862241257554
+   "mark": 0.00406,
+   "markR": -0.09493219129193377
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 3R · 7J",
@@ -5016,8 +4847,8 @@
    "stop": 0.0038788571428571427,
    "target": 0.004679428571428572,
    "expires": 1795982400000,
-   "mark": 0.004077,
-   "markR": -0.009992862241257554
+   "mark": 0.00406,
+   "markR": -0.09493219129193377
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · TP 2R · 3J",
@@ -5029,8 +4860,8 @@
    "stop": 0.003812142857142857,
    "target": 0.004612714285714287,
    "expires": 1795636800000,
-   "mark": 0.004077,
-   "markR": -0.007494646680943165
+   "mark": 0.00406,
+   "markR": -0.07119914346895032
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1ATR · TP 3R · 3J",
@@ -5042,8 +4873,8 @@
    "stop": 0.0039455714285714285,
    "target": 0.004479285714285715,
    "expires": 1795636800000,
-   "mark": 0.004077,
-   "markR": -0.01498929336188633
+   "mark": 0.00406,
+   "markR": -0.14239828693790063
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · sans TP · 7J",
@@ -5055,8 +4886,8 @@
    "stop": 0.003812142857142857,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.004077,
-   "markR": -0.007494646680943165
+   "mark": 0.00406,
+   "markR": -0.07119914346895032
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -5068,8 +4899,8 @@
    "stop": 0.05806607142857143,
    "target": 0.06782785714285713,
    "expires": 1795636800000,
-   "mark": 0.06137,
-   "markR": 0.015366041049281548
+   "mark": 0.06139,
+   "markR": 0.021512457468993742
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -5081,8 +4912,8 @@
    "stop": 0.05806607142857143,
    "target": 0.0710817857142857,
    "expires": 1795982400000,
-   "mark": 0.06137,
-   "markR": 0.015366041049281548
+   "mark": 0.06139,
+   "markR": 0.021512457468993742
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -5094,8 +4925,8 @@
    "stop": 0.05698142857142857,
    "target": 0.06999714285714285,
    "expires": 1795636800000,
-   "mark": 0.06137,
-   "markR": 0.011524530786961149
+   "mark": 0.06139,
+   "markR": 0.016134343101745288
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -5107,8 +4938,8 @@
    "stop": 0.059150714285714286,
    "target": 0.06782785714285713,
    "expires": 1795636800000,
-   "mark": 0.06137,
-   "markR": 0.023049061573922298
+   "mark": 0.06139,
+   "markR": 0.032268686203490576
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -5120,8 +4951,8 @@
    "stop": 0.05698142857142857,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.06137,
-   "markR": 0.011524530786961149
+   "mark": 0.06139,
+   "markR": 0.016134343101745288
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -5133,8 +4964,8 @@
    "stop": 0.02808464285714286,
    "target": 0.03260071428571429,
    "expires": 1795636800000,
-   "mark": 0.02962,
-   "markR": 0.019928825622775006
+   "mark": 0.02955,
+   "markR": -0.026571767497035645
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -5146,8 +4977,8 @@
    "stop": 0.02808464285714286,
    "target": 0.03410607142857143,
    "expires": 1795982400000,
-   "mark": 0.02962,
-   "markR": 0.019928825622775006
+   "mark": 0.02955,
+   "markR": -0.026571767497035645
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -5159,8 +4990,8 @@
    "stop": 0.027582857142857145,
    "target": 0.03360428571428571,
    "expires": 1795636800000,
-   "mark": 0.02962,
-   "markR": 0.014946619217081245
+   "mark": 0.02955,
+   "markR": -0.019928825622776723
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -5172,8 +5003,8 @@
    "stop": 0.028586428571428575,
    "target": 0.03260071428571428,
    "expires": 1795636800000,
-   "mark": 0.02962,
-   "markR": 0.029893238434162542
+   "mark": 0.02955,
+   "markR": -0.039857651245553516
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -5185,8 +5016,8 @@
    "stop": 0.027582857142857145,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.02962,
-   "markR": 0.014946619217081245
+   "mark": 0.02955,
+   "markR": -0.019928825622776723
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -5198,8 +5029,8 @@
    "stop": 0.059373214285714286,
    "target": 0.06773357142857142,
    "expires": 1795636800000,
-   "mark": 0.0624,
-   "markR": 0.08612072279892248
+   "mark": 0.06232,
+   "markR": 0.057413815199282486
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -5211,8 +5042,8 @@
    "stop": 0.059373214285714286,
    "target": 0.07052035714285715,
    "expires": 1795982400000,
-   "mark": 0.0624,
-   "markR": 0.08612072279892248
+   "mark": 0.06232,
+   "markR": 0.057413815199282486
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -5224,8 +5055,8 @@
    "stop": 0.05844428571428571,
    "target": 0.06959142857142858,
    "expires": 1795636800000,
-   "mark": 0.0624,
-   "markR": 0.06459054209919182
+   "mark": 0.06232,
+   "markR": 0.04306036139946184
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -5237,8 +5068,8 @@
    "stop": 0.06030214285714286,
    "target": 0.06773357142857142,
    "expires": 1795636800000,
-   "mark": 0.0624,
-   "markR": 0.1291810841983839
+   "mark": 0.06232,
+   "markR": 0.08612072279892384
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -5250,8 +5081,8 @@
    "stop": 0.05844428571428571,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.0624,
-   "markR": 0.06459054209919182
+   "mark": 0.06232,
+   "markR": 0.04306036139946184
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -5263,8 +5094,8 @@
    "stop": 1.2742857142857142,
    "target": 1.4864285714285714,
    "expires": 1795636800000,
-   "mark": 1.345,
-   "markR": 0
+   "mark": 1.347,
+   "markR": 0.028282828282828302
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -5276,8 +5107,8 @@
    "stop": 1.2742857142857142,
    "target": 1.5571428571428572,
    "expires": 1795982400000,
-   "mark": 1.345,
-   "markR": 0
+   "mark": 1.347,
+   "markR": 0.028282828282828302
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -5289,8 +5120,8 @@
    "stop": 1.2507142857142857,
    "target": 1.5335714285714286,
    "expires": 1795636800000,
-   "mark": 1.345,
-   "markR": 0
+   "mark": 1.347,
+   "markR": 0.021212121212121227
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -5302,8 +5133,8 @@
    "stop": 1.2978571428571428,
    "target": 1.4864285714285714,
    "expires": 1795636800000,
-   "mark": 1.345,
-   "markR": 0
+   "mark": 1.347,
+   "markR": 0.042424242424242455
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -5315,8 +5146,8 @@
    "stop": 1.2507142857142857,
    "target": null,
    "expires": 1795982400000,
-   "mark": 1.345,
-   "markR": 0
+   "mark": 1.347,
+   "markR": 0.021212121212121227
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -5328,8 +5159,8 @@
    "stop": 1.2742857142857142,
    "target": 1.4864285714285714,
    "expires": 1795636800000,
-   "mark": 1.345,
-   "markR": 0
+   "mark": 1.347,
+   "markR": 0.028282828282828302
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -5341,8 +5172,8 @@
    "stop": 1.2742857142857142,
    "target": 1.5571428571428572,
    "expires": 1795982400000,
-   "mark": 1.345,
-   "markR": 0
+   "mark": 1.347,
+   "markR": 0.028282828282828302
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -5354,8 +5185,8 @@
    "stop": 1.2507142857142857,
    "target": 1.5335714285714286,
    "expires": 1795636800000,
-   "mark": 1.345,
-   "markR": 0
+   "mark": 1.347,
+   "markR": 0.021212121212121227
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -5367,8 +5198,8 @@
    "stop": 1.2978571428571428,
    "target": 1.4864285714285714,
    "expires": 1795636800000,
-   "mark": 1.345,
-   "markR": 0
+   "mark": 1.347,
+   "markR": 0.042424242424242455
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -5380,8 +5211,8 @@
    "stop": 1.2507142857142857,
    "target": null,
    "expires": 1795982400000,
-   "mark": 1.345,
-   "markR": 0
+   "mark": 1.347,
+   "markR": 0.021212121212121227
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -5393,8 +5224,8 @@
    "stop": 0.14245714285714287,
    "target": 0.1512257142857143,
    "expires": 1795636800000,
-   "mark": 0.14621,
-   "markR": 0.28396871945258945
+   "mark": 0.14633,
+   "markR": 0.32502443792765634
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -5406,8 +5237,8 @@
    "stop": 0.14245714285714287,
    "target": 0.15414857142857144,
    "expires": 1795982400000,
-   "mark": 0.14621,
-   "markR": 0.28396871945258945
+   "mark": 0.14633,
+   "markR": 0.32502443792765634
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -5419,8 +5250,8 @@
    "stop": 0.14148285714285716,
    "target": 0.1531742857142857,
    "expires": 1795636800000,
-   "mark": 0.14621,
-   "markR": 0.2129765395894426
+   "mark": 0.14633,
+   "markR": 0.24376832844574284
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -5432,8 +5263,8 @@
    "stop": 0.14343142857142857,
    "target": 0.15122571428571432,
    "expires": 1795636800000,
-   "mark": 0.14621,
-   "markR": 0.42595307917888214
+   "mark": 0.14633,
+   "markR": 0.4875366568914822
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -5445,8 +5276,8 @@
    "stop": 0.14148285714285716,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.14621,
-   "markR": 0.2129765395894426
+   "mark": 0.14633,
+   "markR": 0.24376832844574284
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 2R · 3J",
@@ -5458,8 +5289,8 @@
    "stop": 0.14245714285714287,
    "target": 0.1512257142857143,
    "expires": 1795636800000,
-   "mark": 0.14621,
-   "markR": 0.28396871945258945
+   "mark": 0.14633,
+   "markR": 0.32502443792765634
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 3R · 7J",
@@ -5471,8 +5302,8 @@
    "stop": 0.14245714285714287,
    "target": 0.15414857142857144,
    "expires": 1795982400000,
-   "mark": 0.14621,
-   "markR": 0.28396871945258945
+   "mark": 0.14633,
+   "markR": 0.32502443792765634
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · TP 2R · 3J",
@@ -5484,8 +5315,8 @@
    "stop": 0.14148285714285716,
    "target": 0.1531742857142857,
    "expires": 1795636800000,
-   "mark": 0.14621,
-   "markR": 0.2129765395894426
+   "mark": 0.14633,
+   "markR": 0.24376832844574284
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1ATR · TP 3R · 3J",
@@ -5497,8 +5328,8 @@
    "stop": 0.14343142857142857,
    "target": 0.15122571428571432,
    "expires": 1795636800000,
-   "mark": 0.14621,
-   "markR": 0.42595307917888214
+   "mark": 0.14633,
+   "markR": 0.4875366568914822
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · sans TP · 7J",
@@ -5510,8 +5341,8 @@
    "stop": 0.14148285714285716,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.14621,
-   "markR": 0.2129765395894426
+   "mark": 0.14633,
+   "markR": 0.24376832844574284
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -5523,8 +5354,8 @@
    "stop": 0.09502142857142856,
    "target": 0.11205714285714287,
    "expires": 1795636800000,
-   "mark": 0.1007,
-   "markR": 0
+   "mark": 0.1006,
+   "markR": -0.017610062893082243
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -5536,8 +5367,8 @@
    "stop": 0.09502142857142856,
    "target": 0.1177357142857143,
    "expires": 1795982400000,
-   "mark": 0.1007,
-   "markR": 0
+   "mark": 0.1006,
+   "markR": -0.017610062893082243
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -5549,8 +5380,8 @@
    "stop": 0.09312857142857142,
    "target": 0.11584285714285715,
    "expires": 1795636800000,
-   "mark": 0.1007,
-   "markR": 0
+   "mark": 0.1006,
+   "markR": -0.01320754716981169
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -5562,8 +5393,8 @@
    "stop": 0.09691428571428572,
    "target": 0.11205714285714284,
    "expires": 1795636800000,
-   "mark": 0.1007,
-   "markR": 0
+   "mark": 0.1006,
+   "markR": -0.02641509433962343
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -5575,8 +5406,8 @@
    "stop": 0.09312857142857142,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.1007,
-   "markR": 0
+   "mark": 0.1006,
+   "markR": -0.01320754716981169
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -5588,8 +5419,8 @@
    "stop": 0.09502142857142856,
    "target": 0.11205714285714287,
    "expires": 1795636800000,
-   "mark": 0.1007,
-   "markR": 0
+   "mark": 0.1006,
+   "markR": -0.017610062893082243
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -5601,8 +5432,8 @@
    "stop": 0.09502142857142856,
    "target": 0.1177357142857143,
    "expires": 1795982400000,
-   "mark": 0.1007,
-   "markR": 0
+   "mark": 0.1006,
+   "markR": -0.017610062893082243
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -5614,8 +5445,8 @@
    "stop": 0.09312857142857142,
    "target": 0.11584285714285715,
    "expires": 1795636800000,
-   "mark": 0.1007,
-   "markR": 0
+   "mark": 0.1006,
+   "markR": -0.01320754716981169
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -5627,8 +5458,8 @@
    "stop": 0.09691428571428572,
    "target": 0.11205714285714284,
    "expires": 1795636800000,
-   "mark": 0.1007,
-   "markR": 0
+   "mark": 0.1006,
+   "markR": -0.02641509433962343
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -5640,8 +5471,8 @@
    "stop": 0.09312857142857142,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.1007,
-   "markR": 0
+   "mark": 0.1006,
+   "markR": -0.01320754716981169
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -5653,8 +5484,8 @@
    "stop": 0.127275,
    "target": 0.14414999999999997,
    "expires": 1795636800000,
-   "mark": 0.1333,
-   "markR": 0.07111111111111326
+   "mark": 0.1338,
+   "markR": 0.16000000000000236
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -5666,8 +5497,8 @@
    "stop": 0.127275,
    "target": 0.14977499999999996,
    "expires": 1795982400000,
-   "mark": 0.1333,
-   "markR": 0.07111111111111326
+   "mark": 0.1338,
+   "markR": 0.16000000000000236
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -5679,8 +5510,8 @@
    "stop": 0.12539999999999998,
    "target": 0.1479,
    "expires": 1795636800000,
-   "mark": 0.1333,
-   "markR": 0.053333333333334815
+   "mark": 0.1338,
+   "markR": 0.12000000000000148
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -5692,8 +5523,8 @@
    "stop": 0.12915,
    "target": 0.14415,
    "expires": 1795636800000,
-   "mark": 0.1333,
-   "markR": 0.10666666666666963
+   "mark": 0.1338,
+   "markR": 0.24000000000000296
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -5705,8 +5536,8 @@
    "stop": 0.12539999999999998,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.1333,
-   "markR": 0.053333333333334815
+   "mark": 0.1338,
+   "markR": 0.12000000000000148
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -5718,8 +5549,8 @@
    "stop": 0.127275,
    "target": 0.14414999999999997,
    "expires": 1795636800000,
-   "mark": 0.1333,
-   "markR": 0.07111111111111326
+   "mark": 0.1338,
+   "markR": 0.16000000000000236
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -5731,8 +5562,8 @@
    "stop": 0.127275,
    "target": 0.14977499999999996,
    "expires": 1795982400000,
-   "mark": 0.1333,
-   "markR": 0.07111111111111326
+   "mark": 0.1338,
+   "markR": 0.16000000000000236
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -5744,8 +5575,8 @@
    "stop": 0.12539999999999998,
    "target": 0.1479,
    "expires": 1795636800000,
-   "mark": 0.1333,
-   "markR": 0.053333333333334815
+   "mark": 0.1338,
+   "markR": 0.12000000000000148
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -5757,8 +5588,8 @@
    "stop": 0.12915,
    "target": 0.14415,
    "expires": 1795636800000,
-   "mark": 0.1333,
-   "markR": 0.10666666666666963
+   "mark": 0.1338,
+   "markR": 0.24000000000000296
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -5770,8 +5601,8 @@
    "stop": 0.12539999999999998,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.1333,
-   "markR": 0.053333333333334815
+   "mark": 0.1338,
+   "markR": 0.12000000000000148
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -5783,8 +5614,8 @@
    "stop": 0.0020411785714285714,
    "target": 0.002307642857142857,
    "expires": 1795636800000,
-   "mark": 0.002144,
-   "markR": 0.15761962203458124
+   "mark": 0.002142,
+   "markR": 0.1351025331724954
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -5796,8 +5627,8 @@
    "stop": 0.0020411785714285714,
    "target": 0.0023964642857142856,
    "expires": 1795982400000,
-   "mark": 0.002144,
-   "markR": 0.15761962203458124
+   "mark": 0.002142,
+   "markR": 0.1351025331724954
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -5809,8 +5640,8 @@
    "stop": 0.0020115714285714285,
    "target": 0.0023668571428571428,
    "expires": 1795636800000,
-   "mark": 0.002144,
-   "markR": 0.11821471652593592
+   "mark": 0.002142,
+   "markR": 0.10132689987937156
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -5822,8 +5653,8 @@
    "stop": 0.0020707857142857142,
    "target": 0.002307642857142857,
    "expires": 1795636800000,
-   "mark": 0.002144,
-   "markR": 0.23642943305187183
+   "mark": 0.002142,
+   "markR": 0.20265379975874312
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -5835,8 +5666,8 @@
    "stop": 0.0020115714285714285,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.002144,
-   "markR": 0.11821471652593592
+   "mark": 0.002142,
+   "markR": 0.10132689987937156
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -5848,8 +5679,8 @@
    "stop": 0.0020411785714285714,
    "target": 0.002307642857142857,
    "expires": 1795636800000,
-   "mark": 0.002144,
-   "markR": 0.15761962203458124
+   "mark": 0.002142,
+   "markR": 0.1351025331724954
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -5861,8 +5692,8 @@
    "stop": 0.0020411785714285714,
    "target": 0.0023964642857142856,
    "expires": 1795982400000,
-   "mark": 0.002144,
-   "markR": 0.15761962203458124
+   "mark": 0.002142,
+   "markR": 0.1351025331724954
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -5874,8 +5705,8 @@
    "stop": 0.0020115714285714285,
    "target": 0.0023668571428571428,
    "expires": 1795636800000,
-   "mark": 0.002144,
-   "markR": 0.11821471652593592
+   "mark": 0.002142,
+   "markR": 0.10132689987937156
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -5887,8 +5718,8 @@
    "stop": 0.0020707857142857142,
    "target": 0.002307642857142857,
    "expires": 1795636800000,
-   "mark": 0.002144,
-   "markR": 0.23642943305187183
+   "mark": 0.002142,
+   "markR": 0.20265379975874312
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -5900,8 +5731,8 @@
    "stop": 0.0020115714285714285,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.002144,
-   "markR": 0.11821471652593592
+   "mark": 0.002142,
+   "markR": 0.10132689987937156
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 2R · 3J",
@@ -5913,8 +5744,8 @@
    "stop": 0.0020411785714285714,
    "target": 0.002307642857142857,
    "expires": 1795636800000,
-   "mark": 0.002144,
-   "markR": 0.15761962203458124
+   "mark": 0.002142,
+   "markR": 0.1351025331724954
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 3R · 7J",
@@ -5926,8 +5757,8 @@
    "stop": 0.0020411785714285714,
    "target": 0.0023964642857142856,
    "expires": 1795982400000,
-   "mark": 0.002144,
-   "markR": 0.15761962203458124
+   "mark": 0.002142,
+   "markR": 0.1351025331724954
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · TP 2R · 3J",
@@ -5939,8 +5770,8 @@
    "stop": 0.0020115714285714285,
    "target": 0.0023668571428571428,
    "expires": 1795636800000,
-   "mark": 0.002144,
-   "markR": 0.11821471652593592
+   "mark": 0.002142,
+   "markR": 0.10132689987937156
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1ATR · TP 3R · 3J",
@@ -5952,8 +5783,8 @@
    "stop": 0.0020707857142857142,
    "target": 0.002307642857142857,
    "expires": 1795636800000,
-   "mark": 0.002144,
-   "markR": 0.23642943305187183
+   "mark": 0.002142,
+   "markR": 0.20265379975874312
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · sans TP · 7J",
@@ -5965,8 +5796,8 @@
    "stop": 0.0020115714285714285,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.002144,
-   "markR": 0.11821471652593592
+   "mark": 0.002142,
+   "markR": 0.10132689987937156
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -6108,8 +5939,8 @@
    "stop": 0.012789285714285713,
    "target": 0.015341428571428572,
    "expires": 1795636800000,
-   "mark": 0.0137,
-   "markR": 0.07052896725440923
+   "mark": 0.01377,
+   "markR": 0.1528127623845506
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -6121,8 +5952,8 @@
    "stop": 0.012789285714285713,
    "target": 0.016192142857142856,
    "expires": 1795982400000,
-   "mark": 0.0137,
-   "markR": 0.07052896725440923
+   "mark": 0.01377,
+   "markR": 0.1528127623845506
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -6134,8 +5965,8 @@
    "stop": 0.012505714285714285,
    "target": 0.015908571428571428,
    "expires": 1795636800000,
-   "mark": 0.0137,
-   "markR": 0.052896725440806945
+   "mark": 0.01377,
+   "markR": 0.11460957178841301
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -6147,8 +5978,8 @@
    "stop": 0.013072857142857143,
    "target": 0.015341428571428568,
    "expires": 1795636800000,
-   "mark": 0.0137,
-   "markR": 0.10579345088161404
+   "mark": 0.01377,
+   "markR": 0.22921914357682635
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -6160,8 +5991,8 @@
    "stop": 0.012505714285714285,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.0137,
-   "markR": 0.052896725440806945
+   "mark": 0.01377,
+   "markR": 0.11460957178841301
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -6173,8 +6004,8 @@
    "stop": 0.04845178571428572,
    "target": 0.05804642857142857,
    "expires": 1795636800000,
-   "mark": 0.05189,
-   "markR": 0.07504187604690034
+   "mark": 0.05182,
+   "markR": 0.053154662199887286
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -6186,8 +6017,8 @@
    "stop": 0.04845178571428572,
    "target": 0.06124464285714285,
    "expires": 1795982400000,
-   "mark": 0.05189,
-   "markR": 0.07504187604690034
+   "mark": 0.05182,
+   "markR": 0.053154662199887286
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -6199,8 +6030,8 @@
    "stop": 0.04738571428571429,
    "target": 0.06017857142857143,
    "expires": 1795636800000,
-   "mark": 0.05189,
-   "markR": 0.05628140703517522
+   "mark": 0.05182,
+   "markR": 0.03986599664991544
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -6212,8 +6043,8 @@
    "stop": 0.04951785714285715,
    "target": 0.05804642857142856,
    "expires": 1795636800000,
-   "mark": 0.05189,
-   "markR": 0.11256281407035063
+   "mark": 0.05182,
+   "markR": 0.07973199329983102
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -6225,8 +6056,8 @@
    "stop": 0.04738571428571429,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.05189,
-   "markR": 0.05628140703517522
+   "mark": 0.05182,
+   "markR": 0.03986599664991544
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -6238,8 +6069,8 @@
    "stop": 0.04845178571428572,
    "target": 0.05804642857142857,
    "expires": 1795636800000,
-   "mark": 0.05189,
-   "markR": 0.07504187604690034
+   "mark": 0.05182,
+   "markR": 0.053154662199887286
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -6251,8 +6082,8 @@
    "stop": 0.04845178571428572,
    "target": 0.06124464285714285,
    "expires": 1795982400000,
-   "mark": 0.05189,
-   "markR": 0.07504187604690034
+   "mark": 0.05182,
+   "markR": 0.053154662199887286
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -6264,8 +6095,8 @@
    "stop": 0.04738571428571429,
    "target": 0.06017857142857143,
    "expires": 1795636800000,
-   "mark": 0.05189,
-   "markR": 0.05628140703517522
+   "mark": 0.05182,
+   "markR": 0.03986599664991544
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -6277,8 +6108,8 @@
    "stop": 0.04951785714285715,
    "target": 0.05804642857142856,
    "expires": 1795636800000,
-   "mark": 0.05189,
-   "markR": 0.11256281407035063
+   "mark": 0.05182,
+   "markR": 0.07973199329983102
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -6290,8 +6121,8 @@
    "stop": 0.04738571428571429,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.05189,
-   "markR": 0.05628140703517522
+   "mark": 0.05182,
+   "markR": 0.03986599664991544
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -6303,8 +6134,8 @@
    "stop": 0.14320714285714287,
    "target": 0.1662857142857143,
    "expires": 1795636800000,
-   "mark": 0.1507,
-   "markR": -0.0259981429897872
+   "mark": 0.1505,
+   "markR": -0.0519962859795744
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -6316,8 +6147,8 @@
    "stop": 0.14320714285714287,
    "target": 0.17397857142857143,
    "expires": 1795982400000,
-   "mark": 0.1507,
-   "markR": -0.0259981429897872
+   "mark": 0.1505,
+   "markR": -0.0519962859795744
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -6329,8 +6160,8 @@
    "stop": 0.14064285714285715,
    "target": 0.1714142857142857,
    "expires": 1795636800000,
-   "mark": 0.1507,
-   "markR": -0.0194986072423404
+   "mark": 0.1505,
+   "markR": -0.0389972144846808
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -6342,8 +6173,8 @@
    "stop": 0.14577142857142858,
    "target": 0.1662857142857143,
    "expires": 1795636800000,
-   "mark": 0.1507,
-   "markR": -0.0389972144846808
+   "mark": 0.1505,
+   "markR": -0.0779944289693616
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -6355,8 +6186,8 @@
    "stop": 0.14064285714285715,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.1507,
-   "markR": -0.0194986072423404
+   "mark": 0.1505,
+   "markR": -0.0389972144846808
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -6368,8 +6199,8 @@
    "stop": 0.14320714285714287,
    "target": 0.1662857142857143,
    "expires": 1795636800000,
-   "mark": 0.1507,
-   "markR": -0.0259981429897872
+   "mark": 0.1505,
+   "markR": -0.0519962859795744
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -6381,8 +6212,8 @@
    "stop": 0.14320714285714287,
    "target": 0.17397857142857143,
    "expires": 1795982400000,
-   "mark": 0.1507,
-   "markR": -0.0259981429897872
+   "mark": 0.1505,
+   "markR": -0.0519962859795744
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -6394,8 +6225,8 @@
    "stop": 0.14064285714285715,
    "target": 0.1714142857142857,
    "expires": 1795636800000,
-   "mark": 0.1507,
-   "markR": -0.0194986072423404
+   "mark": 0.1505,
+   "markR": -0.0389972144846808
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -6407,8 +6238,8 @@
    "stop": 0.14577142857142858,
    "target": 0.1662857142857143,
    "expires": 1795636800000,
-   "mark": 0.1507,
-   "markR": -0.0389972144846808
+   "mark": 0.1505,
+   "markR": -0.0779944289693616
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -6420,8 +6251,8 @@
    "stop": 0.14064285714285715,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.1507,
-   "markR": -0.0194986072423404
+   "mark": 0.1505,
+   "markR": -0.0389972144846808
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -6433,8 +6264,8 @@
    "stop": 0.07137464285714286,
    "target": 0.08255071428571428,
    "expires": 1795636800000,
-   "mark": 0.07445,
-   "markR": -0.17447991563608423
+   "mark": 0.0748,
+   "markR": -0.08052919183203773
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -6446,8 +6277,8 @@
    "stop": 0.07137464285714286,
    "target": 0.08627607142857142,
    "expires": 1795982400000,
-   "mark": 0.07445,
-   "markR": -0.17447991563608423
+   "mark": 0.0748,
+   "markR": -0.08052919183203773
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -6459,8 +6290,8 @@
    "stop": 0.07013285714285714,
    "target": 0.08503428571428573,
    "expires": 1795636800000,
-   "mark": 0.07445,
-   "markR": -0.13085993672706292
+   "mark": 0.0748,
+   "markR": -0.06039689387402818
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -6472,8 +6303,8 @@
    "stop": 0.07261642857142857,
    "target": 0.0825507142857143,
    "expires": 1795636800000,
-   "mark": 0.07445,
-   "markR": -0.26171987345412584
+   "mark": 0.0748,
+   "markR": -0.12079378774805637
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -6485,8 +6316,8 @@
    "stop": 0.07013285714285714,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.07445,
-   "markR": -0.13085993672706292
+   "mark": 0.0748,
+   "markR": -0.06039689387402818
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -6498,8 +6329,8 @@
    "stop": 0.07137464285714286,
    "target": 0.08255071428571428,
    "expires": 1795636800000,
-   "mark": 0.07445,
-   "markR": -0.17447991563608423
+   "mark": 0.0748,
+   "markR": -0.08052919183203773
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -6511,8 +6342,8 @@
    "stop": 0.07137464285714286,
    "target": 0.08627607142857142,
    "expires": 1795982400000,
-   "mark": 0.07445,
-   "markR": -0.17447991563608423
+   "mark": 0.0748,
+   "markR": -0.08052919183203773
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -6524,8 +6355,8 @@
    "stop": 0.07013285714285714,
    "target": 0.08503428571428573,
    "expires": 1795636800000,
-   "mark": 0.07445,
-   "markR": -0.13085993672706292
+   "mark": 0.0748,
+   "markR": -0.06039689387402818
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -6537,8 +6368,8 @@
    "stop": 0.07261642857142857,
    "target": 0.0825507142857143,
    "expires": 1795636800000,
-   "mark": 0.07445,
-   "markR": -0.26171987345412584
+   "mark": 0.0748,
+   "markR": -0.12079378774805637
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -6550,8 +6381,8 @@
    "stop": 0.07013285714285714,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.07445,
-   "markR": -0.13085993672706292
+   "mark": 0.0748,
+   "markR": -0.06039689387402818
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 2R · 3J",
@@ -6563,8 +6394,8 @@
    "stop": 0.07137464285714286,
    "target": 0.08255071428571428,
    "expires": 1795636800000,
-   "mark": 0.07445,
-   "markR": -0.17447991563608423
+   "mark": 0.0748,
+   "markR": -0.08052919183203773
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 3R · 7J",
@@ -6576,8 +6407,8 @@
    "stop": 0.07137464285714286,
    "target": 0.08627607142857142,
    "expires": 1795982400000,
-   "mark": 0.07445,
-   "markR": -0.17447991563608423
+   "mark": 0.0748,
+   "markR": -0.08052919183203773
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · TP 2R · 3J",
@@ -6589,8 +6420,8 @@
    "stop": 0.07013285714285714,
    "target": 0.08503428571428573,
    "expires": 1795636800000,
-   "mark": 0.07445,
-   "markR": -0.13085993672706292
+   "mark": 0.0748,
+   "markR": -0.06039689387402818
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1ATR · TP 3R · 3J",
@@ -6602,8 +6433,8 @@
    "stop": 0.07261642857142857,
    "target": 0.0825507142857143,
    "expires": 1795636800000,
-   "mark": 0.07445,
-   "markR": -0.26171987345412584
+   "mark": 0.0748,
+   "markR": -0.12079378774805637
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · sans TP · 7J",
@@ -6615,8 +6446,8 @@
    "stop": 0.07013285714285714,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.07445,
-   "markR": -0.13085993672706292
+   "mark": 0.0748,
+   "markR": -0.06039689387402818
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -6628,8 +6459,8 @@
    "stop": 5.855714285714286,
    "target": 6.9755714285714285,
    "expires": 1795636800000,
-   "mark": 6.231,
-   "markR": 0.005357826253348052
+   "mark": 6.221,
+   "markR": -0.02143130501339459
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -6641,8 +6472,8 @@
    "stop": 5.855714285714286,
    "target": 7.348857142857143,
    "expires": 1795982400000,
-   "mark": 6.231,
-   "markR": 0.005357826253348052
+   "mark": 6.221,
+   "markR": -0.02143130501339459
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -6654,8 +6485,8 @@
    "stop": 5.731285714285715,
    "target": 7.224428571428571,
    "expires": 1795636800000,
-   "mark": 6.231,
-   "markR": 0.004018369690011041
+   "mark": 6.221,
+   "markR": -0.016073478760045952
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -6667,8 +6498,8 @@
    "stop": 5.980142857142857,
    "target": 6.975571428571429,
    "expires": 1795636800000,
-   "mark": 6.231,
-   "markR": 0.008036739380022069
+   "mark": 6.221,
+   "markR": -0.03214695752009184
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -6680,8 +6511,8 @@
    "stop": 5.731285714285715,
    "target": null,
    "expires": 1795982400000,
-   "mark": 6.231,
-   "markR": 0.004018369690011041
+   "mark": 6.221,
+   "markR": -0.016073478760045952
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -6693,8 +6524,8 @@
    "stop": 5.855714285714286,
    "target": 6.9755714285714285,
    "expires": 1795636800000,
-   "mark": 6.231,
-   "markR": 0.005357826253348052
+   "mark": 6.221,
+   "markR": -0.02143130501339459
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -6706,8 +6537,8 @@
    "stop": 5.855714285714286,
    "target": 7.348857142857143,
    "expires": 1795982400000,
-   "mark": 6.231,
-   "markR": 0.005357826253348052
+   "mark": 6.221,
+   "markR": -0.02143130501339459
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -6719,8 +6550,8 @@
    "stop": 5.731285714285715,
    "target": 7.224428571428571,
    "expires": 1795636800000,
-   "mark": 6.231,
-   "markR": 0.004018369690011041
+   "mark": 6.221,
+   "markR": -0.016073478760045952
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -6732,8 +6563,8 @@
    "stop": 5.980142857142857,
    "target": 6.975571428571429,
    "expires": 1795636800000,
-   "mark": 6.231,
-   "markR": 0.008036739380022069
+   "mark": 6.221,
+   "markR": -0.03214695752009184
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -6745,8 +6576,8 @@
    "stop": 5.731285714285715,
    "target": null,
    "expires": 1795982400000,
-   "mark": 6.231,
-   "markR": 0.004018369690011041
+   "mark": 6.221,
+   "markR": -0.016073478760045952
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -6758,8 +6589,8 @@
    "stop": 128.95499999999998,
    "target": 135.3,
    "expires": 1795636800000,
-   "mark": 131.13,
-   "markR": 0.028368794326242088
+   "mark": 131.3,
+   "markR": 0.10874704491726582
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -6771,8 +6602,8 @@
    "stop": 128.95499999999998,
    "target": 137.41500000000002,
    "expires": 1795982400000,
-   "mark": 131.13,
-   "markR": 0.028368794326242088
+   "mark": 131.3,
+   "markR": 0.10874704491726582
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -6784,8 +6615,8 @@
    "stop": 128.25,
    "target": 136.70999999999998,
    "expires": 1795636800000,
-   "mark": 131.13,
-   "markR": 0.021276595744681708
+   "mark": 131.3,
+   "markR": 0.08156028368794992
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -6797,8 +6628,8 @@
    "stop": 129.66,
    "target": 135.29999999999998,
    "expires": 1795636800000,
-   "mark": 131.13,
-   "markR": 0.042553191489363415
+   "mark": 131.3,
+   "markR": 0.16312056737589983
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -6810,8 +6641,8 @@
    "stop": 128.25,
    "target": null,
    "expires": 1795982400000,
-   "mark": 131.13,
-   "markR": 0.021276595744681708
+   "mark": 131.3,
+   "markR": 0.08156028368794992
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -6823,8 +6654,8 @@
    "stop": 128.95499999999998,
    "target": 135.3,
    "expires": 1795636800000,
-   "mark": 131.13,
-   "markR": 0.028368794326242088
+   "mark": 131.3,
+   "markR": 0.10874704491726582
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -6836,8 +6667,8 @@
    "stop": 128.95499999999998,
    "target": 137.41500000000002,
    "expires": 1795982400000,
-   "mark": 131.13,
-   "markR": 0.028368794326242088
+   "mark": 131.3,
+   "markR": 0.10874704491726582
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -6849,8 +6680,8 @@
    "stop": 128.25,
    "target": 136.70999999999998,
    "expires": 1795636800000,
-   "mark": 131.13,
-   "markR": 0.021276595744681708
+   "mark": 131.3,
+   "markR": 0.08156028368794992
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -6862,8 +6693,8 @@
    "stop": 129.66,
    "target": 135.29999999999998,
    "expires": 1795636800000,
-   "mark": 131.13,
-   "markR": 0.042553191489363415
+   "mark": 131.3,
+   "markR": 0.16312056737589983
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -6875,8 +6706,8 @@
    "stop": 128.25,
    "target": null,
    "expires": 1795982400000,
-   "mark": 131.13,
-   "markR": 0.021276595744681708
+   "mark": 131.3,
+   "markR": 0.08156028368794992
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 2R · 3J",
@@ -6888,8 +6719,8 @@
    "stop": 128.95499999999998,
    "target": 135.3,
    "expires": 1795636800000,
-   "mark": 131.13,
-   "markR": 0.028368794326242088
+   "mark": 131.3,
+   "markR": 0.10874704491726582
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 3R · 7J",
@@ -6901,8 +6732,8 @@
    "stop": 128.95499999999998,
    "target": 137.41500000000002,
    "expires": 1795982400000,
-   "mark": 131.13,
-   "markR": 0.028368794326242088
+   "mark": 131.3,
+   "markR": 0.10874704491726582
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · TP 2R · 3J",
@@ -6914,8 +6745,8 @@
    "stop": 128.25,
    "target": 136.70999999999998,
    "expires": 1795636800000,
-   "mark": 131.13,
-   "markR": 0.021276595744681708
+   "mark": 131.3,
+   "markR": 0.08156028368794992
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1ATR · TP 3R · 3J",
@@ -6927,8 +6758,8 @@
    "stop": 129.66,
    "target": 135.29999999999998,
    "expires": 1795636800000,
-   "mark": 131.13,
-   "markR": 0.042553191489363415
+   "mark": 131.3,
+   "markR": 0.16312056737589983
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · sans TP · 7J",
@@ -6940,8 +6771,8 @@
    "stop": 128.25,
    "target": null,
    "expires": 1795982400000,
-   "mark": 131.13,
-   "markR": 0.021276595744681708
+   "mark": 131.3,
+   "markR": 0.08156028368794992
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -6953,8 +6784,8 @@
    "stop": 0.15983357142857144,
    "target": 0.18973285714285715,
    "expires": 1795636800000,
-   "mark": 0.1714,
-   "markR": 0.16053895219665926
+   "mark": 0.1712,
+   "markR": 0.14047158317207614
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -6966,8 +6797,8 @@
    "stop": 0.15983357142857144,
    "target": 0.19969928571428572,
    "expires": 1795982400000,
-   "mark": 0.1714,
-   "markR": 0.16053895219665926
+   "mark": 0.1712,
+   "markR": 0.14047158317207614
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -6979,8 +6810,8 @@
    "stop": 0.15651142857142858,
    "target": 0.19637714285714286,
    "expires": 1795636800000,
-   "mark": 0.1714,
-   "markR": 0.12040421414749444
+   "mark": 0.1712,
+   "markR": 0.10535368737905712
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -6992,8 +6823,8 @@
    "stop": 0.1631557142857143,
    "target": 0.18973285714285715,
    "expires": 1795636800000,
-   "mark": 0.1714,
-   "markR": 0.24080842829498889
+   "mark": 0.1712,
+   "markR": 0.21070737475811424
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -7005,8 +6836,8 @@
    "stop": 0.15651142857142858,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.1714,
-   "markR": 0.12040421414749444
+   "mark": 0.1712,
+   "markR": 0.10535368737905712
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -7018,8 +6849,8 @@
    "stop": 0.15983357142857144,
    "target": 0.18973285714285715,
    "expires": 1795636800000,
-   "mark": 0.1714,
-   "markR": 0.16053895219665926
+   "mark": 0.1712,
+   "markR": 0.14047158317207614
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -7031,8 +6862,8 @@
    "stop": 0.15983357142857144,
    "target": 0.19969928571428572,
    "expires": 1795982400000,
-   "mark": 0.1714,
-   "markR": 0.16053895219665926
+   "mark": 0.1712,
+   "markR": 0.14047158317207614
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -7044,8 +6875,8 @@
    "stop": 0.15651142857142858,
    "target": 0.19637714285714286,
    "expires": 1795636800000,
-   "mark": 0.1714,
-   "markR": 0.12040421414749444
+   "mark": 0.1712,
+   "markR": 0.10535368737905712
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -7057,8 +6888,8 @@
    "stop": 0.1631557142857143,
    "target": 0.18973285714285715,
    "expires": 1795636800000,
-   "mark": 0.1714,
-   "markR": 0.24080842829498889
+   "mark": 0.1712,
+   "markR": 0.21070737475811424
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -7070,8 +6901,8 @@
    "stop": 0.15651142857142858,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.1714,
-   "markR": 0.12040421414749444
+   "mark": 0.1712,
+   "markR": 0.10535368737905712
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -7083,8 +6914,8 @@
    "stop": 135.13964285714286,
    "target": 159.68071428571426,
    "expires": 1795636800000,
-   "mark": 142.91,
-   "markR": -0.050120061122025404
+   "mark": 142.47,
+   "markR": -0.10390744378956503
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -7096,8 +6927,8 @@
    "stop": 135.13964285714286,
    "target": 167.8610714285714,
    "expires": 1795982400000,
-   "mark": 142.91,
-   "markR": -0.050120061122025404
+   "mark": 142.47,
+   "markR": -0.10390744378956503
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -7109,8 +6940,8 @@
    "stop": 132.41285714285712,
    "target": 165.13428571428574,
    "expires": 1795636800000,
-   "mark": 142.91,
-   "markR": -0.037590045841518954
+   "mark": 142.47,
+   "markR": -0.07793058284217357
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -7122,8 +6953,8 @@
    "stop": 137.86642857142857,
    "target": 159.68071428571426,
    "expires": 1795636800000,
-   "mark": 142.91,
-   "markR": -0.0751800916830381
+   "mark": 142.47,
+   "markR": -0.15586116568434755
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -7135,8 +6966,8 @@
    "stop": 132.41285714285712,
    "target": null,
    "expires": 1795982400000,
-   "mark": 142.91,
-   "markR": -0.037590045841518954
+   "mark": 142.47,
+   "markR": -0.07793058284217357
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -7148,8 +6979,8 @@
    "stop": 135.13964285714286,
    "target": 159.68071428571426,
    "expires": 1795636800000,
-   "mark": 142.91,
-   "markR": -0.050120061122025404
+   "mark": 142.47,
+   "markR": -0.10390744378956503
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -7161,8 +6992,8 @@
    "stop": 135.13964285714286,
    "target": 167.8610714285714,
    "expires": 1795982400000,
-   "mark": 142.91,
-   "markR": -0.050120061122025404
+   "mark": 142.47,
+   "markR": -0.10390744378956503
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -7174,8 +7005,8 @@
    "stop": 132.41285714285712,
    "target": 165.13428571428574,
    "expires": 1795636800000,
-   "mark": 142.91,
-   "markR": -0.037590045841518954
+   "mark": 142.47,
+   "markR": -0.07793058284217357
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -7187,8 +7018,8 @@
    "stop": 137.86642857142857,
    "target": 159.68071428571426,
    "expires": 1795636800000,
-   "mark": 142.91,
-   "markR": -0.0751800916830381
+   "mark": 142.47,
+   "markR": -0.15586116568434755
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -7200,8 +7031,8 @@
    "stop": 132.41285714285712,
    "target": null,
    "expires": 1795982400000,
-   "mark": 142.91,
-   "markR": -0.037590045841518954
+   "mark": 142.47,
+   "markR": -0.07793058284217357
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -7213,8 +7044,8 @@
    "stop": 0.21234642857142857,
    "target": 0.25210714285714286,
    "expires": 1795636800000,
-   "mark": 0.2244,
-   "markR": -0.090541632983024
+   "mark": 0.2246,
+   "markR": -0.07545136081918632
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -7226,8 +7057,8 @@
    "stop": 0.21234642857142857,
    "target": 0.2653607142857143,
    "expires": 1795982400000,
-   "mark": 0.2244,
-   "markR": -0.090541632983024
+   "mark": 0.2246,
+   "markR": -0.07545136081918632
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -7239,8 +7070,8 @@
    "stop": 0.20792857142857143,
    "target": 0.26094285714285714,
    "expires": 1795636800000,
-   "mark": 0.2244,
-   "markR": -0.067906224737268
+   "mark": 0.2246,
+   "markR": -0.05658852061438974
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -7252,8 +7083,8 @@
    "stop": 0.21676428571428571,
    "target": 0.25210714285714286,
    "expires": 1795636800000,
-   "mark": 0.2244,
-   "markR": -0.135812449474536
+   "mark": 0.2246,
+   "markR": -0.11317704122877947
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -7265,8 +7096,8 @@
    "stop": 0.20792857142857143,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.2244,
-   "markR": -0.067906224737268
+   "mark": 0.2246,
+   "markR": -0.05658852061438974
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -7278,8 +7109,8 @@
    "stop": 0.21234642857142857,
    "target": 0.25210714285714286,
    "expires": 1795636800000,
-   "mark": 0.2244,
-   "markR": -0.090541632983024
+   "mark": 0.2246,
+   "markR": -0.07545136081918632
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -7291,8 +7122,8 @@
    "stop": 0.21234642857142857,
    "target": 0.2653607142857143,
    "expires": 1795982400000,
-   "mark": 0.2244,
-   "markR": -0.090541632983024
+   "mark": 0.2246,
+   "markR": -0.07545136081918632
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -7304,8 +7135,8 @@
    "stop": 0.20792857142857143,
    "target": 0.26094285714285714,
    "expires": 1795636800000,
-   "mark": 0.2244,
-   "markR": -0.067906224737268
+   "mark": 0.2246,
+   "markR": -0.05658852061438974
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -7317,8 +7148,8 @@
    "stop": 0.21676428571428571,
    "target": 0.25210714285714286,
    "expires": 1795636800000,
-   "mark": 0.2244,
-   "markR": -0.135812449474536
+   "mark": 0.2246,
+   "markR": -0.11317704122877947
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -7330,8 +7161,8 @@
    "stop": 0.20792857142857143,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.2244,
-   "markR": -0.067906224737268
+   "mark": 0.2246,
+   "markR": -0.05658852061438974
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -7343,8 +7174,8 @@
    "stop": 0.007909928571428571,
    "target": 0.00925414285714286,
    "expires": 1795636800000,
-   "mark": 0.008403,
-   "markR": 0.10043041606886612
+   "mark": 0.008421,
+   "markR": 0.14060258249641025
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -7356,8 +7187,8 @@
    "stop": 0.007909928571428571,
    "target": 0.00970221428571429,
    "expires": 1795982400000,
-   "mark": 0.008403,
-   "markR": 0.10043041606886612
+   "mark": 0.008421,
+   "markR": 0.14060258249641025
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -7369,8 +7200,8 @@
    "stop": 0.007760571428571429,
    "target": 0.009552857142857144,
    "expires": 1795636800000,
-   "mark": 0.008403,
-   "markR": 0.07532281205164973
+   "mark": 0.008421,
+   "markR": 0.10545193687230789
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -7382,8 +7213,8 @@
    "stop": 0.008059285714285715,
    "target": 0.009254142857142858,
    "expires": 1795636800000,
-   "mark": 0.008403,
-   "markR": 0.15064562410329946
+   "mark": 0.008421,
+   "markR": 0.21090387374461578
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -7395,8 +7226,8 @@
    "stop": 0.007760571428571429,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.008403,
-   "markR": 0.07532281205164973
+   "mark": 0.008421,
+   "markR": 0.10545193687230789
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -7408,8 +7239,8 @@
    "stop": 0.007909928571428571,
    "target": 0.00925414285714286,
    "expires": 1795636800000,
-   "mark": 0.008403,
-   "markR": 0.10043041606886612
+   "mark": 0.008421,
+   "markR": 0.14060258249641025
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -7421,8 +7252,8 @@
    "stop": 0.007909928571428571,
    "target": 0.00970221428571429,
    "expires": 1795982400000,
-   "mark": 0.008403,
-   "markR": 0.10043041606886612
+   "mark": 0.008421,
+   "markR": 0.14060258249641025
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -7434,8 +7265,8 @@
    "stop": 0.007760571428571429,
    "target": 0.009552857142857144,
    "expires": 1795636800000,
-   "mark": 0.008403,
-   "markR": 0.07532281205164973
+   "mark": 0.008421,
+   "markR": 0.10545193687230789
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -7447,8 +7278,8 @@
    "stop": 0.008059285714285715,
    "target": 0.009254142857142858,
    "expires": 1795636800000,
-   "mark": 0.008403,
-   "markR": 0.15064562410329946
+   "mark": 0.008421,
+   "markR": 0.21090387374461578
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -7460,8 +7291,8 @@
    "stop": 0.007760571428571429,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.008403,
-   "markR": 0.07532281205164973
+   "mark": 0.008421,
+   "markR": 0.10545193687230789
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 2R · 3J",
@@ -7473,8 +7304,8 @@
    "stop": 0.007466678571428572,
    "target": 0.008403642857142856,
    "expires": 1795636800000,
-   "mark": 0.007818,
-   "markR": 0.12487135506003433
+   "mark": 0.007797,
+   "markR": 0.057632933104630586
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1.5ATR · TP 3R · 7J",
@@ -7486,8 +7317,8 @@
    "stop": 0.007466678571428572,
    "target": 0.008715964285714285,
    "expires": 1795982400000,
-   "mark": 0.007818,
-   "markR": 0.12487135506003433
+   "mark": 0.007797,
+   "markR": 0.057632933104630586
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · TP 2R · 3J",
@@ -7499,8 +7330,8 @@
    "stop": 0.007362571428571429,
    "target": 0.008611857142857143,
    "expires": 1795636800000,
-   "mark": 0.007818,
-   "markR": 0.09365351629502575
+   "mark": 0.007797,
+   "markR": 0.04322469982847294
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 1ATR · TP 3R · 3J",
@@ -7512,8 +7343,8 @@
    "stop": 0.007570785714285715,
    "target": 0.008403642857142856,
    "expires": 1795636800000,
-   "mark": 0.007818,
-   "markR": 0.1873070325900515
+   "mark": 0.007797,
+   "markR": 0.08644939965694588
   },
   {
    "strategy": "Tout le Top 50 (témoin) || SL 2ATR · sans TP · 7J",
@@ -7525,8 +7356,8 @@
    "stop": 0.007362571428571429,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.007818,
-   "markR": 0.09365351629502575
+   "mark": 0.007797,
+   "markR": 0.04322469982847294
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 2R · 3J",
@@ -7538,8 +7369,8 @@
    "stop": 0.007466678571428572,
    "target": 0.008403642857142856,
    "expires": 1795636800000,
-   "mark": 0.007818,
-   "markR": 0.12487135506003433
+   "mark": 0.007797,
+   "markR": 0.057632933104630586
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1.5ATR · TP 3R · 7J",
@@ -7551,8 +7382,8 @@
    "stop": 0.007466678571428572,
    "target": 0.008715964285714285,
    "expires": 1795982400000,
-   "mark": 0.007818,
-   "markR": 0.12487135506003433
+   "mark": 0.007797,
+   "markR": 0.057632933104630586
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · TP 2R · 3J",
@@ -7564,8 +7395,8 @@
    "stop": 0.007362571428571429,
    "target": 0.008611857142857143,
    "expires": 1795636800000,
-   "mark": 0.007818,
-   "markR": 0.09365351629502575
+   "mark": 0.007797,
+   "markR": 0.04322469982847294
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 1ATR · TP 3R · 3J",
@@ -7577,8 +7408,8 @@
    "stop": 0.007570785714285715,
    "target": 0.008403642857142856,
    "expires": 1795636800000,
-   "mark": 0.007818,
-   "markR": 0.1873070325900515
+   "mark": 0.007797,
+   "markR": 0.08644939965694588
   },
   {
    "strategy": "Nouvel entrant Top 50 || SL 2ATR · sans TP · 7J",
@@ -7590,8 +7421,8 @@
    "stop": 0.007362571428571429,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.007818,
-   "markR": 0.09365351629502575
+   "mark": 0.007797,
+   "markR": 0.04322469982847294
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 2R · 3J",
@@ -7603,8 +7434,8 @@
    "stop": 0.007466678571428572,
    "target": 0.008403642857142856,
    "expires": 1795636800000,
-   "mark": 0.007818,
-   "markR": 0.12487135506003433
+   "mark": 0.007797,
+   "markR": 0.057632933104630586
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1.5ATR · TP 3R · 7J",
@@ -7616,8 +7447,8 @@
    "stop": 0.007466678571428572,
    "target": 0.008715964285714285,
    "expires": 1795982400000,
-   "mark": 0.007818,
-   "markR": 0.12487135506003433
+   "mark": 0.007797,
+   "markR": 0.057632933104630586
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · TP 2R · 3J",
@@ -7629,8 +7460,8 @@
    "stop": 0.007362571428571429,
    "target": 0.008611857142857143,
    "expires": 1795636800000,
-   "mark": 0.007818,
-   "markR": 0.09365351629502575
+   "mark": 0.007797,
+   "markR": 0.04322469982847294
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 1ATR · TP 3R · 3J",
@@ -7642,8 +7473,8 @@
    "stop": 0.007570785714285715,
    "target": 0.008403642857142856,
    "expires": 1795636800000,
-   "mark": 0.007818,
-   "markR": 0.1873070325900515
+   "mark": 0.007797,
+   "markR": 0.08644939965694588
   },
   {
    "strategy": "Accumulation calme (ACCUM., volat basse) || SL 2ATR · sans TP · 7J",
@@ -7655,8 +7486,8 @@
    "stop": 0.007362571428571429,
    "target": null,
    "expires": 1795982400000,
-   "mark": 0.007818,
-   "markR": 0.09365351629502575
+   "mark": 0.007797,
+   "markR": 0.04322469982847294
   }
  ],
  "pendingOutcomes": [
