@@ -1,0 +1,16 @@
+{
+  "name": "nebula-top50-agent",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Follows the Top 50 (30D score) every 4h, paper-trades every strategy, writes a daily leaderboard.",
+  "scripts": {
+    "run": "node agent/run.js",
+    "sync": "node sync.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "nebula-core": "file:C:/Users/red1e/nebula-core"
+  },
+  "engines": { "node": ">=20" }
+}
