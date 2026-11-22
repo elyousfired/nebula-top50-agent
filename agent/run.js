@@ -113,7 +113,7 @@ async function main() {
           const key = `${fname} || ${xname}`;
           if (isOpen.has(`${key}|${x.symbol}`)) continue;
           const stop = e.close - ex.k * e.atr;
-          state.open.push({ strategy: key, family: fname, exit: xname, symbol: x.symbol, entryT: t, entry: e.close, stop, target: ex.m == null ? null : e.close + ex.m * (e.close - stop), expires: t + ex.maxH * HOUR });
+          state.open.push({ strategy: key, family: fname, exit: xname, symbol: x.symbol, entryT: t, entry: e.close, stop, target: ex.m == null ? null : e.close + ex.m * (e.close - stop), trail: ex.trail ? ex.trail * e.atr : null, expires: t + ex.maxH * HOUR });
           isOpen.add(`${key}|${x.symbol}`);
           opened++;
         }

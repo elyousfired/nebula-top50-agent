@@ -35,6 +35,9 @@ export function idxAt(arr, x) {
  */
 export function resolveTrade(tr, b1, now) {
   const risk = tr.entry - tr.stop;
+  // Trailing stop (tr.trail = price distance): rises to highest high - trail, checked from the next candle.
+  let stop = tr.stop;
+  let hi = tr.entry;
   const res = (px, outcome, exitT) => {
     const ret = (px * (1 - FEE)) / (tr.entry * (1 + FEE)) - 1;
     return { closed: true, outcome, exitPx: px, exitT, ret, R: ret / (risk / tr.entry) };
@@ -46,8 +49,9 @@ export function resolveTrade(tr, b1, now) {
     if (t < tr.entryT) continue;
     if (t + HOUR > now) break; // not closed yet
     if (t >= tr.expires) return res(lastClose ?? tr.entry, 'TIME', lastT ?? tr.entryT);
-    if (b1.l[i] <= tr.stop) return res(tr.stop, 'SL', t + HOUR);
+    if (b1.l[i] <= stop) return res(stop, stop > tr.stop ? 'TRAIL' : 'SL', t + HOUR);
     if (tr.target != null && b1.h[i] >= tr.target) return res(tr.target, 'TP', t + HOUR);
+    if (tr.trail != null) { hi = Math.max(hi, b1.h[i]); stop = Math.max(stop, hi - tr.trail); }
     lastClose = b1.c[i];
     lastT = t + HOUR;
   }

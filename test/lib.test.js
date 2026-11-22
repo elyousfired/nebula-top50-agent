@@ -37,3 +37,13 @@ test('quintiles: 5 equal groups ascending', () => {
   const q = quintiles(Array.from({ length: 10 }, (_, i) => ({ x: 10 - i })), 'x');
   assert.deepEqual(q.map((g) => g.map((r) => r.x)), [[1, 2], [3, 4], [5, 6], [7, 8], [9, 10]]);
 });
+
+test('resolveTrade: trailing stop follows the highest high', () => {
+  const tr = { entryT: T0 + HOUR, entry: 100, stop: 90, target: null, trail: 5, expires: T0 + 100 * HOUR };
+  // rises to 120, then drops to 114 -> trail stop at 115 hit
+  const b = bars([[100.5, 99.5, 100], [110, 100, 109], [120, 109, 119], [119, 114, 115], ...flat(10)]);
+  const r = resolveTrade(tr, b, T0 + 30 * HOUR);
+  assert.equal(r.outcome, 'TRAIL');
+  assert.equal(r.exitPx, 115);
+  assert.ok(r.R > 1.4);
+});
