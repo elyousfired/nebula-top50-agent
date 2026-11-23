@@ -18,3 +18,4 @@ export const squeeze = await imp('src/core/squeeze.js');
 export const bybit = await imp('src/lib/bybit.js');
 export const strategies = await imp('backtest/top50strat.js'); // FAMILIES, EXITS
 export const rr = await imp('backtest/rr.js'); // rStats
+export const btcswings = await imp('src/core/btcswings.js'); // reliability (BTC waves list)

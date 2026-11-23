@@ -3,7 +3,7 @@
 // and data/leaderboard.json.
 
 import { rr } from './bench.js';
-import { readJsonlDir, writeText, writeJson } from './io.js';
+import { readJsonlDir, readJson, writeText, writeJson } from './io.js';
 import { DAY, dayKey, quintiles, median } from './lib.js';
 
 const f2 = (x, d = 2) => (x == null || !Number.isFinite(x) ? '—' : x.toFixed(d));
@@ -38,6 +38,14 @@ export function writeReport({ at, state }) {
   L.push('## Top 50 — dernières 24h', '');
   if (cur) L.push(`Dernière photo ${cur.iso.slice(0, 16)} UTC · top 10 : ${cur.top.slice(0, 10).map((r) => `#${r.rank} ${short(r.symbol)}`).join(', ')}`);
   L.push(`Entrés (${entered.length}) : ${entered.map(short).join(', ') || '—'}`, `Sortis (${left.length}) : ${left.map(short).join(', ') || '—'}`, '');
+
+  // Paper portfolio on the reliable BTC followers list (/btc), refreshed every 4h.
+  const lp = readJson('listpf.json', null);
+  if (lp) {
+    L.push('## Portefeuille « tokens fiables » (liste /btc, mise à jour toutes les 4h)', '');
+    L.push(`Depuis ${new Date(lp.startT).toISOString().slice(0, 16)} UTC · ${lp.list.length} tokens dans la liste · entrés ${lp.entered.map(short).join(', ') || '—'} · sortis ${lp.left.map(short).join(', ') || '—'}.`);
+    L.push(`Ouverts : ${lp.open.length}, moyenne ${pc(lp.openAvg)} (BTC sur la même période ${pc(lp.openBtcAvg)}) · clôturés : ${lp.closed.n}, moyenne ${pc(lp.closed.avg)}, gagnants ${sh(lp.closed.win)} (BTC ${pc(lp.closed.btcAvg)}).`, '');
+  }
 
   // Leaderboard.
   const keys = [...new Set([...trades.map((t) => t.strategy), ...state.open.map((t) => t.strategy)])];

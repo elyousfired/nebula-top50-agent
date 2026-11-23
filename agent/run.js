@@ -8,7 +8,8 @@
 //     (data/trades), and records each member's next-24h outcome (data/outcomes);
 //  4. once per UTC day writes the leaderboard + learning report (data/reports).
 
-import { bars as B, metrics as M, scoring as S, universe as U, squeeze as Q, bybit, strategies } from './bench.js';
+import { bars as B, metrics as M, scoring as S, universe as U, squeeze as Q, bybit, strategies, btcswings } from './bench.js';
+import { stepListPortfolio, markPositions } from './listpf.js';
 import { pendingSlots, resolveTrade, idxAt, HOUR, DAY, monthKey } from './lib.js';
 import { readJson, writeJson, appendJsonl } from './io.js';
 import { writeReport } from './report.js';
@@ -160,6 +161,32 @@ async function main() {
   }
   state.pendingOutcomes = pending;
   for (const [m, rows] of Object.entries(outs)) appendJsonl(`outcomes/${m}.jsonl`, rows);
+
+  // "Reliable BTC followers" list of the site's /btc page, recomputed every run:
+  // paper-buy tokens that enter it, sell tokens that leave it (data/listpf.json, data/listpf/).
+  try {
+    const site = process.env.SITE_URL || 'https://nebula-benchmark.vercel.app';
+    const f = await (await fetch(`${site}/api/followers`, { signal: AbortSignal.timeout(60_000) })).json();
+    const list = f.tokens.filter((t) => btcswings.reliability(t, f.waves, f.btc).ok).map((t) => t.symbol).sort();
+    const px = Object.fromEntries(tickers.map((t) => [t.symbol, Number(t.lastPrice)]));
+    const step = stepListPortfolio(state.listPf, list, px, now);
+    state.listPf = step.pf;
+    if (step.closed.length) appendJsonl(`listpf/${monthKey(now)}.jsonl`, step.closed);
+    const all = readJsonlDir('listpf');
+    const open = markPositions(state.listPf, px, now);
+    const mean = (a) => (a.length ? a.reduce((x, y) => x + y, 0) / a.length : null);
+    writeJson('listpf.json', {
+      at: new Date(now).toISOString(), startT: state.listPf.startT, list,
+      entered: step.opened, left: step.closed.map((c) => c.symbol),
+      open: open.sort((a, b) => (b.ret ?? -9) - (a.ret ?? -9)),
+      openAvg: mean(open.map((o) => o.ret).filter((x) => x != null)),
+      openBtcAvg: mean(open.map((o) => o.btcRet).filter((x) => x != null)),
+      closed: { n: all.length, avg: mean(all.map((c) => c.ret)), win: all.length ? all.filter((c) => c.ret > 0).length / all.length : null, btcAvg: mean(all.map((c) => c.btcRet).filter((x) => x != null)) },
+    });
+    log(`list portfolio: ${list.length} in list · +${step.opened.length} / -${step.closed.length} · open ${open.length}`);
+  } catch (e) {
+    log(`list portfolio skipped: ${e.message}`);
+  }
 
   // Stable Top 50 (presence over 30 days), read by the site's /stable page.
   writeJson('stability.json', computeStability(readJsonlDir('snapshots'), now));
