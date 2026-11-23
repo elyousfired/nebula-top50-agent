@@ -1,5 +1,5 @@
 {
- "at": "2026-11-23T16:17:49.801Z",
+ "at": "2026-11-23T22:09:23.698Z",
  "startT": 1795450669801,
  "list": [
   "AIOZUSDT",
@@ -22,203 +22,183 @@
   "STETHUSDT",
   "VVVUSDT"
  ],
- "entered": [
-  "AIOZUSDT",
-  "ARBUSDT",
-  "ARUSDT",
-  "AVAUSDT",
-  "AVAXUSDT",
-  "BBSOLUSDT",
-  "BOMEUSDT",
-  "CAKEUSDT",
-  "FFUSDT",
-  "INJUSDT",
-  "LINKUSDT",
-  "METHUSDT",
-  "NEARUSDT",
-  "PENDLEUSDT",
-  "PEPEUSDT",
-  "RUNEUSDT",
-  "SOLUSDT",
-  "STETHUSDT",
-  "VVVUSDT"
- ],
+ "entered": [],
  "left": [],
  "open": [
-  {
-   "symbol": "AIOZUSDT",
-   "entryT": 1795450669801,
-   "entry": 0.07659,
-   "price": 0.07659,
-   "ret": -0.0019980019980018193,
-   "btcRet": 0,
-   "days": 0
-  },
-  {
-   "symbol": "ARUSDT",
-   "entryT": 1795450669801,
-   "entry": 2.459,
-   "price": 2.459,
-   "ret": -0.0019980019980018193,
-   "btcRet": 0,
-   "days": 0
-  },
-  {
-   "symbol": "BBSOLUSDT",
-   "entryT": 1795450669801,
-   "entry": 88.55,
-   "price": 88.55,
-   "ret": -0.0019980019980018193,
-   "btcRet": 0,
-   "days": 0
-  },
-  {
-   "symbol": "BOMEUSDT",
-   "entryT": 1795450669801,
-   "entry": 0.0004897,
-   "price": 0.0004897,
-   "ret": -0.0019980019980018193,
-   "btcRet": 0,
-   "days": 0
-  },
   {
    "symbol": "FFUSDT",
    "entryT": 1795450669801,
    "entry": 0.10104,
-   "price": 0.10104,
-   "ret": -0.0019980019980018193,
-   "btcRet": 0,
-   "days": 0
+   "price": 0.10246,
+   "ret": 0.012027758464813187,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
   },
   {
-   "symbol": "INJUSDT",
+   "symbol": "AIOZUSDT",
    "entryT": 1795450669801,
-   "entry": 6.83,
-   "price": 6.83,
-   "ret": -0.0019980019980018193,
-   "btcRet": 0,
-   "days": 0
-  },
-  {
-   "symbol": "LINKUSDT",
-   "entryT": 1795450669801,
-   "entry": 9.226,
-   "price": 9.226,
-   "ret": -0.0019980019980018193,
-   "btcRet": 0,
-   "days": 0
-  },
-  {
-   "symbol": "METHUSDT",
-   "entryT": 1795450669801,
-   "entry": 1942.4,
-   "price": 1942.4,
-   "ret": -0.0019980019980018193,
-   "btcRet": 0,
-   "days": 0
-  },
-  {
-   "symbol": "SOLUSDT",
-   "entryT": 1795450669801,
-   "entry": 75.17,
-   "price": 75.17,
-   "ret": -0.0019980019980018193,
-   "btcRet": 0,
-   "days": 0
+   "entry": 0.07659,
+   "price": 0.07598,
+   "ret": -0.009946575163966354,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
   },
   {
    "symbol": "AVAUSDT",
    "entryT": 1795450669801,
    "entry": 0.2076,
-   "price": 0.2076,
-   "ret": -0.0019980019980019303,
-   "btcRet": 0,
-   "days": 0
-  },
-  {
-   "symbol": "AVAXUSDT",
-   "entryT": 1795450669801,
-   "entry": 7.019,
-   "price": 7.019,
-   "ret": -0.0019980019980019303,
-   "btcRet": 0,
-   "days": 0
+   "price": 0.2045,
+   "ret": -0.016900729328474973,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
   },
   {
    "symbol": "CAKEUSDT",
    "entryT": 1795450669801,
    "entry": 1.6,
-   "price": 1.6,
-   "ret": -0.0019980019980019303,
-   "btcRet": 0,
-   "days": 0
+   "price": 1.5715,
+   "ret": -0.019774912587412596,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
   },
   {
-   "symbol": "NEARUSDT",
+   "symbol": "METHUSDT",
    "entryT": 1795450669801,
-   "entry": 3.134,
-   "price": 3.134,
-   "ret": -0.0019980019980019303,
-   "btcRet": 0,
-   "days": 0
+   "entry": 1942.4,
+   "price": 1904.81,
+   "ret": -0.021311683580011342,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
   },
   {
-   "symbol": "PENDLEUSDT",
+   "symbol": "LINKUSDT",
    "entryT": 1795450669801,
-   "entry": 1.3633,
-   "price": 1.3633,
-   "ret": -0.0019980019980019303,
-   "btcRet": 0,
-   "days": 0
-  },
-  {
-   "symbol": "PEPEUSDT",
-   "entryT": 1795450669801,
-   "entry": 0.000003637,
-   "price": 0.000003637,
-   "ret": -0.0019980019980019303,
-   "btcRet": 0,
-   "days": 0
-  },
-  {
-   "symbol": "RUNEUSDT",
-   "entryT": 1795450669801,
-   "entry": 0.5356,
-   "price": 0.5356,
-   "ret": -0.0019980019980019303,
-   "btcRet": 0,
-   "days": 0
+   "entry": 9.226,
+   "price": 9.007,
+   "ret": -0.025687839149794445,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
   },
   {
    "symbol": "STETHUSDT",
    "entryT": 1795450669801,
    "entry": 1769.76,
-   "price": 1769.76,
-   "ret": -0.0019980019980019303,
-   "btcRet": 0,
-   "days": 0
+   "price": 1722.28,
+   "ret": -0.028772895127655018,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
   },
   {
-   "symbol": "ARBUSDT",
+   "symbol": "ARUSDT",
    "entryT": 1795450669801,
-   "entry": 0.1175,
-   "price": 0.1175,
-   "ret": -0.0019980019980020414,
-   "btcRet": 0,
-   "days": 0
+   "entry": 2.459,
+   "price": 2.385,
+   "ret": -0.032031409013922096,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
+  },
+  {
+   "symbol": "AVAXUSDT",
+   "entryT": 1795450669801,
+   "entry": 7.019,
+   "price": 6.791,
+   "ret": -0.0344163601037798,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
   },
   {
    "symbol": "VVVUSDT",
    "entryT": 1795450669801,
    "entry": 25.276,
-   "price": 25.276,
-   "ret": -0.0019980019980020414,
-   "btcRet": 0,
-   "days": 0
+   "price": 24.452,
+   "ret": -0.03453296189488608,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
+  },
+  {
+   "symbol": "BBSOLUSDT",
+   "entryT": 1795450669801,
+   "entry": 88.55,
+   "price": 85.38,
+   "ret": -0.03772545918226311,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
+  },
+  {
+   "symbol": "RUNEUSDT",
+   "entryT": 1795450669801,
+   "entry": 0.5356,
+   "price": 0.5162,
+   "ret": -0.038146692739672416,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
+  },
+  {
+   "symbol": "SOLUSDT",
+   "entryT": 1795450669801,
+   "entry": 75.17,
+   "price": 72.25,
+   "ret": -0.040765673065792596,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
+  },
+  {
+   "symbol": "PENDLEUSDT",
+   "entryT": 1795450669801,
+   "entry": 1.3633,
+   "price": 1.3075,
+   "ret": -0.04284631967460384,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
+  },
+  {
+   "symbol": "ARBUSDT",
+   "entryT": 1795450669801,
+   "entry": 0.1175,
+   "price": 0.1117,
+   "ret": -0.051261079346185734,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
+  },
+  {
+   "symbol": "BOMEUSDT",
+   "entryT": 1795450669801,
+   "entry": 0.0004897,
+   "price": 0.0004638,
+   "ret": -0.054781852821468746,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
+  },
+  {
+   "symbol": "NEARUSDT",
+   "entryT": 1795450669801,
+   "entry": 3.134,
+   "price": 2.964,
+   "ret": -0.05613340074093098,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
+  },
+  {
+   "symbol": "PEPEUSDT",
+   "entryT": 1795450669801,
+   "entry": 0.000003637,
+   "price": 0.000003432,
+   "ret": -0.05825052044463641,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
+  },
+  {
+   "symbol": "INJUSDT",
+   "entryT": 1795450669801,
+   "entry": 6.83,
+   "price": 6.425,
+   "ret": -0.061176744192849575,
+   "btcRet": -0.0218479883153887,
+   "days": 0.2441423263888889
   }
  ],
- "openAvg": -0.0019980019980018896,
- "openBtcAvg": 0,
+ "openAvg": -0.034338702615447,
+ "openBtcAvg": -0.0218479883153887,
  "closed": {
   "n": 0,
   "avg": null,
