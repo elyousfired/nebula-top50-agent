@@ -1,0 +1,228 @@
+{
+ "at": "2026-11-23T16:17:49.801Z",
+ "startT": 1795450669801,
+ "list": [
+  "AIOZUSDT",
+  "ARBUSDT",
+  "ARUSDT",
+  "AVAUSDT",
+  "AVAXUSDT",
+  "BBSOLUSDT",
+  "BOMEUSDT",
+  "CAKEUSDT",
+  "FFUSDT",
+  "INJUSDT",
+  "LINKUSDT",
+  "METHUSDT",
+  "NEARUSDT",
+  "PENDLEUSDT",
+  "PEPEUSDT",
+  "RUNEUSDT",
+  "SOLUSDT",
+  "STETHUSDT",
+  "VVVUSDT"
+ ],
+ "entered": [
+  "AIOZUSDT",
+  "ARBUSDT",
+  "ARUSDT",
+  "AVAUSDT",
+  "AVAXUSDT",
+  "BBSOLUSDT",
+  "BOMEUSDT",
+  "CAKEUSDT",
+  "FFUSDT",
+  "INJUSDT",
+  "LINKUSDT",
+  "METHUSDT",
+  "NEARUSDT",
+  "PENDLEUSDT",
+  "PEPEUSDT",
+  "RUNEUSDT",
+  "SOLUSDT",
+  "STETHUSDT",
+  "VVVUSDT"
+ ],
+ "left": [],
+ "open": [
+  {
+   "symbol": "AIOZUSDT",
+   "entryT": 1795450669801,
+   "entry": 0.07659,
+   "price": 0.07659,
+   "ret": -0.0019980019980018193,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "ARUSDT",
+   "entryT": 1795450669801,
+   "entry": 2.459,
+   "price": 2.459,
+   "ret": -0.0019980019980018193,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "BBSOLUSDT",
+   "entryT": 1795450669801,
+   "entry": 88.55,
+   "price": 88.55,
+   "ret": -0.0019980019980018193,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "BOMEUSDT",
+   "entryT": 1795450669801,
+   "entry": 0.0004897,
+   "price": 0.0004897,
+   "ret": -0.0019980019980018193,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "FFUSDT",
+   "entryT": 1795450669801,
+   "entry": 0.10104,
+   "price": 0.10104,
+   "ret": -0.0019980019980018193,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "INJUSDT",
+   "entryT": 1795450669801,
+   "entry": 6.83,
+   "price": 6.83,
+   "ret": -0.0019980019980018193,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "LINKUSDT",
+   "entryT": 1795450669801,
+   "entry": 9.226,
+   "price": 9.226,
+   "ret": -0.0019980019980018193,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "METHUSDT",
+   "entryT": 1795450669801,
+   "entry": 1942.4,
+   "price": 1942.4,
+   "ret": -0.0019980019980018193,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "SOLUSDT",
+   "entryT": 1795450669801,
+   "entry": 75.17,
+   "price": 75.17,
+   "ret": -0.0019980019980018193,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "AVAUSDT",
+   "entryT": 1795450669801,
+   "entry": 0.2076,
+   "price": 0.2076,
+   "ret": -0.0019980019980019303,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "AVAXUSDT",
+   "entryT": 1795450669801,
+   "entry": 7.019,
+   "price": 7.019,
+   "ret": -0.0019980019980019303,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "CAKEUSDT",
+   "entryT": 1795450669801,
+   "entry": 1.6,
+   "price": 1.6,
+   "ret": -0.0019980019980019303,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "NEARUSDT",
+   "entryT": 1795450669801,
+   "entry": 3.134,
+   "price": 3.134,
+   "ret": -0.0019980019980019303,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "PENDLEUSDT",
+   "entryT": 1795450669801,
+   "entry": 1.3633,
+   "price": 1.3633,
+   "ret": -0.0019980019980019303,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "PEPEUSDT",
+   "entryT": 1795450669801,
+   "entry": 0.000003637,
+   "price": 0.000003637,
+   "ret": -0.0019980019980019303,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "RUNEUSDT",
+   "entryT": 1795450669801,
+   "entry": 0.5356,
+   "price": 0.5356,
+   "ret": -0.0019980019980019303,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "STETHUSDT",
+   "entryT": 1795450669801,
+   "entry": 1769.76,
+   "price": 1769.76,
+   "ret": -0.0019980019980019303,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "ARBUSDT",
+   "entryT": 1795450669801,
+   "entry": 0.1175,
+   "price": 0.1175,
+   "ret": -0.0019980019980020414,
+   "btcRet": 0,
+   "days": 0
+  },
+  {
+   "symbol": "VVVUSDT",
+   "entryT": 1795450669801,
+   "entry": 25.276,
+   "price": 25.276,
+   "ret": -0.0019980019980020414,
+   "btcRet": 0,
+   "days": 0
+  }
+ ],
+ "openAvg": -0.0019980019980018896,
+ "openBtcAvg": 0,
+ "closed": {
+  "n": 0,
+  "avg": null,
+  "win": null,
+  "btcAvg": null
+ }
+}
