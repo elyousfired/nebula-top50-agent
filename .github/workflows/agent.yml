@@ -1,10 +1,11 @@
 name: agent
 
-# Every 4h, 10 minutes after the UTC 4H slot (candles closed). If GitHub delays
-# or skips a run, the next one rebuilds every missed slot from Bybit candles.
+# Every hour at :10 (GitHub often delays or skips scheduled runs, so we try
+# hourly). A run with no new 4H slot only refreshes the list portfolio; any
+# missed slot is rebuilt from Bybit candles by the next run.
 on:
   schedule:
-    - cron: '10 */4 * * *'
+    - cron: '10 * * * *'
   workflow_dispatch: {}
 
 concurrency:
