@@ -47,6 +47,29 @@ export function writeReport({ at, state }) {
     L.push(`Ouverts : ${lp.open.length}, moyenne ${pc(lp.openAvg)} (BTC sur la même période ${pc(lp.openBtcAvg)}) · clôturés : ${lp.closed.n}, moyenne ${pc(lp.closed.avg)}, gagnants ${sh(lp.closed.win)} (BTC ${pc(lp.closed.btcAvg)}).`, '');
   }
 
+  // Residual signal test: tokens above their expected move (vs BTC) 2 days in a row,
+  // do they do better over the next 3 days than the rest of the list?
+  const res = readJsonlDir('residual');
+  const days = [...new Set(res.map((r) => r.day))].sort();
+  L.push('## Signal « au-dessus de l\'attendu » (réel 24 h > Ampl. × BTC)', '');
+  if (days.length < 6) {
+    L.push(`Collecte en cours : ${days.length} jour(s) enregistré(s), il en faut au moins 6 pour mesurer.`, '');
+  } else {
+    const by = new Map(res.map((r) => [`${r.day}|${r.symbol}`, r]));
+    const sig = []; const rest = [];
+    for (let i = 1; i + 3 < days.length; i++) {
+      const d0 = days[i]; const dPrev = days[i - 1]; const d3 = days[i + 3];
+      for (const r of res.filter((x) => x.day === d0)) {
+        const prev = by.get(`${dPrev}|${r.symbol}`); const fut = by.get(`${d3}|${r.symbol}`);
+        if (!prev || !fut || !(r.price > 0)) continue;
+        const fwd = fut.price / r.price - 1;
+        (r.ecart > 0 && prev.ecart > 0 ? sig : rest).push(fwd);
+      }
+    }
+    const avg = (a) => (a.length ? a.reduce((x, y) => x + y, 0) / a.length : null);
+    L.push(`${days.length} jours · 2 jours de suite au-dessus de l'attendu : ${sig.length} cas, moyenne 3 jours après ${pc(avg(sig))} · les autres : ${rest.length} cas, ${pc(avg(rest))}.`, '');
+  }
+
   // Leaderboard.
   const keys = [...new Set([...trades.map((t) => t.strategy), ...state.open.map((t) => t.strategy)])];
   const win = (ms) => (t) => t.exitT > at - ms && t.exitT <= at;

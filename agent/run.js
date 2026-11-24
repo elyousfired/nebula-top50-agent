@@ -173,6 +173,24 @@ async function main() {
     const extra = JSON.parse(fs.readFileSync(new URL('../config/extra-tokens.json', import.meta.url), 'utf8')).tokens;
     const list = [...new Set([...reliable, ...extra])].sort();
     const px = Object.fromEntries(tickers.map((t) => [t.symbol, Number(t.lastPrice)]));
+    // Daily residual log (first run of each UTC day): real 24h move vs expected =
+    // amplification × BTC's real 24h move (↑ amp if BTC up, ↓ amp if down). data/residual/.
+    const day = Math.floor(now / DAY) * DAY;
+    if (state.lastResidualDay !== day) {
+      const ch = Object.fromEntries(tickers.map((t) => [t.symbol, Number(t.price24hPcnt)]));
+      const btc24 = ch.BTCUSDT;
+      const rows = [];
+      for (const s of list) {
+        const t = f.tokens.find((x) => x.symbol === s);
+        if (!t || !Number.isFinite(ch[s]) || !Number.isFinite(btc24)) continue;
+        const amp = btc24 >= 0 ? (t.upAmp ?? 1) : (t.downAmp ?? 1);
+        const expected = amp * btc24;
+        rows.push({ t: now, day: new Date(day).toISOString().slice(0, 10), symbol: s, price: px[s], real24: ch[s], btc24, expected, ecart: ch[s] - expected, reliable: reliable.includes(s) });
+      }
+      appendJsonl(`residual/${monthKey(now)}.jsonl`, rows);
+      state.lastResidualDay = day;
+      log(`residual log: ${rows.length} tokens`);
+    }
     const step = stepListPortfolio(state.listPf, list, px, now);
     state.listPf = step.pf;
     if (step.closed.length) appendJsonl(`listpf/${monthKey(now)}.jsonl`, step.closed);
