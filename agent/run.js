@@ -170,7 +170,7 @@ async function main() {
     const f = await (await fetch(`${site}/api/followers`, { signal: AbortSignal.timeout(60_000) })).json();
     const reliable = f.tokens.filter((t) => btcswings.reliability(t, f.waves, f.btc).ok).map((t) => t.symbol);
     // Plus the tokens added by hand (config/extra-tokens.json).
-    const extra = JSON.parse(fs.readFileSync(new URL('../config/extra-tokens.json', import.meta.url), 'utf8')).tokens;
+    const extra = JSON.parse(fs.readFileSync(new URL('../config/extra-tokens.json', import.meta.url), 'utf8').replace(/^﻿/, '')).tokens;
     const list = [...new Set([...reliable, ...extra])].sort();
     const px = Object.fromEntries(tickers.map((t) => [t.symbol, Number(t.lastPrice)]));
     // Daily residual log (first run of each UTC day): real 24h move vs expected =
