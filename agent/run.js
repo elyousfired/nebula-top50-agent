@@ -10,6 +10,7 @@
 
 import { bars as B, metrics as M, scoring as S, universe as U, squeeze as Q, bybit, strategies, btcswings } from './bench.js';
 import { stepListPortfolio, markPositions } from './listpf.js';
+import fs from 'node:fs';
 import { pendingSlots, resolveTrade, idxAt, HOUR, DAY, monthKey } from './lib.js';
 import { readJson, writeJson, appendJsonl } from './io.js';
 import { writeReport } from './report.js';
@@ -167,7 +168,10 @@ async function main() {
   try {
     const site = process.env.SITE_URL || 'https://nebula-benchmark.vercel.app';
     const f = await (await fetch(`${site}/api/followers`, { signal: AbortSignal.timeout(60_000) })).json();
-    const list = f.tokens.filter((t) => btcswings.reliability(t, f.waves, f.btc).ok).map((t) => t.symbol).sort();
+    const reliable = f.tokens.filter((t) => btcswings.reliability(t, f.waves, f.btc).ok).map((t) => t.symbol);
+    // Plus the tokens added by hand (config/extra-tokens.json).
+    const extra = JSON.parse(fs.readFileSync(new URL('../config/extra-tokens.json', import.meta.url), 'utf8')).tokens;
+    const list = [...new Set([...reliable, ...extra])].sort();
     const px = Object.fromEntries(tickers.map((t) => [t.symbol, Number(t.lastPrice)]));
     const step = stepListPortfolio(state.listPf, list, px, now);
     state.listPf = step.pf;
