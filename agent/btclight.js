@@ -19,6 +19,57 @@ export function lightAt(b, i) {
   return { n: e + h, e, h, ema, top: top || null, close: b.c[i] };
 }
 
+/** ETH/BTC ratio above its EMA50 at closed day t (eth/btc bars share daily timestamps). */
+export function ethUpAt(btc, eth, t) {
+  const em = new Map(eth.t.map((x, i) => [x, eth.c[i]]));
+  let e = null; let r = null;
+  for (let i = 0; i < btc.t.length && btc.t[i] <= t; i++) {
+    const p = em.get(btc.t[i]); if (!p) continue;
+    r = p / btc.c[i]; e = e == null ? r : e + (2 / 51) * (r - e);
+  }
+  return { up: r != null && r > e, ratio: r, ema: e };
+}
+
+/**
+ * Rotation: in/out from the BTC light (🟢 in, 🔴 out); while in, hold ETH when ETH/BTC is
+ * above its EMA50, else BTC. Signal at the daily close, fill at the next day's open,
+ * COST per side (a switch BTC<->ETH = sell + buy).
+ */
+export function stepRotation(st, btc, eth, now) {
+  const rows = [];
+  const closed = btc.t.map((t, i) => [t, i]).filter(([t]) => t + DAY <= now);
+  if (!closed.length) return { state: st, rows };
+  const eo = new Map(eth.t.map((x, i) => [x, eth.o[i]]));
+  const ec = new Map(eth.t.map((x, i) => [x, eth.c[i]]));
+  const state = st ? { ...st } : { lastDay: closed[closed.length - 1][0] - DAY, light: null, hold: 'cash', units: 0, cash: 1, startPx: null, peak: 1, dd: 0, trades: 0 };
+  const open = (a, i) => (a === 'BTC' ? btc.o[i] : eo.get(btc.t[i]));
+  for (const [t, i] of closed) {
+    if (t <= state.lastDay) continue;
+    if (i + 1 >= btc.t.length || !eo.get(btc.t[i + 1])) break;
+    const L = lightAt(btc, i); const R = ethUpAt(btc, eth, t);
+    if (state.startPx == null) state.startPx = btc.o[i + 1];
+    let inPos = state.hold !== 'cash';
+    if (!inPos && L.n === 2) inPos = true; else if (inPos && L.n === 0) inPos = false;
+    const want = inPos ? (R.up ? 'ETH' : 'BTC') : 'cash';
+    let action = 'aucune'; let fillPx = null;
+    if (want !== state.hold) {
+      if (state.hold !== 'cash') { state.cash = state.units * open(state.hold, i + 1) * (1 - COST); state.units = 0; }
+      if (want !== 'cash') { fillPx = open(want, i + 1); state.units = (state.cash * (1 - COST)) / fillPx; state.cash = 0; if (state.hold === 'cash') state.trades++; }
+      action = want === 'cash' ? 'vente' : state.hold === 'cash' ? `achat ${want}` : `bascule ${state.hold}→${want}`;
+      if (want === 'cash') fillPx = open(state.hold, i + 1);
+      state.hold = want;
+    }
+    const prev = state.light;
+    rows.push({ t: now, day: new Date(t).toISOString().slice(0, 10), light: LIGHT[L.n], prev: prev == null ? null : LIGHT[prev], changed: (prev != null && prev !== L.n) || action !== 'aucune', action, fillPx, hold: state.hold, ethBtc: R.ratio, ethBtcEma50: R.ema, reason: `feu BTC ${LIGHT[L.n]} · ETH/BTC ${R.ratio?.toFixed(5)} ${R.up ? '>' : '<'} EMA50 ${R.ema?.toFixed(5)} → ${state.hold}` });
+    state.light = L.n; state.lastDay = t;
+  }
+  const lastPx = state.hold === 'BTC' ? btc.c[btc.c.length - 1] : state.hold === 'ETH' ? ec.get(btc.t[btc.t.length - 1]) ?? eth.c[eth.c.length - 1] : null;
+  const eqNow = state.hold === 'cash' ? state.cash : state.units * lastPx * (1 - COST);
+  state.peak = Math.max(state.peak, eqNow); state.dd = Math.min(state.dd, eqNow / state.peak - 1);
+  state.eqNow = eqNow; state.holdNow = state.startPx ? btc.c[btc.c.length - 1] / state.startPx : 1;
+  return { state, rows };
+}
+
 /**
  * Advance one asset's paper state over every newly closed day. Returns the log rows
  * (one per processed day) and the state. A day is processed only once the next day's

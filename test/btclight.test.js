@@ -1,6 +1,21 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { stepLight, lightAt, COST } from '../agent/btclight.js';
+import { stepLight, lightAt, stepRotation, COST } from '../agent/btclight.js';
+
+test('stepRotation holds ETH when ETH/BTC rises, BTC when it falls', () => {
+  const DAY = 86_400_000;
+  const mk = (f) => { const b = { t: [], o: [], h: [], l: [], c: [] }; for (let i = 0; i < 140; i++) { const c = (i < 100 ? 200 - i : 100 + (i - 99) * 6) * f(i); b.t.push(i * DAY); b.o.push(c); b.h.push(c * 1.005); b.l.push(c * 0.995); b.c.push(c); } return b; };
+  const btc = mk(() => 1);
+  const now = 140 * DAY + 1;
+  const start = (eth) => { const cut = (b) => ({ t: b.t.slice(0, 92), o: b.o.slice(0, 92), h: b.h.slice(0, 92), l: b.l.slice(0, 92), c: b.c.slice(0, 92) }); return stepRotation(null, cut(btc), cut(eth), 91 * DAY + 1).state; };
+  const up = mk((i) => 0.05 * (1 + i / 100)); const dn = mk((i) => 0.05 * (1 - i / 300));
+  const a = stepRotation(start(up), btc, up, now);
+  assert.equal(a.state.hold, 'ETH');
+  assert.ok(a.rows.some((r) => r.action === 'achat ETH'));
+  const b = stepRotation(start(dn), btc, dn, now);
+  assert.equal(b.state.hold, 'BTC');
+  assert.equal(stepRotation(a.state, btc, up, now).rows.length, 0);
+});
 
 const DAY = 86_400_000;
 // 120 days falling (low on day 99), then rising hard: the light must go 🔴 -> 🟢.

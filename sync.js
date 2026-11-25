@@ -37,7 +37,7 @@ async function notifyLight() {
     const r = JSON.parse(line);
     const first = r.prev == null; // first day logged: say where the light starts
     if (!first && !r.changed && r.action === 'aucune') continue;
-    const act = r.action === 'achat' ? `\nACHAT papier au open ${r.fillPx}` : r.action === 'vente' ? `\nVENTE papier au open ${r.fillPx}` : '';
+    const act = r.action === 'aucune' ? '' : `\n${r.action.toUpperCase()} papier au open ${r.fillPx}`;
     const head = first ? `suivi démarré, feu ${r.light}` : `feu ${r.prev} → ${r.light}`;
     await telegram.send(`${r.symbol.replace('USDT', '')} : ${head} (clôture du ${r.day})${act}\n${r.reason}`);
   }

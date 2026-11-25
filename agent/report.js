@@ -53,6 +53,10 @@ export function writeReport({ at, state }) {
     L.push('## Feu BTC / ETH (papier : achat à 🟢, vente à 🔴, au open du lendemain, 0,15 %/côté)', '');
     for (const [sym, s] of Object.entries(bl)) {
       if (!s) continue;
+      if (sym === 'ROTATION') {
+        L.push(`- **Rotation BTC/ETH** (feu BTC, ETH si ETH/BTC > EMA50) : feu ${['🔴', '🟡', '🟢'][s.light] ?? '—'} · tient ${s.hold === 'cash' ? 'rien (hors marché)' : s.hold} · stratégie ${pc((s.eqNow ?? 1) - 1)} (max DD ${pc(s.dd)}) · BTC gardé ${pc((s.holdNow ?? 1) - 1)} · ${s.trades} entrée(s)`);
+        continue;
+      }
       L.push(`- **${short(sym)}** : feu ${['🔴', '🟡', '🟢'][s.light] ?? '—'} · ${s.pos ? `en position depuis ${f2(s.entryPx, 2)}` : 'hors marché'} · stratégie ${pc((s.eqNow ?? 1) - 1)} (max DD ${pc(s.dd)}) · acheté et gardé ${pc((s.holdNow ?? 1) - 1)} · ${s.trades} entrée(s)`);
     }
     L.push('');

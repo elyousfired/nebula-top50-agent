@@ -10,7 +10,7 @@
 
 import { bars as B, metrics as M, scoring as S, universe as U, squeeze as Q, bybit, strategies, btcswings } from './bench.js';
 import { stepListPortfolio, markPositions } from './listpf.js';
-import { stepLight } from './btclight.js';
+import { stepLight, stepRotation } from './btclight.js';
 import fs from 'node:fs';
 import { pendingSlots, resolveTrade, idxAt, HOUR, DAY, monthKey } from './lib.js';
 import { readJson, writeJson, appendJsonl } from './io.js';
@@ -214,13 +214,20 @@ async function main() {
   // Paper trend light on BTC and ETH (data/btclight.json + append-only data/btclight/YYYY-MM.jsonl).
   try {
     const bl = readJson('btclight.json', {});
+    const daily = {};
     for (const sym of ['BTCUSDT', 'ETHUSDT']) {
       const b = await klines(sym, 'D', now - 400 * DAY);
+      daily[sym] = b;
       const { state: st, rows } = stepLight(bl[sym], b, now);
       bl[sym] = st;
       appendJsonl(`btclight/${monthKey(now)}.jsonl`, rows.map((r) => ({ symbol: sym, ...r })));
       if (rows.length) log(`light ${sym}: ${rows.map((r) => `${r.day} ${r.light} ${r.action}`).join(', ')}`);
     }
+    // Rotation: BTC light in/out, ETH instead of BTC while ETH/BTC > EMA50.
+    const rot = stepRotation(bl.ROTATION, daily.BTCUSDT, daily.ETHUSDT, now);
+    bl.ROTATION = rot.state;
+    appendJsonl(`btclight/${monthKey(now)}.jsonl`, rot.rows.map((r) => ({ symbol: 'ROTATION', ...r })));
+    if (rot.rows.length) log(`rotation: ${rot.rows.map((r) => `${r.day} ${r.light} ${r.hold} ${r.action}`).join(', ')}`);
     writeJson('btclight.json', bl);
   } catch (e) {
     log(`btc light skipped: ${e.message}`);
