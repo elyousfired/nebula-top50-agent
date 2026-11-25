@@ -10,6 +10,7 @@
 
 import { bars as B, metrics as M, scoring as S, universe as U, squeeze as Q, bybit, strategies, btcswings } from './bench.js';
 import { stepListPortfolio, markPositions } from './listpf.js';
+import { stepLight } from './btclight.js';
 import fs from 'node:fs';
 import { pendingSlots, resolveTrade, idxAt, HOUR, DAY, monthKey } from './lib.js';
 import { readJson, writeJson, appendJsonl } from './io.js';
@@ -19,7 +20,7 @@ import { readJsonlDir } from './io.js';
 
 bybit.setProxy(process.env.BYBIT_PROXY || 'https://nebula-benchmark.vercel.app/api/bybit');
 const BACKFILL = Number(process.env.BACKFILL_DAYS || 30) * DAY;
-const IV = { '60': HOUR, '240': 4 * HOUR };
+const IV = { '60': HOUR, '240': 4 * HOUR, D: DAY };
 const log = (...a) => console.log(new Date().toISOString(), ...a);
 const slice = (b, lo, hi) => ({ t: b.t.slice(lo, hi), o: b.o.slice(lo, hi), h: b.h.slice(lo, hi), l: b.l.slice(lo, hi), c: b.c.slice(lo, hi), v: b.v.slice(lo, hi), q: b.q.slice(lo, hi) });
 
@@ -208,6 +209,21 @@ async function main() {
     log(`list portfolio: ${list.length} in list · +${step.opened.length} / -${step.closed.length} · open ${open.length}`);
   } catch (e) {
     log(`list portfolio skipped: ${e.message}`);
+  }
+
+  // Paper trend light on BTC and ETH (data/btclight.json + append-only data/btclight/YYYY-MM.jsonl).
+  try {
+    const bl = readJson('btclight.json', {});
+    for (const sym of ['BTCUSDT', 'ETHUSDT']) {
+      const b = await klines(sym, 'D', now - 400 * DAY);
+      const { state: st, rows } = stepLight(bl[sym], b, now);
+      bl[sym] = st;
+      appendJsonl(`btclight/${monthKey(now)}.jsonl`, rows.map((r) => ({ symbol: sym, ...r })));
+      if (rows.length) log(`light ${sym}: ${rows.map((r) => `${r.day} ${r.light} ${r.action}`).join(', ')}`);
+    }
+    writeJson('btclight.json', bl);
+  } catch (e) {
+    log(`btc light skipped: ${e.message}`);
   }
 
   // Stable Top 50 (presence over 30 days), read by the site's /stable page.

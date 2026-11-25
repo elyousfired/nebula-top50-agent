@@ -47,6 +47,17 @@ export function writeReport({ at, state }) {
     L.push(`Ouverts : ${lp.open.length}, moyenne ${pc(lp.openAvg)} (BTC sur la même période ${pc(lp.openBtcAvg)}) · clôturés : ${lp.closed.n}, moyenne ${pc(lp.closed.avg)}, gagnants ${sh(lp.closed.win)} (BTC ${pc(lp.closed.btcAvg)}).`, '');
   }
 
+  // Paper trend light on BTC / ETH.
+  const bl = readJson('btclight.json', null);
+  if (bl) {
+    L.push('## Feu BTC / ETH (papier : achat à 🟢, vente à 🔴, au open du lendemain, 0,15 %/côté)', '');
+    for (const [sym, s] of Object.entries(bl)) {
+      if (!s) continue;
+      L.push(`- **${short(sym)}** : feu ${['🔴', '🟡', '🟢'][s.light] ?? '—'} · ${s.pos ? `en position depuis ${f2(s.entryPx, 2)}` : 'hors marché'} · stratégie ${pc((s.eqNow ?? 1) - 1)} (max DD ${pc(s.dd)}) · acheté et gardé ${pc((s.holdNow ?? 1) - 1)} · ${s.trades} entrée(s)`);
+    }
+    L.push('');
+  }
+
   // Residual signal test: tokens above their expected move (vs BTC) 2 days in a row,
   // do they do better over the next 3 days than the rest of the list?
   const res = readJsonlDir('residual');
