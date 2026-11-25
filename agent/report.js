@@ -62,6 +62,13 @@ export function writeReport({ at, state }) {
     L.push('');
   }
 
+  // Paper quiet-box on the alts (10 $ per signal, 🟡/🟢 only).
+  const bx = readJson('boxpaper.json', null);
+  if (bx) {
+    L.push('## Quiet-box papier (alts, 10 $ par signal, seulement feu 🟡/🟢)', '');
+    L.push(`Feu ${['🔴', '🟡', '🟢'][bx.light] ?? '—'} · ${bx.universe ?? '—'} alts surveillés · ouverts ${bx.open.length}${bx.open.length ? ` (${bx.open.map((p) => short(p.s)).join(', ')})` : ''} · clôturés ${bx.closedN ?? 0}, résultat ${bx.closedUsd >= 0 ? '+' : ''}${f2(bx.closedUsd)} $, gagnants ${sh(bx.win)}, PF ${f2(bx.pf)}.`, '');
+  }
+
   // Residual signal test: tokens above their expected move (vs BTC) 2 days in a row,
   // do they do better over the next 3 days than the rest of the list?
   const res = readJsonlDir('residual');

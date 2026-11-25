@@ -8,9 +8,10 @@
 //     (data/trades), and records each member's next-24h outcome (data/outcomes);
 //  4. once per UTC day writes the leaderboard + learning report (data/reports).
 
-import { bars as B, metrics as M, scoring as S, universe as U, squeeze as Q, bybit, strategies, btcswings } from './bench.js';
+import { bars as B, metrics as M, scoring as S, universe as U, squeeze as Q, bybit, strategies, btcswings, sqsim } from './bench.js';
 import { stepListPortfolio, markPositions } from './listpf.js';
-import { stepLight, stepRotation } from './btclight.js';
+import { stepLight, stepRotation, lightAt } from './btclight.js';
+import { stepBox } from './boxpaper.js';
 import fs from 'node:fs';
 import { pendingSlots, resolveTrade, idxAt, HOUR, DAY, monthKey } from './lib.js';
 import { readJson, writeJson, appendJsonl } from './io.js';
@@ -229,6 +230,30 @@ async function main() {
     appendJsonl(`btclight/${monthKey(now)}.jsonl`, rot.rows.map((r) => ({ symbol: 'ROTATION', ...r })));
     if (rot.rows.length) log(`rotation: ${rot.rows.map((r) => `${r.day} ${r.light} ${r.hold} ${r.action}`).join(', ')}`);
     writeJson('btclight.json', bl);
+
+    // Paper quiet-box breakout on the alts, $10 per signal, only when the BTC light is 🟡/🟢.
+    const bd = daily.BTCUSDT; const nowDay = Math.floor(now / DAY) * DAY;
+    let li = bd.t.length - 1; while (li > 0 && bd.t[li] + DAY > nowDay) li--;
+    const light = lightAt(bd, li).n;
+    const WRAP = /^(BTC|ETH|WBTC|WETH|STETH|WSTETH|METH|BBSOL|CBBTC|WBETH|CMETH|JITOSOL|MSOL|BNSOL|SOLVBTC|LBTC|USDE|USDD|FDUSD|PYUSD|RLUSD|USD1|XAUT|PAXG)USDT$/;
+    const tick = (await bybit.bybitGet('tickers', { category: 'spot' })).list || [];
+    const alts = U.selectUniverse(tick, { limit: 230 }).map((t) => t.symbol).filter((s) => !WRAP.test(s)).slice(0, 200);
+    const bp = readJson('boxpaper.json', null);
+    const need = new Set([...alts, ...(bp?.open || []).map((p) => p.s)]);
+    const bxData = {};
+    await bybit.pool([...need], async (s) => {
+      const [r4, r1] = await Promise.all([
+        bybit.bybitGet('kline', { category: 'spot', symbol: s, interval: '240', limit: '1000' }),
+        bybit.bybitGet('kline', { category: 'spot', symbol: s, interval: '60', limit: '400' }),
+      ]);
+      bxData[s] = { b4: B.parseKlines(r4.list || []), b1h: B.parseKlines(r1.list || []) };
+    }, { concurrency: 6 });
+    const box = stepBox(bp, bxData, light, now, sqsim.findSignals, bd);
+    appendJsonl(`boxpaper/${monthKey(now)}.jsonl`, box.closed);
+    const allBox = readJsonlDir('boxpaper');
+    const gain = allBox.filter((x) => x.usd > 0).reduce((a, x) => a + x.usd, 0); const loss = -allBox.filter((x) => x.usd <= 0).reduce((a, x) => a + x.usd, 0);
+    writeJson('boxpaper.json', { ...box.state, light, universe: alts.length, closedN: allBox.length, closedUsd: gain - loss, win: allBox.length ? allBox.filter((x) => x.usd > 0).length / allBox.length : null, pf: loss ? gain / loss : null });
+    log(`box paper: light ${['🔴', '🟡', '🟢'][light]} · ${alts.length} alts · +${box.opened.length} opened · ${box.closed.length} closed · ${box.state.open.length} open`);
   } catch (e) {
     log(`btc light skipped: ${e.message}`);
   }
