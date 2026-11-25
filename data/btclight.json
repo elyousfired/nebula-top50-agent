@@ -1,0 +1,30 @@
+{
+ "BTCUSDT": {
+  "lastDay": 1795478400000,
+  "light": 0,
+  "pos": false,
+  "entryPx": null,
+  "eq": 1,
+  "startPx": 59831.4,
+  "peak": 1,
+  "dd": 0,
+  "trades": 0,
+  "eqNow": 1,
+  "holdNow": 0.9913139254638867,
+  "last": 59311.7
+ },
+ "ETHUSDT": {
+  "lastDay": 1795478400000,
+  "light": 0,
+  "pos": false,
+  "entryPx": null,
+  "eq": 1,
+  "startPx": 1680.18,
+  "peak": 1,
+  "dd": 0,
+  "trades": 0,
+  "eqNow": 1,
+  "holdNow": 0.9876203740075469,
+  "last": 1659.38
+ }
+}
