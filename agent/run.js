@@ -252,7 +252,21 @@ async function main() {
     appendJsonl(`boxpaper/${monthKey(now)}.jsonl`, box.closed);
     const allBox = readJsonlDir('boxpaper');
     const gain = allBox.filter((x) => x.usd > 0).reduce((a, x) => a + x.usd, 0); const loss = -allBox.filter((x) => x.usd <= 0).reduce((a, x) => a + x.usd, 0);
-    writeJson('boxpaper.json', { ...box.state, light, universe: alts.length, closedN: allBox.length, closedUsd: gain - loss, win: allBox.length ? allBox.filter((x) => x.usd > 0).length / allBox.length : null, pf: loss ? gain / loss : null });
+    // Every quiet-box breakout of the last 7 days (any light), for the site's /system page.
+    const week = [];
+    for (const [s, d] of Object.entries(bxData)) {
+      if (!alts.includes(s)) continue;
+      for (const sg of sqsim.findSignals({ symbol: s, b4: d.b4, b1h: d.b1h, btcDaily: bd, from: now - 7 * DAY })) {
+        if (sg.t > now) continue;
+        const after = d.b1h.t.map((t, i) => i).filter((i) => d.b1h.t[i] >= sg.t);
+        const max = after.length ? Math.max(...after.map((i) => d.b1h.h[i])) : sg.entry;
+        const minL = after.length ? Math.min(...after.map((i) => d.b1h.l[i])) : sg.entry;
+        const lastPx = d.b1h.c[d.b1h.c.length - 1];
+        week.push({ s, t: sg.t, entry: sg.entry, high: sg.high, low: sg.low, quiet: sg.quiet, light: lightAt(bd, idxAt(bd.t, sg.t - DAY))?.n ?? null, last: lastPx, ret: lastPx / sg.entry - 1, max: max / sg.entry - 1, min: minL / sg.entry - 1 });
+      }
+    }
+    week.sort((a, b) => b.t - a.t);
+    writeJson('boxpaper.json', { ...box.state, week, light, universe: alts.length, closedN: allBox.length, closedUsd: gain - loss, win: allBox.length ? allBox.filter((x) => x.usd > 0).length / allBox.length : null, pf: loss ? gain / loss : null });
     log(`box paper: light ${['🔴', '🟡', '🟢'][light]} · ${alts.length} alts · +${box.opened.length} opened · ${box.closed.length} closed · ${box.state.open.length} open`);
   } catch (e) {
     log(`btc light skipped: ${e.message}`);
