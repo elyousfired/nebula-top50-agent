@@ -1,6 +1,6 @@
 {
  "BTCUSDT": {
-  "lastDay": 1795564800000,
+  "lastDay": 1795651200000,
   "light": 0,
   "pos": false,
   "entryPx": null,
@@ -10,11 +10,11 @@
   "dd": 0,
   "trades": 0,
   "eqNow": 1,
-  "holdNow": 1.0107853067118602,
-  "last": 60476.7
+  "holdNow": 1.0344885795752732,
+  "last": 61894.9
  },
  "ETHUSDT": {
-  "lastDay": 1795564800000,
+  "lastDay": 1795651200000,
   "light": 0,
   "pos": false,
   "entryPx": null,
@@ -24,11 +24,11 @@
   "dd": 0,
   "trades": 0,
   "eqNow": 1,
-  "holdNow": 1.0034817698103775,
-  "last": 1686.03
+  "holdNow": 1.0334428454094202,
+  "last": 1736.37
  },
  "ROTATION": {
-  "lastDay": 1795564800000,
+  "lastDay": 1795651200000,
   "light": 0,
   "hold": "cash",
   "units": 0,
@@ -38,6 +38,6 @@
   "dd": 0,
   "trades": 0,
   "eqNow": 1,
-  "holdNow": 1.0107853067118602
+  "holdNow": 1.0344885795752732
  }
 }
